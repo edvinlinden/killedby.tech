@@ -1,0 +1,16 @@
+{
+	"name": "killedby.tech",
+	"version": "1.0.0",
+	"description": "Killed by *",
+	"main": "index.js",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview"
+	},
+	"author": "Edvin Lindén",
+	"license": "MIT",
+	"dependencies": {
+		"astro": "^0.25.4"
+	}
+}
