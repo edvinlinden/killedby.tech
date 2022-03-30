@@ -1,0 +1,31 @@
+@import "../../assets/variables.scss";
+
+.productList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 4rem;
+}
+.product {
+	width: 100%;
+
+	@media (min-width: $breakpoint-tablet) {
+		width: 30%;
+	}
+
+	@media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+		width: 47%;
+	}
+}
+
+.name {
+	margin-bottom: 0;
+}
+
+.years {
+	font-size: 0.85rem;
+	font-weight: normal;
+	color: $grey;
+	margin-top: 0.5rem;
+}
