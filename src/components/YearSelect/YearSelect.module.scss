@@ -1,0 +1,40 @@
+@import "../../assets/variables.scss";
+
+.yearSelectContainer {
+	position: absolute;
+	top: 0;
+	left: -100px;
+
+	height: 100%;
+
+	@media (max-width: 1199px) {
+		display: none;
+	}
+}
+
+.yearSelect {
+	position: sticky;
+	top: 100px;
+
+	@media (max-height: 850px) {
+		top: 30px;
+	}
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: darken($white, 8%);
+	border-radius: 100px;
+
+	padding: 1rem 1rem;
+}
+
+.year {
+	color: $grey;
+	font-weight: normal;
+	margin: 0.25rem 0;
+
+	&:hover {
+		color: $black;
+	}
+}

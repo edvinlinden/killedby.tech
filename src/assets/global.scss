@@ -26,6 +26,7 @@
 html {
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -51,8 +52,18 @@ h5 {
 	color: $black;
 }
 
+a {
+	color: $blue;
+	text-decoration: none;
+
+	&:hover {
+		color: darken($blue, 25%);
+	}
+}
+
 main,
 footer {
+	position: relative;
 	width: 100%;
 	margin: 0px auto;
 	padding-left: 3rem;

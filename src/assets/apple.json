@@ -1,0 +1,137 @@
+[
+	{
+		"dateClose": "2015-04-08",
+		"dateOpen": "2002-01-07",
+		"description": "iPhoto was a digital photograph manipulation software application developed by Apple Inc.",
+		"link": "https://en.wikipedia.org/wiki/IPhoto",
+		"name": "iPhoto",
+		"type": "software",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2007-08-15",
+		"dateOpen": "1984-01-01",
+		"description": "AppleWorks was an integrated office suite containing a word processor, database, and spreadsheet.",
+		"link": "https://en.wikipedia.org/wiki/AppleWorks",
+		"name": "AppleWorks",
+		"type": "software",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2015-04-10",
+		"dateOpen": "2005-11-30",
+		"description": "Aperture was an image organizer developed by Apple for the macOS operating system. The software handled work such as importing and organizing image files, applying corrective adjustments and printing photographs.",
+		"link": "https://en.wikipedia.org/wiki/AppleWorks",
+		"name": "Aperture",
+		"type": "software",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2012-06-30",
+		"dateOpen": "2006-01-10",
+		"description": "iWeb was a template-based WYSIWYG website creation tool that allowed users to create websites and blogs and customize them with their own text, photos, and movies.",
+		"link": "https://en.wikipedia.org/wiki/IWeb",
+		"name": "iWeb",
+		"type": "software",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2012-06-30",
+		"dateOpen": "2001-01-09",
+		"description": "iDVD was a DVD authoring application for Mac OS that allows the user to burn QuickTime movies, MP3 music, and digital photos to a DVD.",
+		"link": "https://en.wikipedia.org/wiki/IDVD",
+		"name": "iDVD",
+		"type": "software",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2012-06-30",
+		"dateOpen": "2004-06-07",
+		"description": "MobileMe was a subscription-based collection of online services and software offered by Apple Inc. All services were gradually transitioned to and eventually replaced by the free iCloud.",
+		"link": "https://en.wikipedia.org/wiki/MobileMe",
+		"name": "MobileMe",
+		"type": "service",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-04-26",
+		"dateOpen": "2000-01-05",
+		"description": "AirPort Express was a Wi-Fi base station with audio output capability.",
+		"link": "https://en.wikipedia.org/wiki/AirPort_Express",
+		"name": "AirPort Express",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-04-26",
+		"dateOpen": "2003-01-07",
+		"description": "AirPort Extreme was a residential gateway combining the functions of a router, network switch, wireless access point and NAS as well as varied other functions.",
+		"link": "https://en.wikipedia.org/wiki/AirPort_Extreme",
+		"name": "AirPort Extreme",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2021-03-12",
+		"dateOpen": "2018-02-09",
+		"description": "HomePod was a smart speaker with support for Siri and the Apple Music subscription service.",
+		"link": "https://en.wikipedia.org/wiki/HomePod",
+		"name": "HomePod",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-04-26",
+		"dateOpen": "2008-02-29",
+		"description": "AirPort Time Capsule was a wireless router featuring network-attached storage (NAS) and a residential gateway router.",
+		"link": "https://en.wikipedia.org/wiki/AirPort_Time_Capsule",
+		"name": "AirPort Time Capsule",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2014-09-09",
+		"dateOpen": "2001-11-10",
+		"description": "iPod Classic was a portable media player with a LCD display and hard drive for storage.",
+		"link": "https://en.wikipedia.org/wiki/IPod_Classic",
+		"name": "iPod Classic",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2017-06-27",
+		"dateOpen": "2005-09-07",
+		"description": "iPod Nano was a portable media player introduced as a replacement for the iPod Mini.",
+		"link": "https://en.wikipedia.org/wiki/IPod_Nano",
+		"name": "iPod Nano",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2017-06-27",
+		"dateOpen": "2005-09-07",
+		"description": "iPod Shuffle was a digital audio player. It was the smallest model in Apple's iPod family and the first iPod to use flash memory.",
+		"link": "https://en.wikipedia.org/wiki/IPod_Shuffle",
+		"name": "iPod Shuffle",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2012-09-01",
+		"dateOpen": "2004-10-26",
+		"description": "iPod Socks were a set of multi-colored cotton knit socks for protection of iPods from damage during travel.",
+		"link": "https://en.wikipedia.org/wiki/IPod_Socks",
+		"name": "iPod Shuffle",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2006-05-16",
+		"dateOpen": "1991-10-21",
+		"description": "PowerBook was a family of Macintosh laptop computers targeted at the professional market.",
+		"link": "https://en.wikipedia.org/wiki/IPod_Socks",
+		"name": "PowerBook",
+		"type": "hardware",
+		"company": "apple"
+	}
+]
