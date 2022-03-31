@@ -133,5 +133,41 @@
 		"name": "PowerBook",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2006-05-16",
+		"dateOpen": "1999-06-21",
+		"description": "iBook was a line of laptop computers targeting entry-level, consumer and education markets, with lower specifications and prices than the PowerBook",
+		"link": "https://en.wikipedia.org/wiki/IBook",
+		"name": "iBook",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2003-04-18",
+		"dateOpen": "1998-08-15",
+		"description": "iMac G3, originally released as the iMac, was a series of personal computers known for their egg shaped design and bright colored plastic.",
+		"link": "https://en.wikipedia.org/wiki/IMac_G3",
+		"name": "iMac G3",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2004-08-31",
+		"dateOpen": "2002-01-07",
+		"description": "iMac G4 (often called Lamp or Sunflower) was an all-in-one personal computer featuring an LCD mounted on an adjustable arm above a hemisphere containing the computer.",
+		"link": "https://en.wikipedia.org/wiki/IMac_G4",
+		"name": "iMac G4",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2006-03-20",
+		"dateOpen": "2004-08-31",
+		"description": "iMac G5 was an all-in-one personal computer featuring the classic square design and was the final iMac to use a PowerPC processor.",
+		"link": "https://en.wikipedia.org/wiki/IMac_G5",
+		"name": "iMac G5",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]

@@ -5,8 +5,13 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
-	margin-bottom: 4rem;
 }
+
+.productListTitle {
+	display: block;
+	padding-top: 4rem;
+}
+
 .product {
 	width: 100%;
 	margin-bottom: 4rem;
@@ -20,23 +25,70 @@
 	}
 }
 
-.logo {
-	width: 16px;
-	height: 16px;
-	margin-right: 1rem;
-	float: left;
-
-	fill: $grey;
-}
-
 .name {
 	margin-bottom: 0;
+	display: flex;
+	align-items: flex-start;
 }
 
-.years {
-	font-size: 0.85rem;
-	font-weight: normal;
+.metaData {
+	margin-top: 0.75rem;
+	cursor: default;
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.tag {
+	display: inline-flex;
+	margin-right: 0.5rem;
+
 	color: $grey;
-	margin-top: 0.5rem;
-	cursor: help;
+	background-color: darken($white, 8%);
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.85rem;
+	line-height: 1rem;
+
+	height: 1rem;
+
+	padding: 0.15rem 0.5rem;
+	border-width: 1px;
+	border-style: solid;
+	border-color: darken($white, 8%);
+	border-radius: 30px;
+
+	&.hardware {
+		font-size: 0.7rem;
+		line-height: 1.05rem;
+		background-color: transparent;
+		border-color: $green;
+		color: $green;
+	}
+
+	&.software {
+		font-size: 0.7rem;
+		line-height: 1.05rem;
+		background-color: transparent;
+		border-color: $purple;
+		color: $purple;
+	}
+
+	&.service {
+		font-size: 0.7rem;
+		line-height: 1.05rem;
+		background-color: transparent;
+		border-color: $orange;
+		color: $orange;
+	}
+
+	&.app {
+		font-size: 0.7rem;
+		line-height: 1.05rem;
+		background-color: transparent;
+		border-color: $red;
+		color: $red;
+	}
 }

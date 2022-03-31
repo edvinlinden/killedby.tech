@@ -1,23 +1,18 @@
 ---
   import '../assets/global.scss';
+  import Footer from './../components/Footer/Footer';
 ---
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-    <title>Killed by Google, Apple, Amazon and Microsoft</title>
+    <title>Killed by Apple, Google and Microsoft – A graveyard of discontinued products</title>
   </head>
   <body>
     <main>
       <slot />
     </main>
-    <footer>
-        <p>
-            Killed by tech is the complete tech graveyard. A free and open source list of discontinued services, products, devices, and apps from companies like Google, Apple and Microsoft.
-        </p>
-        <p>
-           Most of the information come from other projects like <a href="https://killedbygoogle.com/" target="_blank" rel="noopener noreferrer">Killed by Google</a>, a project by <a href="https://codyogden.com/" target="_blank" rel="noopener noreferrer">Cody Ogden</a>. Contributors from around the world help compile, research, and maintain the information about dying and dead products.
-        </p>
-    </footer>
+    <Footer />
+    <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>
   </body>
 </html>

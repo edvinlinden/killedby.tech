@@ -1,30 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Product from "./Product";
-import {products, yearsWithProducts} from './products';
+import { products, yearsWithProducts } from "./productList";
 import styles from "./Products.module.scss";
 
-const Year = ({ year }) => {
+const Year = ({ year, productList }) => {
 	return (
 		<>
-			<a id={year}>
+			<a id={year} className={styles.productListTitle}>
 				<h2>{year}</h2>
 			</a>
 			<div className={styles.productList}>
-				{products.map((product) =>
+				{productList.map((product) =>
 					product.dateClose.startsWith(year) ? (
 						<Product product={product} key={product} />
 					) : null
 				)}
+				{productList.filter((product) => product.dateClose.startsWith(year)).length % 3 == 2 ? (
+					<div className={styles.product} />
+				) : null}
 			</div>
 		</>
 	);
 };
 
-export default Products = () => {
+export default Products = ({ company }) => {
+	let productList = products(company);
+
 	return (
 		<>
-			{yearsWithProducts.map((year) => (
-				<Year year={year} key={year} />
+			{yearsWithProducts(productList).map((year) => (
+				<Year year={year} productList={productList} key={year} />
 			))}
 		</>
 	);
