@@ -169,5 +169,230 @@
 		"name": "iMac G5",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2008-07-15",
+		"dateOpen": "2007-06-29",
+		"description": "iPhone (1st generation) was the first smartphone designed and marketed by Apple, the release changed the way we use mobile phones.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+		"name": "iPhone (1st generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2010-06-07",
+		"dateOpen": "2008-07-11",
+		"description": "iPhone 3G was a smartphone designed and marketed by Apple. It was the second generation of iPhone, successor to the original iPhone.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_3G",
+		"name": "iPhone 3G",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2012-09-12",
+		"dateOpen": "2009-12-18",
+		"description": "iPhone 3GS was a smartphone where \"S\" stood for Speed and featured improvements such as better performance, a 3-megapixel camera with higher resolution and video ability.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_3GS",
+		"name": "iPhone 3GS",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2013-09-10",
+		"dateOpen": "2010-06-24",
+		"description": "iPhone 4 was a smartphone in the iPhone family and it introduced a new hardware design for the first time.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_4",
+		"name": "iPhone 4",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2016-02-17",
+		"dateOpen": "2011-10-14",
+		"description": "iPhone 4S was a smartphone where the \"S\" stood for Siri, an iPhone 4S-exclusive intelligent personal assistant that was later included in future generations of mobile Apple products.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_4S",
+		"name": "iPhone 4S",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2013-09-10",
+		"dateOpen": "2012-09-21",
+		"description": "iPhone 5 was a smartphone and was he first iPhone to be completely developed under the guidance of Tim Cook and the last iPhone to be overseen by Steve Jobs.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_5",
+		"name": "iPhone 5",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2016-03-21",
+		"dateOpen": "2013-09-20",
+		"description": "iPhone 5S was a smartphone and featured a new white/gold color scheme in addition to white/silver and space gray/black.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_5S",
+		"name": "iPhone 5S",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2016-02-17",
+		"dateOpen": "2013-09-20",
+		"description": "iPhone 5C was a smartphone where the \"C\" stood for Color. It had a hard-coated polycarbonate shell instead of the aluminum of the original iPhone 5.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_5C",
+		"name": "iPhone 5C",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-09-12",
+		"dateOpen": "2014-09-19",
+		"description": "iPhone 6/6 Plus was smartphones and featured a larger 4.7/5.5 inch display, a faster processor, upgraded cameras, improved LTE and Wi-Fi connectivity and support for a near field communications-based mobile payments offering.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_6",
+		"name": "iPhone 6/6 Plus",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-09-12",
+		"dateOpen": "2015-09-25",
+		"description": "iPhone 6S/6S Plus was smartphones featuring strengthened aluminium alloy chassis and a new 12-megapixel rear camera that can record up to 4K video at 30fps at first in the series, can take dynamic \"Live Photos\", the first increase in front camera photo resolution since the 2012.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_6S",
+		"name": "iPhone 6S/6S Plus",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2019-09-10",
+		"dateOpen": "2016-09-16",
+		"description": "iPhone 7/7 Plus was smartphones and introduced new color options (matte black and jet black), water and dust resistance, a new capacitive, static home button, revised antenna bands, and the controversial removal of the 3.5 mm headphone jack.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_7",
+		"name": "iPhone 7/7 Plus",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2020-04-15",
+		"dateOpen": "2017-09-20",
+		"description": "iPhone 8/8 Plus was smartphones that were largely similar to that of their predecessors but introduced a glass back and addition of inductive charging.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_8",
+		"name": "iPhone 8/8 Plus",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-09-12",
+		"dateOpen": "2017-11-03",
+		"description": "iPhone X was a smartphone that used a glass and stainless-steel form factor and \"bezel-less\" design, shrinking the bezels while not having a \"chin\". It was the first iPhone to use an OLED screen. The home button's fingerprint sensor was replaced with a new type of authentication called Face ID.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_X",
+		"name": "iPhone X",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2021-09-14",
+		"dateOpen": "2018-10-26",
+		"description": "iPhone XR was a smartphone and considered an \"affordable flagship\" or \"budget flagship\" at its release, the XR shares key internal hardware but with features removed/downgraded to reduce the price.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_XR",
+		"name": "iPhone XR",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2019-09-10",
+		"dateOpen": "2018-09-21",
+		"description": "iPhone XS/XS Max was smartphones that introduced features such as dual-SIM support, filming with stereo audio, and strengthened water resistance.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_XS",
+		"name": "iPhone XS/XS Max",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-09-12",
+		"dateOpen": "2016-03-31",
+		"description": "iPhone SE (1st generation) was a smartphone that shares the same physical design and dimensions as iPhone 5S, and has upgraded internal hardware, including the newer Apple A9 system-on-chip, greater battery capacity, and a 12-megapixel rear camera that can record up to 4K video at 30 frames per second.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_SE_(1st_generation)",
+		"name": "iPhone SE (1st generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2022-03-08",
+		"dateOpen": "2020-04-24",
+		"description": "iPhone SE (2nd generation) was a smartphone that followed the pattern made by the 1st generation sharing the dimensions and form factor of the iPhone 8, while sharing selected internal hardware components from the iPhone 11 lineup.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_SE_(2nd_generation)",
+		"name": "iPhone SE (2nd generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2020-10-13",
+		"dateOpen": "2019-09-20",
+		"description": "iPhone 11 Pro/Pro Max was smartphones featuring a triple-lens rear camera system and the A13 Bionic chip. The 11 Pro was Apple's first iPhone to feature a \"pro\" designation, which was previously used only for larger Apple devices, such as the iPad Pro and MacBook Pro.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_11_Pro",
+		"name": "iPhone 11 Pro/Pro Max",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2021-09-14",
+		"dateOpen": "2020-10-23",
+		"description": "iPhone 12 Pro/Pro Max was smartphones with additions such as 5G support, the LiDAR sensor, ProRAW (DNG) allowing high quality lossless 12bit image capture. They were also the first iPhones to feature the MagSafe wireless charging and accessory system.",
+		"link": "https://en.wikipedia.org/wiki/IPhone_12_Pro",
+		"name": "iPhone 12 Pro/Pro Max",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2016-09-07",
+		"dateOpen": "2015-05-24",
+		"description": "Apple Watch was the first smartwatch in the Apple Watch family, it paired to the iPhone and was equipped with a built-in heart rate sensor.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2018-09-21",
+		"dateOpen": "2016-09-16",
+		"description": "Apple Watch Series 1 was a smartwatch featuring improved battery life and a aluminium casing.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch Series 1",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2017-09-12",
+		"dateOpen": "2016-09-16",
+		"description": "Apple Watch Series 2 was a smartwatch that introduced water resistance to 50 meters, a display twice as bright as previous generations, and a GPS receiver. The Series 2 was sold in casings of anodized aluminium, stainless steel and ceramic.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch Series 2",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2019-09-10",
+		"dateOpen": "2018-09-21",
+		"description": "Apple Watch Series 4 was a smartwatch featuring the first predominant redesign of the Apple Watch, featuring larger displays with thinner bezels and rounded corners, and a slightly rounder, thinner chassis with a redesigned ceramic back.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch Series 4",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2020-09-15",
+		"dateOpen": "2019-09-20",
+		"description": "Apple Watch Series 5 was a smartwatch that introduced such as a compass and an always-on display with a low-power display driver capable of refresh rates as low as once per second. Additional new features include International Emergency Calling, enabling emergency calls in over 150 countries.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch Series 5",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2021-09-14",
+		"dateOpen": "2020-09-18",
+		"description": "Apple Watch Series 6 was a smartwatch with the new S6 processor that was up to 20% faster than the Series 4 and Series 5, a 2.5× brighter always-on display, and an always-on altimeter.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch Series 6",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]
