@@ -9,8 +9,8 @@ export default Footer = () => {
 				apps from companies like Google, Apple and Microsoft.
 			</p>
 			<p>
-				The inspiration for this site and a lot of the information comes from other
-				projects like{" "}
+				The inspiration for this site and a lot of the information comes
+				from other projects like{" "}
 				<a
 					href="https://killedbygoogle.com/"
 					target="_blank"
@@ -26,7 +26,7 @@ export default Footer = () => {
 				>
 					Cody Ogden
 				</a>
-				. 
+				.
 			</p>
 			<p>
 				Contributors from around the world help compile, research, and
@@ -43,18 +43,16 @@ export default Footer = () => {
 				.
 			</p>
 			<p>
-				<a
+				A project by <a
 					href="https://edvinlinden.se?ref=killedby.tech"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					&copy; {new Date().getFullYear()} Edvin Linden
-				</a>
-                <a
-					href="/privacy"
-				>
-					Privacy
-				</a>
+					Edvin Linden
+				</a> &copy; {new Date().getFullYear()}
+			</p>
+			<p>
+				<a href="/privacy">Privacy</a>
 			</p>
 		</footer>
 	);
