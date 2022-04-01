@@ -1,6 +1,6 @@
-import googleProducts from "../../assets/google.json";
-import microsoftProducts from "../../assets/microsoft.json";
-import appleProducts from "../../assets/apple.json";
+import googleProducts from "@assets/products/google.json";
+import microsoftProducts from "@assets/products/microsoft.json";
+import appleProducts from "@assets/products/apple.json";
 
 const products = (company) => {
 	let productList = [];

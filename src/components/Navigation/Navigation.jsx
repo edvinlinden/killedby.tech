@@ -1,5 +1,5 @@
 import { AllLogo, AppleLogo, GoogleLogo, MicrosoftLogo } from "./../Logos/Logos";
-import { products } from "./../Products/productList";
+import { products } from "./../Products/products.utility";
 import styles from "./Navigation.module.scss";
 
 export default Navigation = () => {

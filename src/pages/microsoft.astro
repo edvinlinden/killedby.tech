@@ -1,14 +1,14 @@
 ---
-import Page from './../layouts/page.astro';
-import YearSelect from './../components/YearSelect/YearSelect.jsx';
-import Products from './../components/Products/Products';
-import Navigation from './../components/Navigation/Navigation';
+import Page from '@layouts/page.astro';
+import YearNavigationBar from '@components/YearNavigationBar/YearNavigationBar.jsx';
+import Products from '@components/Products/Products';
+import Navigation from '@components/Navigation/Navigation';
 ---
 
-<Page>
+<Page title="Killed by Microsoft – A graveyard of discontinued products">
     <h1>Killed by Microsoft</h1>
     <p>A graveyard of products discontinued by Microsoft</p>
     <Navigation />
     <Products company="microsoft"/>
-    <YearSelect company="microsoft" />
+    <YearNavigationBar company="microsoft" />
 </Page>

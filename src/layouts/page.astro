@@ -1,12 +1,13 @@
 ---
-  import '../assets/global.scss';
-  import Footer from './../components/Footer/Footer';
+  import '@assets/styles/global.scss';
+  import Footer from '@components/Footer/Footer';
+  const { title } = Astro.props;
 ---
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-    <title>Killed by Apple, Google and Microsoft – A graveyard of discontinued products</title>
+    <title>{ title }</title>
   </head>
   <body>
     <main>

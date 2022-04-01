@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Product from "./Product";
-import { products, yearsWithProducts } from "./productList";
+import { products, yearsWithProducts } from "./products.utility";
 import styles from "./Products.module.scss";
 
 const Year = ({ year, productList }) => {
