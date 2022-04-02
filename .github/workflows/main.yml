@@ -6,7 +6,7 @@ env:
     githubEmail: edvin.linden@gmail.com
     deployToRepo: killedby.tech
 
-name: Github Pages Astro CI
+name: Build & deploy to GitHub Pages
 
 on:
     # Triggers the workflow on push and pull request events but only for the main branch
