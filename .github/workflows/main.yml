@@ -35,6 +35,7 @@ jobs:
               run: |
                   npm run build
                   touch ./dist/.nojekyll
+                  echo "killedby.tech" > ./dist/CNAME
 
             # Push to your pages repo
             - name: Push to pages repo
