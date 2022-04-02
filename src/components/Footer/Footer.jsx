@@ -5,7 +5,7 @@ export default Footer = () => {
 		<footer className={styles.footer}>
 			<a id="about"></a>
 			<p>
-				Killed by tech is the complete tech graveyard. A free and open
+				Killed by tech is a tech graveyard, a free and open
 				source list of discontinued services, products, devices, and
 				apps from companies like Google, Apple and Microsoft.
 			</p>
