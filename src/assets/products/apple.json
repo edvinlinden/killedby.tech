@@ -21,7 +21,7 @@
 		"dateClose": "2015-04-10",
 		"dateOpen": "2005-11-30",
 		"description": "Aperture was an image organizer developed by Apple for the macOS operating system. The software handled work such as importing and organizing image files, applying corrective adjustments and printing photographs.",
-		"link": "https://en.wikipedia.org/wiki/AppleWorks",
+		"link": "https://en.wikipedia.org/wiki/Aperture_(software)",
 		"name": "Aperture",
 		"type": "software",
 		"company": "apple"
@@ -392,6 +392,15 @@
 		"description": "Apple Watch Series 6 was a smartwatch with the new S6 processor that was up to 20% faster than the Series 4 and Series 5, a 2.5× brighter always-on display, and an always-on altimeter.",
 		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
 		"name": "Apple Watch Series 6",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2017-09-12",
+		"dateOpen": "2017-09-12",
+		"description": "AirPower was a unreleased wireless charging mat, it was designed to charge up to three devices simultaneously. Scheduled to be released in early 2018, AirPower failed to materialize.",
+		"link": "https://en.wikipedia.org/wiki/AirPower_(charging_mat)",
+		"name": "AirPower",
 		"type": "hardware",
 		"company": "apple"
 	}
