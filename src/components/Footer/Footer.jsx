@@ -6,8 +6,7 @@ export default Footer = () => {
 			<a id="about"></a>
 			<p>
 				Killed by tech is a tech graveyard, a free and open
-				source list of discontinued services, products, devices, and
-				apps from companies like Google, Apple and Microsoft.
+				source list of discontinued products and services from companies like Google, Apple and Microsoft.
 			</p>
 			<p>
 				The inspiration for this site and a lot of the information comes
