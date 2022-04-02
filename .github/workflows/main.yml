@@ -6,7 +6,7 @@ env:
     githubEmail: edvin.linden@gmail.com
     deployToRepo: killedby.tech
 
-name: Github Pages Astro CI
+name: Build & deploy to GitHub Pages
 
 on:
     # Triggers the workflow on push and pull request events but only for the main branch
@@ -35,6 +35,7 @@ jobs:
               run: |
                   npm run build
                   touch ./dist/.nojekyll
+                  echo "killedby.tech" > ./dist/CNAME
 
             # Push to your pages repo
             - name: Push to pages repo

@@ -1,0 +1,663 @@
+[
+	{
+		"dateClose": "2015-05-01",
+		"dateOpen": "2002-01-01",
+		"description": "Windows Media Center was a digital video recorder and media player for Windows.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Media_Center",
+		"name": "Windows Media Center",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-10-25",
+		"dateOpen": "2010-11-04",
+		"description": "Kinect was a line of motion sensing input devices for Windows and Xbox consoles.",
+		"link": "https://en.wikipedia.org/wiki/Kinect",
+		"name": "Microsoft Kinect",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2011-01-31",
+		"dateOpen": "1991-10-02",
+		"description": "Microsoft Money was a personal finance management software program. It has capabilities for viewing bank account balances, creating budgets, and tracking expenses, among other features.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Money",
+		"name": "Microsoft Money",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2009-01-01",
+		"dateOpen": "1993-01-01",
+		"description": "Microsoft Encarta was a digital multimedia encyclopedia, originally sold on CD-ROM or DVD, then available on the internet via a subscription, and finally turned into free and supported by advertisements.",
+		"link": "https://en.wikipedia.org/wiki/Encarta",
+		"name": "Encarta",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2019-12-16",
+		"dateOpen": "2010-10-21",
+		"description": "Windows Phone was a family of mobile operating systems for smartphones as the replacement successor to Windows Mobile and Zune.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Phone",
+		"links": [
+			"https://support.microsoft.com/en-us/help/4340298/support-options-for-nokia-lumia-and-feature-phone-devices"
+		],
+		"name": "Windows Phone",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2010-02-02",
+		"dateOpen": "2000-04-19",
+		"description": "Windows Mobile was a family of mobile operating systems developed by Microsoft for smartphones and Pocket PCs.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Mobile",
+		"name": "Windows Mobile",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2011-08-01",
+		"dateOpen": "2010-05-14",
+		"description": "Kin was a short-lived mobile phone line from Microsoft designed for users of social networking.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Kin",
+		"name": "Kin",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-10-01",
+		"dateOpen": "2011-11-01",
+		"description": "Microsoft Lumia (previously the Nokia Lumia Series) was a line of mobile devices that was originally designed and marketed by Nokia and later by Microsoft Mobile.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Lumia",
+		"name": "Lumia",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2019-05-31",
+		"dateOpen": "2014-10-14",
+		"description": "Microsoft Band was a line of smart bands with smartwatch and activity tracker/fitness tracker features.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Band",
+		"name": "Microsoft Band",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-08-31",
+		"dateOpen": "1998-01-01",
+		"description": "Microsoft TechNet was a Microsoft web portal and web service for IT professionals, containing documentation for Microsoft products, discussion forums, an evaluation center for downloading trialware, blogs for Microsoft employees and much more.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_TechNet",
+		"name": "Microsoft TechNet",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2012-05-05",
+		"dateOpen": "2005-11-01",
+		"description": "Microsoft Live was a brand-name for a set of web services and software products from Microsoft as part of its software plus services platform.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Live",
+		"name": "Microsoft Live",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-12-31",
+		"dateOpen": "2007-11-04",
+		"description": "Windows Home Server was intended to be a solution for homes with multiple connected PCs to offer file sharing, automated backups, print server, and remote access.",
+		"link": "https://it.wikipedia.org/wiki/Windows_Home_Server",
+		"name": "Windows Home Server",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2009-10-01",
+		"dateOpen": "1988-01-01",
+		"description": "Microsoft Works was an intuitive and cheap alternative to Office. It included a word processor, a spreadsheet and a database management system. Later versions had a calendar application and a dictionary.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Works",
+		"name": "Microsoft Works",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2009-11-16",
+		"dateOpen": "2007-01-01",
+		"description": "Microsoft Office Accounting (formerly Small Business Accounting) was an accounting software application targeting small businesses that had between 1 and 25 employees.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Office_Accounting",
+		"name": "Microsoft Office Accounting",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "1996-06-01",
+		"dateOpen": "1993-03-30",
+		"description": "Microsoft Anti-Virus (MSAV) was an antivirus program introduced for MS-DOS operating system, finally acquired and dismissed by Symantec.",
+		"link": "https://en.wikipedia.org/wiki/MSAV",
+		"name": "Microsoft Anti-Virus for Windows",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2001-10-01",
+		"dateOpen": "1994-10-01",
+		"description": "Microsoft BackOffice Server was a computer software package featuring Windows NT Server and other Microsoft server products that ran on NT Server.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_BackOffice_Server",
+		"name": "Microsoft BackOffice Server",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "1996-01-01",
+		"dateOpen": "1995-03-10",
+		"description": "Microsoft Bob was a user-friendly interface for the Windows 3.1x, Windows 95 and Windows NT operating systems.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Bob",
+		"name": "Microsoft Bob",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "1997-01-01",
+		"dateOpen": "1992-01-01",
+		"description": "Microsoft Cinemania was an application distributed on CD-ROMs that shown information about films such as images, sound clips, dialogues, sound tracks and some full motion video clips.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Cinemania",
+		"name": "Microsoft Cinemania",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "1999-03-01",
+		"dateOpen": "1996-08-13",
+		"description": "Microsoft Comic Chat was a graphical IRC client.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Comic_Chat",
+		"name": "Microsoft Comic Chat",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2000-01-01",
+		"dateOpen": "1998-01-01",
+		"description": "Microsoft Liquid Motion was an application to create Java animations to compete with Macromedia Flash.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Liquid_Motion",
+		"name": "Microsoft Liquid Motion",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-01-31",
+		"dateOpen": "2006-03-14",
+		"description": "Microsoft XNA was a freeware set of tools with a managed runtime environment provided by Microsoft that facilitates video game development and management, based on the .NET Framework, with versions that run on Windows NT, Windows Phone and the Xbox 360.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_XNA",
+		"name": "Microsoft XNA",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2025-10-14",
+		"dateOpen": "2007-10-27",
+		"description": "Skype for Business (formerly Microsoft Lync and Office Communicator) was an enterprise instant messaging software developed by Microsoft as part of the Microsoft Office suite.",
+		"link": "https://en.wikipedia.org/wiki/Skype_for_Business",
+		"name": "Skype for Business",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2014-12-31",
+		"dateOpen": "2000-01-01",
+		"description": "Microsoft MapPoint was a program and a service created by Microsoft that allows users to view, edit and integrate maps.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_MapPoint",
+		"name": "Microsoft MapPoint",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2018-01-31",
+		"dateOpen": "2016-04-01",
+		"description": "Microsoft Classroom was an online learning platform for schools that aimed to simplify grading assignments and student communication in a paperless way.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Classroom",
+		"name": "Microsoft Classroom",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2012-12-20",
+		"dateOpen": "2006-09-16",
+		"description": "Microsoft Expression Studio was a suite of tools for designing and building Web and Windows client applications and rich digital media content.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Expression_Studio",
+		"name": "Microsoft Expression Studio",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2006-12-01",
+		"dateOpen": "1995-11-01",
+		"description": "Microsoft Office FrontPage was a WYSIWYG HTML editor and website administration tool for Windows.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_FrontPage",
+		"name": "Microsoft Office FrontPage",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2001-01-01",
+		"dateOpen": "1997-01-01",
+		"description": "Microsoft Java Virtual Machine (MSJVM) was a proprietary Java virtual machine.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Java_Virtual_Machine",
+		"name": "Microsoft Java Virtual Machine",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-10-28",
+		"dateOpen": "2003-01-01",
+		"description": "Microsoft WebMatrix was a cloud-connected website builder and HTML editor for Windows, geared towards web development.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_WebMatrix",
+		"name": "Microsoft WebMatrix",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2004-06-30",
+		"dateOpen": "1999-01-01",
+		"description": "Microsoft was a vector graphics and raster imaging software.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_PhotoDraw",
+		"name": "Microsoft PhotoDraw 2000",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2012-08-01",
+		"dateOpen": "2000-08-01",
+		"description": "Microsoft Reader was an application for reading e-books, specialized for .lit format.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Reader",
+		"name": "Microsoft Reader",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2018-02-16",
+		"dateOpen": "2011-12-07",
+		"description": "Microsoft Reader was an app to read PDF, XPS and TIFF files by Microsoft. It was killed in favour of Edge's implementation of PDF reading ability.",
+		"link": "https://www.windowslatest.com/2017/11/21/microsoft-to-discontinue-its-pdf-reader-app-in-february-2018/",
+		"name": "Microsoft Reader",
+		"type": "app",
+		"slug": "microsoft-reader-2",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2014-07-07",
+		"dateOpen": "1988-01-01",
+		"description": "Microsoft Streets & Trips (Microsoft AutoRoute) was a mapping program targeting the average consumer to do a variety of map related tasks in the North American region, such as route planning.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Streets_%26_Trips",
+		"name": "Microsoft Streets & Trips",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2009-01-01",
+		"dateOpen": "2007-01-01",
+		"description": "Tafiti was an animated search engine launched by Microsoft and TrappsInteractive to showcase the Silverlight animation and video player.",
+		"link": "https://en.wikipedia.org/wiki/Tafiti",
+		"name": "Tafiti",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2008-01-01",
+		"dateOpen": "2001-01-01",
+		"description": "Windows Messenger was an instant messaging client included in Windows XP and designed for both corporate and home users.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Messenger",
+		"name": "Windows Messenger",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-02-15",
+		"dateOpen": "1999-07-22",
+		"description": "MSN Messenger (later rebranded as Windows Live Messenger) was a cross-platform instant messaging client.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Live_Messenger",
+		"name": "MSN Messenger",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-01-17",
+		"dateOpen": "2000-09-14",
+		"description": "Windows Movie Maker (later rebranded as Windows Live Movie Maker) was a video editing software program for home users.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Movie_Maker",
+		"name": "Windows Movie Maker",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2020-07-22",
+		"dateOpen": "2016-01-05",
+		"description": "Mixer was a video game live streaming platform, originally named Beam before the acquisition by Microsoft.",
+		"link": "https://en.wikipedia.org/wiki/Mixer_(service)",
+		"name": "Mixer",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2020-01-10",
+		"dateOpen": "2016-10-26",
+		"description": "Remix 3D was a website for users to browse, distribute, and download 3D objects.",
+		"link": "https://en.wikipedia.org/wiki/Remix_3D",
+		"name": "Remix 3D",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2021-10-12",
+		"dateOpen": "2005-09-05",
+		"description": "Microsoft Silverlight (or simply Silverlight) was an application framework for writing and running rich Internet applications, similar to Adobe Flash.",
+		"link": "https://it.wikipedia.org/wiki/Silverlight",
+		"name": "Silverlight",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2015-11-15",
+		"dateOpen": "2006-11-14",
+		"description": "Zune was a line of digital media products and services.",
+		"link": "https://en.wikipedia.org/wiki/Zune",
+		"links": [
+			"https://www.thurrott.com/music-videos/groove-music/6033/microsoft-is-finally-retiring-zune-zune-music-pass"
+		],
+		"name": "Zune",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-11-22",
+		"dateOpen": "2006-11-14",
+		"description": "Zune Marketplace was an online store that offered music, podcasts, TV shows, movies, music videos, and mobile applications.",
+		"link": "https://en.wikipedia.org/wiki/Zune_software#Zune_Marketplace",
+		"links": [
+			"https://www.geeky-gadgets.com/microsoft-zune-marketplace-finally-closing-its-doors-14-11-2013/"
+		],
+		"name": "Zune Marketplace",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2012-10-16",
+		"dateOpen": "2006-01-01",
+		"description": "Zune (software) was a media management software that functions as a full media player application with a library, an interface to the Zune Marketplace, and as a media streaming server.",
+		"link": "https://en.wikipedia.org/wiki/Zune_software",
+		"name": "Zune (software)",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-12-31",
+		"dateOpen": "2006-11-14",
+		"description": "Groove Music Pass (formerly Xbox Music Pass and, before, Zune Music Pass) was a music subscription service, which allows subscribers to download an unlimited number of songs for as long as their subscription is active.",
+		"link": "https://en.wikipedia.org/wiki/Groove_Music",
+		"name": "Groove Music Pass",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2011-10-03",
+		"dateOpen": "2006-11-14",
+		"description": "Zune was a line of portable media players.",
+		"link": "https://en.wikipedia.org/wiki/Zune#Zune_devices",
+		"name": "Zune Media Player",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2008-08-31",
+		"dateOpen": "2002-02-18",
+		"description": "MSN Music was a store of music, music news, music videos, spotlights on new music, artist information, and live performances of artists.",
+		"link": "https://en.wikipedia.org/wiki/MSN_Music",
+		"name": "MSN Music",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2020-05-06",
+		"dateOpen": "2010-11-09",
+		"description": "Wunderlist was a cloud-based task management application, acquired by Microsoft in June 1, 2015.",
+		"link": "https://en.wikipedia.org/wiki/Wunderlist",
+		"name": "Wunderlist",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2008-04-01",
+		"dateOpen": "1991-01-01",
+		"description": "Visual Basic was a third-generation event-driven programming language known for its Component Object Model (COM) programming model.",
+		"link": "https://en.wikipedia.org/wiki/Visual_Basic",
+		"name": "Visual Basic",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2018-04-30",
+		"dateOpen": "1999-01-01",
+		"description": "Microsoft Excel Viewer was a freeware program for viewing and printing spreadsheet documents created by Excel.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Excel#Microsoft_Excel_Viewer",
+		"links": [
+			"https://docs.microsoft.com/it-it/archive/blogs/office_sustained_engineering/end-of-support-for-the-excel-and-powerpoint-Viewers-and-the-office-compatibility-pack"
+		],
+		"name": "Office Excel Viewer",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-11-30",
+		"dateOpen": "1999-03-17",
+		"description": "Microsoft Word Viewer was a freeware program for Microsoft Windows to display and print Microsoft Word documents.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Word_Viewer",
+		"links": [
+			"https://docs.microsoft.com/it-it/archive/blogs/office_sustained_engineering/word-viewer-to-be-retired-in-november-2017"
+		],
+		"name": "Office Word Viewer",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2018-04-30",
+		"dateOpen": "1999-01-01",
+		"description": "PowerPoint Viewer was a free application to be used on computers without PowerPoint installed, to view, project, or print (but not create or edit) presentations.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_PowerPoint#PowerPoint_Viewer",
+		"links": [
+			"https://docs.microsoft.com/it-it/archive/blogs/office_sustained_engineering/end-of-support-for-the-excel-and-powerpoint-Viewers-and-the-office-compatibility-pack"
+		],
+		"name": "Office PowerPoint Viewer",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2000-04-01",
+		"dateOpen": "1999-05-26",
+		"description": "Microsoft Vizact was a program that allowed creation of interactive documents using HTML+TIME (Timed Interactive Multimedia Extensions).",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Vizact",
+		"links": [
+			"https://news.microsoft.com/1999/05/26/microsoft-announces-vizact-2000-the-newest-application-from-office-free-preview-now-available-for-download-from-the-web/"
+		],
+		"name": "Microsoft Vizact",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2002-12-31",
+		"dateOpen": "2001-11-01",
+		"description": "Microsoft Data Analyzer was a program to analyze and visualize data and data trends, and was integrated with SQL Server Analysis Services.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Office_shared_tools#Data_Analyzer",
+		"links": [
+			"https://news.microsoft.com/2001/11/01/microsoft-announces-availability-of-data-analyzer/"
+		],
+		"name": "Microsoft Data Analyzer",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2015-12-01",
+		"dateOpen": "2007-01-01",
+		"description": "Microsoft Forefront was a family of line-of-business security software designed to help protect computer networks, network servers and individual devices, which underlying technology was acquired from Sybari in 2005.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Forefront",
+		"links": [
+			"https://www.microsoft.com/it-it/download/details.aspx?id=23256"
+		],
+		"name": "Microsoft Forefront",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-02-06",
+		"dateOpen": "2008-08-20",
+		"description": "Microsoft PhotoSynth was a program that generates a three-dimensional model and a point cloud from 2D photos.",
+		"link": "https://en.wikipedia.org/wiki/Photosynth",
+		"name": "Microsoft PhotoSynth",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-01-10",
+		"dateOpen": "2008-08-25",
+		"description": "Windows Essentials (formerly Windows Live Essentials and Windows Live Installer) is a discontinued suite of freeware applications that includes email, instant messaging, photo sharing, blogging, and parental control software and it was part of Live brand.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Essentials",
+		"name": "Microsoft Essentials",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-08-09",
+		"dateOpen": "2002-01-01",
+		"description": "Windows Journal was an application to create and organize handwritten notes and drawing, included in Windows XP Tablet PC Edition as well as select editions of Windows Vista and later.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Journal",
+		"links": ["https://www.anandtech.com/show/1046/3"],
+		"name": "Windows Journal",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2021-03-09",
+		"dateOpen": "2015-04-29",
+		"description": "Microsoft Edge is a cross-platform web browser and it is the successor of Internet Explorer.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Edge",
+		"name": "Microsoft Edge (EdgeHTML)",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2021-06-30",
+		"dateOpen": "2019-10-17",
+		"description": "Minecraft Earth was a Augmented Reality mobile game that allowed its players to collect blocks and build creations.",
+		"link": "https://www.minecraft.net/en-us/article/minecraft-earth-coming-end",
+		"name": "Minecraft Earth",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2020-11-10",
+		"dateOpen": "2016-08-02",
+		"description": "Windows 10 IoT Core was an embedded OS for smaller and lower-cost industry devices, it was also provided free of charge for use in devices like the Raspberry Pi for hobbyist use.",
+		"link": "https://en.wikipedia.org/wiki/Windows_IoT#Core",
+		"links": [
+			"https://docs.microsoft.com/en-us/lifecycle/products/windows-10-iot-core"
+		],
+		"name": "Windows 10 IoT Core",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-04-08",
+		"dateOpen": "2003-08-19",
+		"description": "Microsoft Office Picture Manager (formely Microsoft Picture Library) was a raster graphics editor included up to Office 2010 to organize and edit images.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Office_Picture_Manager",
+		"name": "Microsoft Office Picture Manager",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2006-01-27",
+		"dateOpen": "1994-01-01",
+		"description": "Microsoft Visual SourceSafe (VSS) was a source control program oriented towards small software development projects, originally created by One Tree Software prior to Microsoft acquisition in 1994.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe",
+		"name": "Microsoft Visual SourceSafe",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2008-06-01",
+		"dateOpen": "2006-04-01",
+		"description": "Live Search Academic was a web search engine for scholarly literature that existed, part of Microsoft's Live Search services.",
+		"link": "https://en.wikipedia.org/wiki/Live_Search_Academic",
+		"name": "Live Search Academic",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2014-07-01",
+		"dateOpen": "2009-01-01",
+		"description": "Microsoft Academic Search was a research project and an academic search engine.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Academic_Search",
+		"name": "Microsoft Academic Search",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2021-12-31",
+		"dateOpen": "2016-02-22",
+		"description": "Microsoft Academic was a free public web search engine for academic publications and literature.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Academic",
+		"name": "Microsoft Academic",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2017-10-01",
+		"dateOpen": "2006-05-01",
+		"description": "CodePlex was a hosting platform for open-source software, offering features such as support to different VCS systems, wiki pages, statistics, and releases.",
+		"link": "https://en.wikipedia.org/wiki/CodePlex",
+		"name": "CodePlex",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2014-01-01",
+		"dateOpen": "2008-04-17",
+		"description": "PixelSense (formerly called Microsoft Surface) was an interactive surface computing platform that allows one or more people to interact with a tabletop screen.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_PixelSense",
+		"name": "PixelSense",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2003-05-13",
+		"dateOpen": "2003-04-30",
+		"description": "iLoo was a smart portable toilet integrating the complete equipment to surf the Internet from inside and outside the cabinet.",
+		"link": "https://en.wikipedia.org/wiki/ILoo",
+		"name": "ILoo",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2007-01-01",
+		"dateOpen": "1996-01-01",
+		"description": "Office Assistant was an intelligent user interface for Microsoft Office that assisted users by way of an interactive animated character which interfaced with the Office help content. The most famous avatar was Clippit (a.k.a. Clippy), an humanized paperclip.",
+		"link": "https://en.wikipedia.org/wiki/Office_Assistant",
+		"name": "Office Assistant",
+		"type": "software",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2007-03-22",
+		"dateOpen": "1996-05-29",
+		"description": "Microsoft NetMeeting was VoIP and multi-point videoconferencing client and incorporated technology acquired from Data Connection Ltd and DataBeam Corporation.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_NetMeeting",
+		"name": "Microsoft NetMeeting",
+		"type": "software",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2010-05-14",
+		"dateOpen": "2007-10-01",
+		"description": "Response Point was an advanced VoIP-based telephone system targeting small businesses.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Response_Point",
+		"name": "Response Point",
+		"type": "software"
+	}
+]

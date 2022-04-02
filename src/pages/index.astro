@@ -1,5 +1,18 @@
-<html>
-  <body>
-    <h1>WIP</h1>
-  </body>
-</html>
+---
+import Page from '@layouts/page.astro';
+import YearNavigationBar from '@components/YearNavigationBar/YearNavigationBar.jsx';
+import Products from '@components/Products/Products';
+import Navigation from '@components/Navigation/Navigation';
+---
+
+<Page 
+    title="Killed by Apple, Google and Microsoft" 
+    description="Killed by tech is a tech graveyard, a free and open source list of discontinued products and services from companies like Google, Apple and Microsoft."
+    url="https://killedby.tech"
+>
+    <h1>Killed by <span style="display:none">Apple, Google and Microsoft</span>*</h1>
+    <p>A graveyard for discontinued products from Apple, Google and Microsoft</p>
+    <Navigation />
+    <Products company="all"/>
+    <YearNavigationBar company="all" />
+</Page>

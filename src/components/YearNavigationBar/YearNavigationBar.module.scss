@@ -1,0 +1,46 @@
+@import "./../../assets/styles/variables.scss";
+
+.yearNavigationBarContainer {
+	position: absolute;
+	top: 0;
+	left: -100px;
+
+	height: 100%;
+
+	@media (max-width: 1199px) {
+		display: none;
+	}
+}
+
+.yearNavigationBar {
+	position: sticky;
+	top: 100px;
+
+	@media (max-height: 850px) {
+		top: 30px;
+	}
+
+	@media (max-height: 786px) {
+		display: none;
+	}
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: darken($white, 8%);
+	border-radius: 100px;
+
+	padding: 1rem 1rem;
+	
+	.year {
+		color: $grey;
+		font-weight: normal;
+		margin: 0.25rem 0;
+		text-align: center;
+	
+		&:hover {
+			color: $black;
+			font-weight: bold;
+		}
+	}
+}

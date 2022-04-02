@@ -1,0 +1,35 @@
+---
+  import '@assets/styles/global.scss';
+  import Footer from '@components/Footer/Footer';
+  import AboutButton from '@components/AboutButton/AboutButton';
+  const { title, description, url } = Astro.props;
+  const openGraphImage = "https://killedby.tech/images/og.png";
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content={ description }>
+    <meta property="og:url" content={ url }>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={ title }>
+    <meta property="og:description" content={ description }>
+    <meta property="og:image" content={ openGraphImage }>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="killedby.tech">
+    <meta property="twitter:url" content={ url }>
+    <meta name="twitter:title" content={ title }>
+    <meta name="twitter:description" content={ description }>
+    <meta name="twitter:image" content={ openGraphImage }>
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    <title>{ title }</title>
+  </head>
+  <body>
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <AboutButton />
+    <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>
+  </body>
+</html>
