@@ -31,16 +31,16 @@
 	border-radius: 100px;
 
 	padding: 1rem 1rem;
-}
-
-.year {
-	color: $grey;
-	font-weight: normal;
-	margin: 0.25rem 0;
-	text-align: center;
-
-	&:hover {
-		color: $black;
-		font-weight: bold;
+	
+	.year {
+		color: $grey;
+		font-weight: normal;
+		margin: 0.25rem 0;
+		text-align: center;
+	
+		&:hover {
+			color: $black;
+			font-weight: bold;
+		}
 	}
 }

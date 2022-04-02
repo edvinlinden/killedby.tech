@@ -3,6 +3,7 @@ import styles from "./Footer.module.scss";
 export default Footer = () => {
 	return (
 		<footer className={styles.footer}>
+			<a id="about"></a>
 			<p>
 				Killed by tech is the complete tech graveyard. A free and open
 				source list of discontinued services, products, devices, and
@@ -10,7 +11,7 @@ export default Footer = () => {
 			</p>
 			<p>
 				The inspiration for this site and a lot of the information comes
-				from other projects like{" "}
+				from other projects such as{" "}
 				<a
 					href="https://killedbygoogle.com/"
 					target="_blank"
@@ -18,7 +19,7 @@ export default Footer = () => {
 				>
 					Killed by Google
 				</a>
-				, a project by{" "}
+				, by{" "}
 				<a
 					href="https://codyogden.com/"
 					target="_blank"
@@ -31,7 +32,7 @@ export default Footer = () => {
 			<p>
 				Contributors from around the world help compile, research, and
 				maintain the information about dying and dead products. Do you
-				miss a product? Feel free to contribute to this project or
+				miss a product? Feel free to contribute to either this project or
 				Cody's on{" "}
 				<a
 					href="https://github.com/edvinlinden/killedby.tech"

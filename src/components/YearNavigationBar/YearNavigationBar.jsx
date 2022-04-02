@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./YearNavigationBar.module.scss";
-import {products, yearsWithProducts} from './../Products/products.utility.js';
+import { products, yearsWithProducts } from "./../Products/products.utility.js";
 
 export default YearNavigationBar = ({ company }) => {
 	let productList = products(company);
