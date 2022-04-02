@@ -2,8 +2,7 @@ import styles from "./Footer.module.scss";
 
 export default Footer = () => {
 	return (
-		<footer className={styles.footer}>
-			<a id="about"></a>
+		<footer id="about" className={styles.footer}>
 			<p>
 				Killed by tech is a tech graveyard, a free and open
 				source list of discontinued products and services from companies like Google, Apple and Microsoft.
