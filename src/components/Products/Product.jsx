@@ -18,7 +18,7 @@ const Logo = ({ company }) => {
 	return null;
 };
 
-const Tag = ({ type }) => {
+const Tag = ({ type, children, ...rest }) => {
 	const getStyleByType = (type) => {
 		if (type == "software") {
 			return styles.software;
@@ -39,20 +39,16 @@ const Tag = ({ type }) => {
 		return null;
 	};
 
-	if (["service", "app", "software", "hardware"].includes(type)) {
-		return (
-			<div className={`${styles.tag} ${getStyleByType(type)}`}>
-				{type}
-			</div>
-		);
-	}
-	return null;
+	return (
+		<div className={`${styles.tag} ${getStyleByType(type)}`} {...rest}>
+			{type ? type : children}
+		</div>
+	);
 };
 
 export default Product = ({ product }) => {
 	const { name, dateOpen, dateClose, link, description, type, company } =
 		product;
-	const isStillAlive = new Date(dateClose) < new Date();
 
 	return (
 		<div className={styles.product}>
@@ -63,18 +59,12 @@ export default Product = ({ product }) => {
 				</a>
 			</h3>
 			<div className={styles.metaData}>
-				<div
-					className={styles.tag}
-					title={`${dateOpen} – ${dateClose}`}
-				>
+				<Tag title={`${dateOpen} – ${dateClose}`}>
 					{dateOpen.substr(0, 4)} – {dateClose.substr(0, 4)}
-				</div>
+				</Tag>
 				<Tag type={type} />
 			</div>
-			<p>
-				{isStillAlive ? "" : ""}
-				{description}
-			</p>
+			<p>{description}</p>
 		</div>
 	);
 };

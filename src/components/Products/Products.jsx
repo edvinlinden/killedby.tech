@@ -6,9 +6,9 @@ import styles from "./Products.module.scss";
 const Year = ({ year, productList }) => {
 	return (
 		<>
-			<a id={year} className={styles.productListTitle}>
+			<div id={year} className={styles.productListTitle}>
 				<h2>{year}</h2>
-			</a>
+			</div>
 			<div className={styles.productList}>
 				{productList.map((product) =>
 					product.dateClose.startsWith(year) ? (
