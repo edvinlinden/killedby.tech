@@ -18,21 +18,21 @@ export default Navigation = () => {
                 <div className={styles.sum}>({sumOfAllProducts})</div>
 			</h3>
 			<h3>
-				<a href="/apple">
+				<a href="/apple/">
 					<AppleLogo />
 					Apple
 				</a>
                 <div className={styles.sum}>({sumOfAppleProducts})</div>
 			</h3>
 			<h3>
-				<a href="/google">
+				<a href="/google/">
 					<GoogleLogo />
 					Google
 				</a>
                 <div className={styles.sum}>({sumOfGoogleProducts})</div>
 			</h3>
             <h3>
-				<a href="/microsoft">
+				<a href="/microsoft/">
 					<MicrosoftLogo />
 					Microsoft
 				</a>
