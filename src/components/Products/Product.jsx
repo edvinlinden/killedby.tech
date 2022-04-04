@@ -1,5 +1,5 @@
 import React from "react";
-import { format, formatDistance, formatRelative, subDays } from 'date-fns'
+import { formatDistance } from 'date-fns'
 import styles from "./Products.module.scss";
 import { AppleLogo, GoogleLogo, MicrosoftLogo } from "./../Logos/Logos";
 
