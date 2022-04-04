@@ -2373,6 +2373,78 @@
 		"link": "https://www.theverge.com/2022/2/10/22928042/google-plus-replacement-wind-down-currents-spaces",
 		"description": "Google Currents was service that provided social media features similar to Google+ for Google Workspace customers.",
 		"type": "service",
-    "company": "google"
+    	"company": "google"
+	},
+	{
+		"name": "Google Universal Analytics",
+		"dateOpen": "2005-11-14",
+		"dateClose": "2023-07-01",
+		"link": "https://en.wikipedia.org/wiki/Google_Analytics",
+		"description": "Google Universal Analytics was a web analytics service that tracks and reports website traffic. Google launched the service in November 2005 after acquiring Urchin.",
+		"type": "service",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel (1st generation)",
+		"dateOpen": "2016-10-20",
+		"dateClose": "2018-04-11",
+		"link": "https://en.wikipedia.org/wiki/Pixel_(1st_generation)",
+		"description": "Pixel and Pixel XL was the first pair of Android smartphones designed, developed, and marketed by Google as part of the Google Pixel product line, succeeding the Nexus line of smartphones.",
+		"type": "hardware",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel 2",
+		"dateOpen": "2017-10-19",
+		"dateClose": "2019-04-01",
+		"link": "https://en.wikipedia.org/wiki/Pixel_2",
+		"description": "Pixel 2 and Pixel 2 XL was smartphones that introduced optical image stabilization and a feature called \"Active Edge\" that launched the Google Assistant by squeezing the phone's sides.",
+		"type": "hardware",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel 3",
+		"dateOpen": "2018-10-09",
+		"dateClose": "2020-03-31",
+		"link": "https://en.wikipedia.org/wiki/Pixel_3",
+		"description": "Pixel 3 and Pixel 3 XL was smartphones that featuring wireless charging, front-facing stereo speakers and a lack of a headphone jack.",
+		"type": "hardware",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel 4",
+		"dateOpen": "2019-10-24",
+		"dateClose": "2020-08-06",
+		"link": "https://en.wikipedia.org/wiki/Pixel_4",
+		"description": "Pixel 4 and Pixel 4 XL was smartphones that introduced Motion Sense, a radar-based gesture recognition system and facial recognition as the only biometric authentication method.",
+		"type": "hardware",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel 5",
+		"dateOpen": "2020-10-15",
+		"dateClose": "2021-08-20",
+		"link": "https://en.wikipedia.org/wiki/Pixel_5",
+		"description": "Pixel 5 was a smartphone that reintroduced a capacitive fingerprint reader and the Pixel 4's Motion Sense capabilities and facial recognition have been removed.",
+		"type": "hardware",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel C",
+		"dateOpen": "2015-12-08",
+		"dateClose": "2017-12-28",
+		"link": "https://en.wikipedia.org/wiki/Pixel_C",
+		"description": "Pixel C was a 10.2-inch tablet featuring a Nvidia Tegra X1 octa-core system-on-a-chip and an optional keyboard accessory.",
+		"type": "hardware",
+    	"company": "google"
+	},
+	{
+		"name": "Pixel Slate",
+		"dateOpen": "2018-10-19",
+		"dateClose": "2021-01-20",
+		"link": "https://en.wikipedia.org/wiki/Pixel_Slate",
+		"description": "Pixel Slate was a 12.3-inch tablet running Chrome OS and was the first tablet from Google to be powered by Intel processors.",
+		"type": "hardware",
+    	"company": "google"
 	}
 ]
