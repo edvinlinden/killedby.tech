@@ -129,7 +129,7 @@
 		"dateClose": "2006-05-16",
 		"dateOpen": "1991-10-21",
 		"description": "PowerBook was a family of Macintosh laptop computers targeted at the professional market.",
-		"link": "https://en.wikipedia.org/wiki/IPod_Socks",
+		"link": "https://en.wikipedia.org/wiki/PowerBook",
 		"name": "PowerBook",
 		"type": "hardware",
 		"company": "apple"
@@ -401,6 +401,24 @@
 		"description": "AirPower was a unreleased wireless charging mat, it was designed to charge up to three devices simultaneously. Scheduled to be released in early 2018, AirPower failed to materialize.",
 		"link": "https://en.wikipedia.org/wiki/AirPower_(charging_mat)",
 		"name": "AirPower",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2008-09-09",
+		"dateOpen": "2007-09-05",
+		"description": "iPod Touch (1st generation) was an iOS-based mobile device without cellular network capability. It could be used as a music player and a handheld gaming device, but it can also be used as a digital camera, a web browser and for messaging.",
+		"link": "https://en.wikipedia.org/wiki/IPod_Touch",
+		"name": "iPod Touch (1st generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2011-01-31",
+		"dateOpen": "2002-05-14",
+		"description": "Xserve was a line of rack unit computers that could be used for a variety of applications, including file server, web server or even high-performance computing applications using clustering.",
+		"link": "https://en.wikipedia.org/wiki/Xserve",
+		"name": "Xserve",
 		"type": "hardware",
 		"company": "apple"
 	}
