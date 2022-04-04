@@ -1,4 +1,5 @@
 import React from "react";
+import { formatDistance } from 'date-fns'
 import styles from "./Products.module.scss";
 import { AppleLogo, GoogleLogo, MicrosoftLogo } from "./../Logos/Logos";
 
@@ -50,6 +51,25 @@ export default Product = ({ product }) => {
 	const { name, dateOpen, dateClose, link, description, type, company } =
 		product;
 
+	const timeUntilDead = formatDistance(new Date(dateClose), new Date());
+	const isStillAlive = new Date(dateClose) > new Date();
+	const randomToBeKilledSentence = () => {
+		const sentences = [
+			"Running out of power",
+			"Will be turned off",
+			"Scheduled to die",
+			"Goes into the light",
+			"Fading into darkness",
+			"Done for",
+			"Kicking the bucket",
+			"Expiring",
+			"Getting unplugged",
+			"Going poof"
+		];
+
+		return sentences[Math.floor(Math.random()*sentences.length)];
+	}
+
 	return (
 		<div className={styles.product}>
 			<h3 className={styles.name}>
@@ -64,7 +84,10 @@ export default Product = ({ product }) => {
 				</Tag>
 				<Tag type={type} />
 			</div>
-			<p>{description}</p>
+			<p>
+				{isStillAlive ? `${randomToBeKilledSentence()} in ${timeUntilDead}, ` : null}
+				{description}
+			</p>
 		</div>
 	);
 };
