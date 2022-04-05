@@ -1,0 +1,18 @@
+---
+import Page from '@layouts/page.astro';
+import YearNavigationBar from '@components/YearNavigationBar/YearNavigationBar';
+import Products from '@components/Products/Products';
+import Navigation from '@components/Navigation/Navigation';
+---
+
+<Page 
+    title="Killed by other companies"
+    description="Killed by tech is a tech graveyard, a free and open source list of discontinued products and services from other companies."
+    url="https://killedby.tech/other/"
+>
+    <h1>Killed by other companies</h1>
+    <p>A graveyard for discontinued products from other companies</p>
+    <Navigation />
+    <Products company="other"/>
+    <YearNavigationBar company="other" />
+</Page>

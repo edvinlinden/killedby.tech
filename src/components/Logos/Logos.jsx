@@ -33,10 +33,31 @@ const MicrosoftLogo = () => (
 	/>
 );
 
+const GhostLogo = () => (
+	<img
+		src="/images/ghost-logo.svg"
+		alt="Ghost"
+		width="16"
+		height="24"
+		className={styles.logo}
+	/>
+);
+
+const VineLogo = () => (
+	<img
+		src="/images/vine-logo.svg"
+		alt="Vine logo"
+		width="16"
+		height="24"
+		className={styles.logo}
+		title="Vine"
+	/>
+);
+
 const AllLogo = () => (
 	<div className={styles.logo}>
 		<div className={styles.all}>*</div>
 	</div>
 );
 
-export { GoogleLogo, AppleLogo, MicrosoftLogo, AllLogo };
+export { GoogleLogo, AppleLogo, MicrosoftLogo, AllLogo, GhostLogo, VineLogo };

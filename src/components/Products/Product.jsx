@@ -1,7 +1,7 @@
 import React from "react";
 import { formatDistance } from 'date-fns'
 import styles from "./Products.module.scss";
-import { AppleLogo, GoogleLogo, MicrosoftLogo } from "./../Logos/Logos";
+import { AppleLogo, GhostLogo, GoogleLogo, MicrosoftLogo, VineLogo } from "./../Logos/Logos";
 
 const Logo = ({ company }) => {
 	if (company == "google") {
@@ -16,7 +16,11 @@ const Logo = ({ company }) => {
 		return <AppleLogo />;
 	}
 
-	return null;
+	if (company == "vine") {
+		return <VineLogo />;
+	}
+
+	return <GhostLogo />;
 };
 
 const Tag = ({ type, children, ...rest }) => {
@@ -58,7 +62,7 @@ export default Product = ({ product }) => {
 			"Running out of power",
 			"Will be turned off",
 			"Scheduled to die",
-			"Goes into the light",
+			"Walks into the light",
 			"Fading into darkness",
 			"Done for",
 			"Kicking the bucket",

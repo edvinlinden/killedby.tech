@@ -1,6 +1,7 @@
 import googleProducts from "@assets/products/google.json";
 import microsoftProducts from "@assets/products/microsoft.json";
 import appleProducts from "@assets/products/apple.json";
+import otherProducts from "@assets/products/other.json";
 
 const products = (company) => {
 	let productList = [];
@@ -9,6 +10,7 @@ const products = (company) => {
 			...googleProducts,
 			...microsoftProducts,
 			...appleProducts,
+			...otherProducts,
 		];
 	}
 
@@ -22,6 +24,10 @@ const products = (company) => {
 
 	if (company == "google") {
 		productList = [...googleProducts];
+	}
+
+	if (company == "other") {
+		productList = [...otherProducts];
 	}
 
 	return productList.sort(
