@@ -74,27 +74,3 @@ footer {
 		width: 960px;
 	}
 }
-
-@layer base {
-	html {
-		@apply text-[16px] pt-8;
-	}
-	body {
-		@apply bg-slate-200 dark:bg-slate-900 font-sans font-light text-[20px] py-8 text-slate-800 dark:text-slate-400;
-	}
-	p {
-		@apply my-4 text-base;
-	}
-	h1 {
-		@apply mt-12 mb-4 text-3xl font-bold no-underline text-slate-800 dark:text-slate-300;
-	}
-	h2 {
-		@apply mt-12 mb-4 text-2xl font-bold no-underline text-slate-800 dark:text-slate-300;
-	}
-	h3 {
-		@apply mt-12 mb-4 text-lg font-medium no-underline text-slate-800 dark:text-slate-300;
-	}
-	h4 {
-		@apply mt-12 mb-4 text-base font-medium no-underline text-slate-800 dark:text-slate-300;
-	}
-}
