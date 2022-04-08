@@ -45,7 +45,7 @@ const Tag = ({ type, children, ...rest }) => {
 	};
 
 	return (
-		<div className={`${styles.tag} ${getStyleByType(type)}`} {...rest}>
+		<div className={`${styles.tag} ${getStyleByType(type)}`} data-cy="product-tag" {...rest}>
 			{type ? type : children}
 		</div>
 	);
@@ -75,7 +75,7 @@ export default Product = ({ product }) => {
 	}
 
 	return (
-		<div className={styles.product}>
+		<div className={styles.product} data-cy="product">
 			<h3 className={styles.name}>
 				<Logo company={company} />
 				<a href={`${link}`} target="_blank" rel="noopener noreferrer">
@@ -84,7 +84,7 @@ export default Product = ({ product }) => {
 			</h3>
 			<div className={styles.metaData}>
 				<Tag title={`${dateOpen} – ${dateClose}`}>
-					{dateOpen.substr(0, 4)} – {dateClose.substr(0, 4)}
+					{dateOpen.substring(0, 4)} – {dateClose.substring(0, 4)}
 				</Tag>
 				<Tag type={type} />
 			</div>
