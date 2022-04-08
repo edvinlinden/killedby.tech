@@ -4,14 +4,14 @@
 	margin-top: 4rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	border-top: 1px solid lighten($black, 75%);
+	border-top: 1px solid var(--overlay-background-color);
 
 	.smileyLink {
 		display: inline-block;
 		margin-top: 3rem;
 
 		> svg > path {
-			fill: darken($white, 20%);
+			fill: var(--silver);
 		}
 	}
 }

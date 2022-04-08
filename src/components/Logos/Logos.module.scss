@@ -9,11 +9,11 @@
 	display: flex;
 	align-items: center;
 
-	fill: $grey;
+	fill: var(--title-color);
 }
 
 .all {
-    color: $grey !important;
+    color: var(--font-color) !important;
     font-size: 32px;
     line-height: 24px;
     height: 16px;
