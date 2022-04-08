@@ -105,7 +105,7 @@
 		"dateClose": "2013-12-31",
 		"dateOpen": "2007-11-04",
 		"description": "Windows Home Server was intended to be a solution for homes with multiple connected PCs to offer file sharing, automated backups, print server, and remote access.",
-		"link": "https://it.wikipedia.org/wiki/Windows_Home_Server",
+		"link": "https://en.wikipedia.org/wiki/Windows_Home_Server",
 		"name": "Windows Home Server",
 		"type": "service",
 		"company": "microsoft"
@@ -349,7 +349,7 @@
 		"dateClose": "2021-10-12",
 		"dateOpen": "2005-09-05",
 		"description": "Microsoft Silverlight (or simply Silverlight) was an application framework for writing and running rich Internet applications, similar to Adobe Flash.",
-		"link": "https://it.wikipedia.org/wiki/Silverlight",
+		"link": "https://en.wikipedia.org/wiki/Silverlight",
 		"name": "Silverlight",
 		"type": "service",
 		"company": "microsoft"
@@ -438,7 +438,7 @@
 		"description": "Microsoft Excel Viewer was a freeware program for viewing and printing spreadsheet documents created by Excel.",
 		"link": "https://en.wikipedia.org/wiki/Microsoft_Excel#Microsoft_Excel_Viewer",
 		"links": [
-			"https://docs.microsoft.com/it-it/archive/blogs/office_sustained_engineering/end-of-support-for-the-excel-and-powerpoint-Viewers-and-the-office-compatibility-pack"
+			"https://docs.microsoft.com/en-us/archive/blogs/office_sustained_engineering/end-of-support-for-the-excel-and-powerpoint-Viewers-and-the-office-compatibility-pack"
 		],
 		"name": "Office Excel Viewer",
 		"type": "app",
@@ -450,7 +450,7 @@
 		"description": "Microsoft Word Viewer was a freeware program for Microsoft Windows to display and print Microsoft Word documents.",
 		"link": "https://en.wikipedia.org/wiki/Microsoft_Word_Viewer",
 		"links": [
-			"https://docs.microsoft.com/it-it/archive/blogs/office_sustained_engineering/word-viewer-to-be-retired-in-november-2017"
+			"https://docs.microsoft.com/en-us/archive/blogs/office_sustained_engineering/word-viewer-to-be-retired-in-november-2017"
 		],
 		"name": "Office Word Viewer",
 		"type": "app",
@@ -462,7 +462,7 @@
 		"description": "PowerPoint Viewer was a free application to be used on computers without PowerPoint installed, to view, project, or print (but not create or edit) presentations.",
 		"link": "https://en.wikipedia.org/wiki/Microsoft_PowerPoint#PowerPoint_Viewer",
 		"links": [
-			"https://docs.microsoft.com/it-it/archive/blogs/office_sustained_engineering/end-of-support-for-the-excel-and-powerpoint-Viewers-and-the-office-compatibility-pack"
+			"https://docs.microsoft.com/en-us/archive/blogs/office_sustained_engineering/end-of-support-for-the-excel-and-powerpoint-Viewers-and-the-office-compatibility-pack"
 		],
 		"name": "Office PowerPoint Viewer",
 		"type": "app",
@@ -498,7 +498,7 @@
 		"description": "Microsoft Forefront was a family of line-of-business security software designed to help protect computer networks, network servers and individual devices, which underlying technology was acquired from Sybari in 2005.",
 		"link": "https://en.wikipedia.org/wiki/Microsoft_Forefront",
 		"links": [
-			"https://www.microsoft.com/it-it/download/details.aspx?id=23256"
+			"https://www.microsoft.com/en-us/download/details.aspx?id=23256"
 		],
 		"name": "Microsoft Forefront",
 		"type": "app",
