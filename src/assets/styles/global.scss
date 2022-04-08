@@ -30,7 +30,7 @@ html {
 }
 
 body {
-	background-color: $white;
+	background-color: var(--background-color);
 
 	font-size: 16px;
 	margin-left: 0;
@@ -40,7 +40,7 @@ body {
 
 	font-family: "Helvetica", "Arial", "sans-serif";
 	font-weight: 300;
-	color: $grey;
+	color: var(--font-color);
 }
 
 h1,
@@ -49,15 +49,15 @@ h3,
 h4,
 h5 {
 	font-family: "Commissioner", "Helvetica", "Arial", "sans-serif";
-	color: $black;
+	color: var(--title-color);
 }
 
 a {
-	color: $blue;
+	color: var(--blue);
 	text-decoration: none;
 
 	&:hover {
-		color: darken($blue, 25%);
+		color: var(--dark-blue);
 	}
 }
 

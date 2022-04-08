@@ -44,8 +44,8 @@
 	display: inline-flex;
 	margin-right: 0.5rem;
 
-	color: $grey;
-	background-color: darken($white, 8%);
+	color: var(--overlay-font-color);
+	background-color: var(--overlay-background-color);
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
@@ -57,38 +57,38 @@
 	padding: 0.15rem 0.5rem;
 	border-width: 1px;
 	border-style: solid;
-	border-color: darken($white, 8%);
+	border-color: var(--overlay-background-color);
 	border-radius: 30px;
 
 	&.hardware {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
 		background-color: transparent;
-		border-color: $green;
-		color: $green;
+		border-color: var(--green);
+		color: var(--green);
 	}
 
 	&.software {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
 		background-color: transparent;
-		border-color: $purple;
-		color: $purple;
+		border-color: var(--purple);
+		color: var(--purple);
 	}
 
 	&.service {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
 		background-color: transparent;
-		border-color: $orange;
-		color: $orange;
+		border-color: var(--orange);
+		color: var(--orange);
 	}
 
 	&.app {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
 		background-color: transparent;
-		border-color: $red;
-		color: $red;
+		border-color: var(--red);
+		color: var(--red);
 	}
 }
