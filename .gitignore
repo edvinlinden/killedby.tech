@@ -15,3 +15,7 @@ yarn-error.log*
 
 # macOS-specific files
 .DS_Store
+
+# cypress
+cypress/videos
+cypress/screenshots
