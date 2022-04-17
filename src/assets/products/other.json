@@ -97,5 +97,14 @@
 		"description": "Flappy Bird was a mobile game where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
 		"type": "app",
 		"company": "flappybird"
+	},
+	{
+		"name": "Boosted Board",
+		"dateOpen": "2014-11-05",
+		"dateClose": "2020-03-04",
+		"link": "https://en.wikipedia.org/wiki/Boosted_(company)",
+		"description": "Boosted Board was a premium electric skateboard with a top speed of 35 km/h and max range of 11 km.",
+		"type": "hardware",
+		"company": "boosted"
 	}
 ]
