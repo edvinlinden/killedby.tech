@@ -3,8 +3,18 @@ import microsoftProducts from "@assets/products/microsoft.json";
 import appleProducts from "@assets/products/apple.json";
 import otherProducts from "@assets/products/other.json";
 
-const products = (company) => {
-	let productList = [];
+interface productInterface {
+	name: string;
+	description: string;
+	dateOpen: string;
+	dateClose: string;
+	link: string;
+	type: string;
+	company: string;
+}
+
+const products = (company: string) => {
+	let productList: productInterface[] = [];
 	if (company == "all") {
 		productList = [
 			...googleProducts,
@@ -31,12 +41,14 @@ const products = (company) => {
 	}
 
 	return productList.sort(
-		(a, b) => new Date(b.dateClose) - new Date(a.dateClose)
+		(a, b) =>
+			new Date(b.dateClose).valueOf() - new Date(a.dateClose).valueOf()
 	);
 };
 
-const yearsWithProducts = (productList) => [
-	...new Set(productList.map((product) => product.dateClose.substring(0, 4))),
-];
+const yearsWithProducts = (productList: [productInterface]) =>
+	Array.from(
+		new Set(productList.map((product) => product.dateClose.substring(0, 4)))
+	);
 
 export { products, yearsWithProducts };

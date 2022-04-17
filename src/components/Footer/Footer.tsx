@@ -1,12 +1,13 @@
+import React from "react";
 import styles from "./Footer.module.scss";
 
-export default Footer = () => {
+const Footer = () => {
 	return (
 		<footer id="about" className={styles.footer}>
 			<p>
 				Killed by tech is a tech graveyard, a free and open source list
-				of discontinued products and services from companies like
-				Apple, Google and Microsoft.
+				of discontinued products and services from companies like Apple,
+				Google and Microsoft.
 			</p>
 			<p>
 				The inspiration for this site and a lot of the information comes
@@ -50,12 +51,21 @@ export default Footer = () => {
 					rel="noopener noreferrer"
 				>
 					Edvin Linden
-				</a>. Want to get in touch? <a href="mailto:hello@edvinlinden.se" target="_blank" title="Email Edvin Linden" rel="noopener noreferrer">Email me</a>
+				</a>
+				. Want to get in touch?{" "}
+				<a
+					href="mailto:hello@edvinlinden.se"
+					target="_blank"
+					title="Email Edvin Linden"
+					rel="noopener noreferrer"
+				>
+					Email me
+				</a>
 			</p>
 			<p>
 				<a href="/privacy">Privacy</a>
 			</p>
-			<center>
+			<div className={styles.smileyContainer}>
 				<a
 					href="https://edvinlinden.se?ref=killedby.tech"
 					target="_blank"
@@ -75,7 +85,9 @@ export default Footer = () => {
 						/>
 					</svg>
 				</a>
-			</center>
+			</div>
 		</footer>
 	);
 };
+
+export default Footer;

@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Logos.module.scss";
 
 const GoogleLogo = () => (
