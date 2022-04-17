@@ -11,6 +11,7 @@
 	"author": "Edvin Lindén",
 	"license": "MIT",
 	"dependencies": {
+		"@types/react": "^18.0.5",
 		"astro": "^0.25.4"
 	},
 	"devDependencies": {

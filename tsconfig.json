@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"baseUrl": ".",
+		"module": "commonjs",
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"paths": {
+			"@components/*": ["src/components/*"],
+			"@layouts/*": ["src/layouts/*"],
+			"@assets/*": ["src/assets/*"]
+		}
+	}
+}

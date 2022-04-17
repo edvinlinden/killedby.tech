@@ -6,12 +6,18 @@
 	padding-bottom: 3rem;
 	border-top: 1px solid var(--overlay-background-color);
 
-	.smileyLink {
-		display: inline-block;
-		margin-top: 3rem;
+	.smileyContainer {
+		margin: 0px auto;
+		width: 48px;
+		text-align: center;
 
-		> svg > path {
-			fill: var(--silver);
+		.smileyLink {
+			display: inline-block;
+			margin-top: 3rem;
+
+			> svg > path {
+				fill: var(--silver);
+			}
 		}
 	}
 }

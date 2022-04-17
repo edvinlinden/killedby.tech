@@ -1,9 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Product from "./Product";
 import { products, yearsWithProducts } from "./products.utility";
 import styles from "./Products.module.scss";
 
-const Year = ({ year, productList }) => {
+interface YearInterface {
+	year: string;
+	productList: [object];
+}
+
+const Year: React.FC<YearInterface> = ({ year, productList }) => {
 	return (
 		<>
 			<div id={year} className={styles.productListTitle}>
@@ -15,7 +20,11 @@ const Year = ({ year, productList }) => {
 						<Product product={product} key={product} />
 					) : null
 				)}
-				{productList.filter((product) => product.dateClose.startsWith(year)).length % 3 == 2 ? (
+				{productList.filter((product) =>
+					product.dateClose.startsWith(year)
+				).length %
+					3 ==
+				2 ? (
 					<div className={styles.product} />
 				) : null}
 			</div>
@@ -23,7 +32,11 @@ const Year = ({ year, productList }) => {
 	);
 };
 
-export default Products = ({ company }) => {
+interface ProductsInterface {
+	company: string;
+}
+
+const Products: React.FC<ProductsInterface> = ({ company }) => {
 	let productList = products(company);
 
 	return (
@@ -34,3 +47,5 @@ export default Products = ({ company }) => {
 		</>
 	);
 };
+
+export default Products;

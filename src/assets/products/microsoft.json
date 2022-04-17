@@ -658,6 +658,7 @@
 		"description": "Response Point was an advanced VoIP-based telephone system targeting small businesses.",
 		"link": "https://en.wikipedia.org/wiki/Microsoft_Response_Point",
 		"name": "Response Point",
-		"type": "software"
+		"type": "software",
+		"company": "microsoft"
 	}
 ]

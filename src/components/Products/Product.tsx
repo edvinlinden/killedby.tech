@@ -1,9 +1,19 @@
 import React from "react";
-import { formatDistance } from 'date-fns'
+import { formatDistance } from "date-fns";
 import styles from "./Products.module.scss";
-import { AppleLogo, GhostLogo, GoogleLogo, MicrosoftLogo, VineLogo } from "./../Logos/Logos";
+import {
+	AppleLogo,
+	GhostLogo,
+	GoogleLogo,
+	MicrosoftLogo,
+	VineLogo,
+} from "./../Logos/Logos";
 
-const Logo = ({ company }) => {
+interface LogoInterface {
+	company: string;
+}
+
+const Logo: React.FC<LogoInterface> = ({ company }) => {
 	if (company == "google") {
 		return <GoogleLogo />;
 	}
@@ -23,8 +33,14 @@ const Logo = ({ company }) => {
 	return <GhostLogo />;
 };
 
-const Tag = ({ type, children, ...rest }) => {
-	const getStyleByType = (type) => {
+interface TagInterface {
+	type?: string;
+	children?: React.ReactNode;
+	title?: string;
+}
+
+const Tag: React.FC<TagInterface> = ({ type, children, ...rest }) => {
+	const getStyleByType = (type: string = "") => {
 		if (type == "software") {
 			return styles.software;
 		}
@@ -45,13 +61,29 @@ const Tag = ({ type, children, ...rest }) => {
 	};
 
 	return (
-		<div className={`${styles.tag} ${getStyleByType(type)}`} data-cy="product-tag" {...rest}>
+		<div
+			className={`${styles.tag} ${getStyleByType(type)}`}
+			data-cy="product-tag"
+			{...rest}
+		>
 			{type ? type : children}
 		</div>
 	);
 };
 
-export default Product = ({ product }) => {
+interface ProductInterface {
+	product: {
+		name: string;
+		description: string;
+		dateOpen: string;
+		dateClose: string;
+		link: string;
+		type: string;
+		company: string;
+	};
+}
+
+const Product: React.FC<ProductInterface> = ({ product }) => {
 	const { name, dateOpen, dateClose, link, description, type, company } =
 		product;
 
@@ -68,11 +100,11 @@ export default Product = ({ product }) => {
 			"Kicking the bucket",
 			"Expiring",
 			"Getting unplugged",
-			"Going poof"
+			"Going poof",
 		];
 
-		return sentences[Math.floor(Math.random()*sentences.length)];
-	}
+		return sentences[Math.floor(Math.random() * sentences.length)];
+	};
 
 	return (
 		<div className={styles.product} data-cy="product">
@@ -89,9 +121,13 @@ export default Product = ({ product }) => {
 				<Tag type={type} />
 			</div>
 			<p>
-				{isStillAlive ? `${randomToBeKilledSentence()} in ${timeUntilDead}, ` : null}
+				{isStillAlive
+					? `${randomToBeKilledSentence()} in ${timeUntilDead}, `
+					: null}
 				{description}
 			</p>
 		</div>
 	);
 };
+
+export default Product;
