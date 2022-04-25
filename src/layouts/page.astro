@@ -4,6 +4,7 @@
   import AboutButton from '@components/AboutButton/AboutButton';
   const { title, description, url } = Astro.props;
   const openGraphImage = "https://killedby.tech/images/og.png";
+  const disableTracking = import.meta.env.DEV;
 ---
 <html lang="en">
   <head>
@@ -30,6 +31,6 @@
     </main>
     <Footer />
     <AboutButton />
-    <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>
+    {disableTracking ? null : <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>}
   </body>
 </html>
