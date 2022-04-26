@@ -18,35 +18,35 @@ const Navigation = () => {
 
 	return (
 		<div className={styles.navigation}>
-			<div className={styles.link}>
+			<div className={styles.link} data-cy="navigation-link">
 				<a href="/">
 					<AllLogo />
 					All
 				</a>
 				<div className={styles.sum}>({sumOfAllProducts})</div>
 			</div>
-			<div className={styles.link}>
+			<div className={styles.link} data-cy="navigation-link">
 				<a href="/apple/">
 					<AppleLogo />
 					Apple
 				</a>
 				<div className={styles.sum}>({sumOfAppleProducts})</div>
 			</div>
-			<div className={styles.link}>
+			<div className={styles.link} data-cy="navigation-link">
 				<a href="/google/">
 					<GoogleLogo />
 					Google
 				</a>
 				<div className={styles.sum}>({sumOfGoogleProducts})</div>
 			</div>
-			<div className={styles.link}>
+			<div className={styles.link} data-cy="navigation-link">
 				<a href="/microsoft/">
 					<MicrosoftLogo />
 					Microsoft
 				</a>
 				<div className={styles.sum}>({sumOfMicrosoftProducts})</div>
 			</div>
-			<div className={styles.link}>
+			<div className={styles.link} data-cy="navigation-link">
 				<a href="/other/">
 					<GhostLogo />
 					Other
