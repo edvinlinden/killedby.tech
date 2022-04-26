@@ -5,11 +5,9 @@ import appleProducts from "./../../src/assets/products/apple.json";
 import otherProducts from "./../../src/assets/products/other.json";
 
 describe("Products", () => {
-	beforeEach(() => {
-		cy.visit("http://localhost:3000/");
-	});
-
 	it("should display correct count for each company", () => {
+		cy.visit("http://localhost:3000/");
+
 		const allSumText = `(${
 			[
 				...googleProducts,
@@ -24,17 +22,26 @@ describe("Products", () => {
 		const microsoftSumText = `(${microsoftProducts.length})`;
 		const otherSumText = `(${otherProducts.length})`;
 
-		cy.get("h3").contains("All").next().should("have.text", allSumText);
-		cy.get("h3").contains("Apple").next().should("have.text", appleSumText);
-		cy.get("h3")
+		cy.get("[data-cy=navigation-link]")
+			.contains("All")
+			.next()
+			.should("have.text", allSumText);
+		cy.get("[data-cy=navigation-link]")
+			.contains("Apple")
+			.next()
+			.should("have.text", appleSumText);
+		cy.get("[data-cy=navigation-link]")
 			.contains("Google")
 			.next()
 			.should("have.text", googleSumText);
-		cy.get("h3")
+		cy.get("[data-cy=navigation-link]")
 			.contains("Microsoft")
 			.next()
 			.should("have.text", microsoftSumText);
-		cy.get("h3").contains("Other").next().should("have.text", otherSumText);
+		cy.get("[data-cy=navigation-link]")
+			.contains("Other")
+			.next()
+			.should("have.text", otherSumText);
 	});
 
 	it("should display all products", () => {
@@ -78,6 +85,7 @@ describe("Products", () => {
 
 	it("should display correct product information", () => {
 		cy.visit("http://localhost:3000/other/");
+
 		const firstProduct = [...otherProducts].sort(
 			(a, b) => new Date(b.dateClose) - new Date(a.dateClose)
 		)[0];

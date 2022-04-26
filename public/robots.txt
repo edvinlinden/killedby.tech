@@ -1,2 +1,3 @@
+Sitemap: https://killedby.tech/sitemap.xml
 User-agent: *
 Allow: /
