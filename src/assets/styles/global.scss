@@ -52,7 +52,7 @@ h5 {
 }
 
 a {
-	color: var(--blue);
+	color: var(--link-color);
 	text-decoration: none;
 
 	&:hover {
@@ -139,6 +139,8 @@ article .breadcrumbs {
 	margin-left: 0px;
 	margin-bottom: 3rem;
 	padding-left: 0px;
+
+	max-width: 100%;
 
 	li {
 		display: flex;

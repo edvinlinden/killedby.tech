@@ -4,7 +4,8 @@
 	--silver: #b0b0b0;
 	--almost-white: #eaeaea;
 	--white: #fefefe;
-	--blue: #277cdd;
+	--light-blue: #277cdd;
+	--blue: #1a6ece;
 	--dark-blue: #003f87;
 	--red: #f43f5e;
 	--orange: #fb923c;
@@ -13,6 +14,7 @@
 
 	--background-color: var(--white);
 	--font-color: var(--grey);
+	--link-color: var(--blue);
 	--title-color: var(--black);
 	--overlay-background-color: var(--almost-white);
 	--overlay-font-color: var(--font-color);
@@ -22,6 +24,7 @@
 	:root {
 		--background-color: var(--black);
 		--font-color: var(--silver);
+		--link-color: var(--light-blue);
 		--title-color: var(--white);
 		--overlay-background-color: var(--grey);
 		--overlay-font-color: var(--almost-white);
