@@ -2,8 +2,8 @@
   import { format } from "date-fns";
   import '@assets/styles/global.scss';
   import Footer from '@components/Footer/Footer';
-  const { title, description, date, url } = Astro.props;
-  const openGraphImage = "https://killedby.tech/images/og.png";
+  const { title, description, date, url, image } = Astro.props;
+  const openGraphImage =  image == "" ? "https://killedby.tech/images/og.png" : image;
   const disableTracking = import.meta.env.DEV;
 ---
 <html lang="en">
