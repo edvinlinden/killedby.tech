@@ -1,0 +1,47 @@
+---
+  import { format } from "date-fns";
+  import '@assets/styles/global.scss';
+  import Footer from '@components/Footer/Footer';
+  const { title, description, date, url } = Astro.props;
+  const openGraphImage = "https://killedby.tech/images/og.png";
+  const disableTracking = import.meta.env.DEV;
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content={ description }>
+    <meta property="og:url" content={ url }>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={ title }>
+    <meta property="og:description" content={ description }>
+    <meta property="og:image" content={ openGraphImage }>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="killedby.tech">
+    <meta property="twitter:url" content={ url }>
+    <meta name="twitter:title" content={ title }>
+    <meta name="twitter:description" content={ description }>
+    <meta name="twitter:image" content={ openGraphImage }>
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    <title>{ title }</title>
+  </head>
+  <body>
+    <article>
+        <ol class="breadcrumbs">
+            <li>
+                <a href="/articles/">Articles</a><img src="/images/chevron-right-solid.svg" width="8" height="8" />
+            </li>
+            <li>
+                {title}
+            </li>
+        </ol>
+
+        <h1>{title}</h1>
+        <p class="metaText" title={date}>{format(new Date(date), "PPP")}</p>
+
+        <slot />
+    </article>
+    <Footer />
+    {disableTracking ? null : <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>}
+  </body>
+</html>

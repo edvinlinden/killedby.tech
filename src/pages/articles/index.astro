@@ -1,0 +1,20 @@
+---
+import Page from '@layouts/page.astro';
+
+let articles = await Astro.fetchContent('./*.astro');
+//articles = articles.sort((a:any, b:any) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+console.log(articles)
+---
+
+<Page 
+    title="Articles covering discontinued products"
+    description="A list of articles covering discontinued products from companies like Apple, Google and Microsoft."
+    url="https://killedby.tech/articles/"
+>
+    <h1>Articles covering discontinued products</h1>
+    <ul>
+        <li>
+            <a href="/articles/ipod-socks-one-of-the-weirdest-apple-products/">iPod Socks – One of the weirdest Apple products</a>
+        </li>
+    </ul>
+</Page>
