@@ -140,13 +140,24 @@ article .breadcrumbs {
 	margin-bottom: 3rem;
 	padding-left: 0px;
 
-	max-width: 100%;
-
 	li {
 		display: flex;
 
-		img {
-			margin: 0px 1rem;
+		.chevron {
+			background-image: url(/images/chevron-right-solid.svg);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 30px;
+			height: 14px;
+			margin-top: 3px;
+		}
+
+		&:last-child {
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			display: block;
 		}
 	}
 }
