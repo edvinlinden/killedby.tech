@@ -2,7 +2,7 @@
   import { format } from "date-fns";
   import '@assets/styles/global.scss';
   import Footer from '@components/Footer/Footer';
-  const { title, description, date, url, image } = Astro.props;
+  const { title, heading, description, date, url, image } = Astro.props;
   const openGraphImage =  image == "" ? "https://killedby.tech/images/og.png" : image;
   const disableTracking = import.meta.env.DEV;
 ---
@@ -29,14 +29,15 @@
     <article>
         <ol class="breadcrumbs">
             <li>
-                <a href="/articles/">Articles</a><img src="/images/chevron-right-solid.svg" alt="" width="8" height="8" />
+                <a href="/articles/">Articles</a>
+                <div class="chevron" />
             </li>
             <li>
                 {title}
             </li>
         </ol>
 
-        <h1>{title}</h1>
+        <h1>{heading}</h1>
         <p class="metaText" title={date}>{format(new Date(date), "PPP")}</p>
 
         <slot />
