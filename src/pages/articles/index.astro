@@ -1,9 +1,5 @@
 ---
 import Page from '@layouts/page.astro';
-
-let articles = await Astro.fetchContent('./*.astro');
-//articles = articles.sort((a:any, b:any) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
-console.log(articles)
 ---
 
 <Page 
@@ -15,6 +11,9 @@ console.log(articles)
     <ul>
         <li>
             <a href="/articles/ipod-socks-one-of-the-weirdest-apple-products/">iPod Socks – One of the weirdest Apple products</a>
+        </li>
+        <li>
+            <a href="/articles/google-killed-these-4-products-soon-after-acquiring-them/">Google killed these 4 products soon after acquiring them</a>
         </li>
     </ul>
 </Page>
