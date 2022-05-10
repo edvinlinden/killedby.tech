@@ -94,7 +94,11 @@ describe("Products", () => {
 			.eq(0)
 			.find("h3>a")
 			.should("have.text", firstProduct.name)
-			.should("have.attr", "href", firstProduct.link);
+			.should(
+				"have.attr",
+				"href",
+				firstProduct.link + "?ref=killedby.tech"
+			);
 		cy.get("[data-cy=product]").eq(0).find("h3>img").should("exist");
 		cy.get("[data-cy=product]")
 			.eq(0)

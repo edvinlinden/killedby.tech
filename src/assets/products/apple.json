@@ -421,5 +421,14 @@
 		"name": "Xserve",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2022-05-10",
+		"dateOpen": "2019-05-29",
+		"description": "iPod Touch (7th generation) was an iOS-based mobile device without cellular network capability. It was the last iPod being sold before Apple discontinued the entire iPod product line in 2022.",
+		"link": "https://www.theverge.com/2022/5/10/23065412/apple-ipod-touch-canceled-discontinued",
+		"name": "iPod Touch (7th generation)",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]

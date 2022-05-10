@@ -110,7 +110,11 @@ const Product: React.FC<ProductInterface> = ({ product }) => {
 		<div className={styles.product} data-cy="product">
 			<h3 className={styles.name}>
 				<Logo company={company} />
-				<a href={`${link}`} target="_blank" rel="noopener noreferrer">
+				<a
+					href={`${link}?ref=killedby.tech`}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{name}
 				</a>
 			</h3>
