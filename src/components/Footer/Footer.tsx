@@ -44,6 +44,11 @@ const Footer = () => {
 				.
 			</p>
 			<p>
+				<a href="/articles/">
+					Read articles about discontinued products
+				</a>
+			</p>
+			<p>
 				A project by{" "}
 				<a
 					href="https://edvinlinden.se?ref=killedby.tech"
@@ -63,7 +68,7 @@ const Footer = () => {
 				</a>
 			</p>
 			<p>
-				<a href="/privacy">Privacy</a>
+				<a href="/privacy/">Privacy</a>
 			</p>
 			<div className={styles.smileyContainer}>
 				<a
