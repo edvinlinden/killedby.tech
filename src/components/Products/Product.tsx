@@ -108,7 +108,7 @@ const Product: React.FC<ProductInterface> = ({ product }) => {
 
 	return (
 		<div className={styles.product} data-cy="product">
-			<h3 className={styles.name}>
+			<h2 className={styles.name}>
 				<Logo company={company} />
 				<a
 					href={`${link}?ref=killedby.tech`}
@@ -117,7 +117,7 @@ const Product: React.FC<ProductInterface> = ({ product }) => {
 				>
 					{name}
 				</a>
-			</h3>
+			</h2>
 			<div className={styles.metaData}>
 				<Tag title={`${dateOpen} – ${dateClose}`}>
 					{dateOpen.substring(0, 4)} – {dateClose.substring(0, 4)}
