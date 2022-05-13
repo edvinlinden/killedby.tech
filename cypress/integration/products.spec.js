@@ -92,14 +92,14 @@ describe("Products", () => {
 
 		cy.get("[data-cy=product]")
 			.eq(0)
-			.find("h3>a")
+			.find("h2>a")
 			.should("have.text", firstProduct.name)
 			.should(
 				"have.attr",
 				"href",
 				firstProduct.link + "?ref=killedby.tech"
 			);
-		cy.get("[data-cy=product]").eq(0).find("h3>img").should("exist");
+		cy.get("[data-cy=product]").eq(0).find("h2>img").should("exist");
 		cy.get("[data-cy=product]")
 			.eq(0)
 			.find("[data-cy=product-tag]")

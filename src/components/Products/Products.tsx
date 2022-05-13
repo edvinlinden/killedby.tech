@@ -12,7 +12,7 @@ const Year: React.FC<YearInterface> = ({ year, productList }) => {
 	return (
 		<>
 			<div id={year} className={styles.productListTitle}>
-				<h2>{year}</h2>
+				{year}
 			</div>
 			<div className={styles.productList}>
 				{productList.map((product) =>
