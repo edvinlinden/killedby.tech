@@ -106,5 +106,59 @@
 		"description": "Boosted Board was a premium electric skateboard with a top speed of 35 km/h and max range of 11 km.",
 		"type": "hardware",
 		"company": "boosted"
+	},
+	{
+		"name": "Game Boy",
+		"dateOpen": "1989-04-21",
+		"dateClose": "2003-03-23",
+		"link": "https://en.wikipedia.org/wiki/Game_Boy",
+		"description": "Game Boy was an 8-bit handheld game console developed and manufactured by Nintendo. Featuring a dot-matrix screen with adjustable contrast dial, five game control buttons and a single speaker with adjustable volume dial.",
+		"type": "hardware",
+		"company": "nintendo"
+	},
+	{
+		"name": "Game Boy Color",
+		"dateOpen": "1998-10-21",
+		"dateClose": "2003-03-23",
+		"link": "https://en.wikipedia.org/wiki/Game_Boy_Color",
+		"description": "Game Boy Color was handheld game console developed and manufactured by Nintendo. Unlike the original Game Boy it featured a color screen.",
+		"type": "hardware",
+		"company": "nintendo"
+	},
+	{
+		"name": "Virtual Boy",
+		"dateOpen": "1995-06-21",
+		"dateClose": "1996-12-31",
+		"link": "https://en.wikipedia.org/wiki/Virtual_Boy",
+		"description": "Virtual Boy was a 32-bit tabletop portable video game console developed and manufactured by Nintendo. Featuring a head-mounted display with a red monochrome display.",
+		"type": "hardware",
+		"company": "nintendo"
+	},
+	{
+		"name": "Game Boy Advance",
+		"dateOpen": "2001-03-21",
+		"dateClose": "2008-03-31",
+		"link": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
+		"description": "Game Boy Advance was a 32-bit handheld game console released by Nintendo as a successor to the Game Boy Color.",
+		"type": "hardware",
+		"company": "nintendo"
+	},
+	{
+		"name": "Nintendo DS",
+		"dateOpen": "2004-11-21",
+		"dateClose": "2020-09-17",
+		"link": "https://www.theverge.com/21441254/nintendo-ds-3ds-discontinued-eulogy",
+		"description": "Nintendo DS was a handheld game console released by Nintendo that introduced two LCD screens working in tandem (the bottom one being a touchscreen), a built-in microphone and support for wireless connectivity.",
+		"type": "hardware",
+		"company": "nintendo"
+	},
+	{
+		"name": "Nintendo 3DS",
+		"dateOpen": "2011-02-26",
+		"dateClose": "2020-09-17",
+		"link": "https://en.wikipedia.org/wiki/Nintendo_3DS",
+		"description": "Nintendo 3DS was a handheld game console released by Nintendo and featured the ability to display stereoscopic 3D effects without the use of 3D glasses or additional accessories.",
+		"type": "hardware",
+		"company": "nintendo"
 	}
 ]

@@ -660,5 +660,41 @@
 		"name": "Response Point",
 		"type": "software",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2010-02-01",
+		"dateOpen": "2006-02-25",
+		"description": "Project Origami was the code name for ultra-mobile PCs (also known as ultra-mobile personal computers or UMPCs), a class of laptops whose specifications were defined in collaboration with Intel.",
+		"link": "https://en.wikipedia.org/wiki/Ultra-mobile_PC",
+		"name": "Project Origami",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-09-30",
+		"dateOpen": "1996-09-18",
+		"description": "MSN TV (formerly WebTV by WebTV Networks, Inc.) was a web access product consisting of a thin client device which used a television for display and the online service that supported it.",
+		"link": "https://en.wikipedia.org/wiki/MSN_TV",
+		"name": "MSN TV",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-08-02",
+		"dateOpen": "2006-11-30",
+		"description": "Microsoft SharePoint Designer (SPD), formerly known as Microsoft Office SharePoint Designer, was an HTML editor freeware for creating or modifying Microsoft SharePoint sites, workflows and web pages.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_SharePoint_Designer",
+		"name": "Microsoft SharePoint Designer",
+		"type": "software",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-09-13",
+		"dateOpen": "2013-02-19",
+		"description": "Sunrise Calendar was a calendar application for web, mobile and desktop, featuring live aggregation of calendars from multiple sources.",
+		"link": "https://en.wikipedia.org/wiki/Sunrise_Calendar",
+		"name": "Sunrise Calendar",
+		"type": "app",
+		"company": "microsoft"
 	}
 ]
