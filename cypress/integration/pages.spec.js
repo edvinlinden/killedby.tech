@@ -11,7 +11,7 @@ describe("Pages", () => {
 		cy.visit("http://localhost:3000/apple/");
 		cy.title().should(
 			"eq",
-			"Killed by Apple - Discontinued products and services from Apple"
+			"Killed by Apple - Discontinued products and services"
 		);
 	});
 
@@ -19,7 +19,7 @@ describe("Pages", () => {
 		cy.visit("http://localhost:3000/google/");
 		cy.title().should(
 			"eq",
-			"Killed by Google - Discontinued products and services from Google"
+			"Killed by Google - Discontinued products and services"
 		);
 	});
 
@@ -27,7 +27,7 @@ describe("Pages", () => {
 		cy.visit("http://localhost:3000/microsoft/");
 		cy.title().should(
 			"eq",
-			"Killed by Microsoft - Discontinued products and services from Microsoft"
+			"Killed by Microsoft - Discontinued products and services"
 		);
 	});
 
