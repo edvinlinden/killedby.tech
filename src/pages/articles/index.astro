@@ -1,5 +1,6 @@
 ---
 import Page from '@layouts/page.astro';
+import {ArticleList, ArticleListCard} from '@components/ArticleListCard/ArticleListCard'
 ---
 
 <Page 
@@ -7,13 +8,13 @@ import Page from '@layouts/page.astro';
     description="A list of articles covering discontinued products from companies like Apple, Google and Microsoft."
     url="https://killedby.tech/articles/"
 >
-    <h1>All articles</h1>
-    <ul>
-        <li>
-            <a href="/articles/ipod-socks-one-of-the-weirdest-apple-products/">iPod Socks – One of the weirdest Apple products</a>
-        </li>
-        <li>
-            <a href="/articles/google-killed-these-4-products-soon-after-acquiring-them/">Google killed these 4 products soon after acquiring them</a>
-        </li>
-    </ul>
+    <div style="display:flex; justify-content:space-between; align-items: center;">
+        <h1>All articles</h1>
+        <a href="/">Back to the graveyard ↩</a>
+    </div>
+    <ArticleList>
+        <ArticleListCard title="Apple discontinued the iPod after two decades" link="/articles/apple-discontinued-the-ipod-after-two-decades/" description="For over two decades the iPod was the portable music player, just as big as the Walkman was before it. In 2022 Apple announced that the iPod will be discontinued, this is a trip down memory lane of the most iconic iPods." />
+        <ArticleListCard title="iPod Socks – One of the weirdest Apple products" link="/articles/ipod-socks-one-of-the-weirdest-apple-products/" description="Apple's history is full of weird and interesting products. however some products are weirder than others. This is a breif history of the iPad Socks, a knitted sock made for the iPod." />
+        <ArticleListCard title="Google killed these 4 products soon after acquiring them" link="/articles/google-killed-these-4-products-soon-after-acquiring-them/" description="All of the FAANG companies acquire companies and products and not all of them survive the acqusition. Google however have become the scapegoat for this practice. This is a breif story about four of those acqusitions." />
+    </ArticleList> 
 </Page>

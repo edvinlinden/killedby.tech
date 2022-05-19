@@ -13,7 +13,7 @@
 		margin-block-start: 1em;
 		margin-block-end: 1em;
 
-		font-family: "Commissioner", "Helvetica", "Arial", "sans-serif";
+		font-family: var(--title-font-family);
 		color: var(--title-color);
 
 		&:last-child {
