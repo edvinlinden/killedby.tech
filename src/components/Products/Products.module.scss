@@ -10,7 +10,7 @@
 .productListTitle {
 	display: block;
 	padding-top: 4rem;
-	font-family: "Commissioner", "Helvetica", "Arial", "sans-serif";
+	font-family: var(--title-font-family);
 	font-weight: bold;
 	font-size: 1.5rem;
 	margin-block-start: 0.83em;

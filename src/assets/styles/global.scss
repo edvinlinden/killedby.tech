@@ -47,8 +47,15 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: "Commissioner", "Helvetica", "Arial", "sans-serif";
+	font-family: var(--title-font-family);
 	color: var(--title-color);
+}
+
+h2.ingress {
+	font-size: 1.25rem;
+	font-weight: 300;
+	font-family: "Helvetica", "Arial", "sans-serif";
+	color: var(--font-color);
 }
 
 a {

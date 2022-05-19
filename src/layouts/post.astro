@@ -5,6 +5,7 @@
   const { title, heading, description, date, url, image } = Astro.props;
   const openGraphImage =  image == "" ? "https://killedby.tech/images/og.png" : image;
   const disableTracking = import.meta.env.DEV;
+  const published_time = date + "T00:00:00.000+01:00";
 ---
 <html lang="en">
   <head>
@@ -12,7 +13,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content={ description }>
     <meta property="og:url" content={ url }>
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
     <meta property="og:title" content={ title }>
     <meta property="og:description" content={ description }>
     <meta property="og:image" content={ openGraphImage }>
@@ -22,6 +23,8 @@
     <meta name="twitter:title" content={ title }>
     <meta name="twitter:description" content={ description }>
     <meta name="twitter:image" content={ openGraphImage }>
+    <meta property="article:published_time" content={published_time}>
+    <meta property="article:section" content="Technology">
     <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
     <title>{ title }</title>
   </head>
