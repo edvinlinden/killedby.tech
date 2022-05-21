@@ -120,6 +120,11 @@
 	transition-property: all;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+	@media (max-width: $breakpoint-tablet) {
+		width: 100%;
+		margin-left: 0px;
+	}
+
 	&:hover {
 		color: var(--overlay-font-color);
 		transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1.05)
