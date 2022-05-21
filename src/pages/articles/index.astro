@@ -1,5 +1,6 @@
 ---
 import Page from '@layouts/page.astro';
+import Navigation from '@components/Navigation/Navigation';
 import {ArticleList, ArticleListCard} from '@components/ArticleListCard/ArticleListCard'
 ---
 
@@ -9,9 +10,11 @@ import {ArticleList, ArticleListCard} from '@components/ArticleListCard/ArticleL
     url="https://killedby.tech/articles/"
 >
     <div style="display:flex; justify-content:space-between; align-items: center;">
-        <h1>All articles</h1>
+        <h1>Killed by *</h1>
         <a href="/">Back to the graveyard ↩</a>
     </div>
+    <h2 class="ingress">A graveyard for discontinued products from Apple, Google and Microsoft</h2>
+    <h2 style="margin-top: 5rem; margin-bottom: 2rem;">All articles</h2>
     <ArticleList>
         <ArticleListCard title="Apple discontinued the iPod after two decades" link="/articles/apple-discontinued-the-ipod-after-two-decades/" description="For over two decades the iPod was the portable music player, just as big as the Walkman was before it. In 2022 Apple announced that the iPod will be discontinued, this is a trip down memory lane of the most iconic iPods." />
         <ArticleListCard title="iPod Socks – One of the weirdest Apple products" link="/articles/ipod-socks-one-of-the-weirdest-apple-products/" description="Apple's history is full of weird and interesting products. however some products are weirder than others. This is a breif history of the iPad Socks, a knitted sock made for the iPod." />

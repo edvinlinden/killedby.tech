@@ -29,8 +29,14 @@
     <title>{ title }</title>
   </head>
   <body>
-    <article>
-        <ol class="breadcrumbs">
+    <div class="main">
+      <div style="display:flex; justify-content:space-between; align-items: center;">
+        <h1>Killed by *</h1>
+        <a href="/">Back to the graveyard ↩</a>
+      </div>
+      <h2 class="ingress">A graveyard for discontinued products from Apple, Google and Microsoft</h2>
+
+      <ol class="breadcrumbs" style="margin-top:3rem; margin-bottom: 6rem;">
             <li>
                 <a href="/articles/">Articles</a>
                 <div class="chevron" />
@@ -40,6 +46,8 @@
             </li>
         </ol>
 
+    </div>
+    <article>
         <h1>{heading}</h1>
         <p class="metaText" title={date}>{format(new Date(date), "PPP")}</p>
 
