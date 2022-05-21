@@ -68,7 +68,8 @@ a {
 }
 
 main,
-footer {
+footer,
+.main {
 	position: relative;
 	width: 100%;
 	margin: 0px auto;
@@ -136,7 +137,7 @@ article blockquote {
 	margin-bottom: 2rem;
 }
 
-article .breadcrumbs {
+.breadcrumbs {
 	list-style: none;
 
 	display: flex;

@@ -101,3 +101,49 @@
 		color: var(--red);
 	}
 }
+
+.articleCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 5px;
+	padding: 1.5rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+	margin-left: 3rem;
+	background-color: var(--overlay-background-color);
+	width: calc(100% - 6rem);
+	color: var(--overlay-font-color);
+	box-sizing: border-box;
+
+	transition-duration: 0.15s;
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover {
+		color: var(--overlay-font-color);
+		transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1.05)
+			scaleY(1.05);
+
+		.title {
+			color: var(--link-color);
+		}
+	}
+
+	.title {
+		margin-top: 0;
+		margin-bottom: 1.5rem;
+	}
+
+	.description {
+		margin-bottom: 1.5rem;
+	}
+
+	.readMore {
+		font-weight: bold;
+		font-family: var(--title-font-family);
+		letter-spacing: 0.5px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
