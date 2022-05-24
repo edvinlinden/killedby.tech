@@ -18,7 +18,16 @@ const ArticleListCard: React.FC<ArticleListCardInterface> = ({
 				<h2 className={styles.title}>{title}</h2>
 				<p className={styles.description}>{description}</p>
 			</div>
-			<div className={styles.readMore}>Read more</div>
+			<div className={styles.readMore}>
+				Read more
+				<img
+					src="/images/arrow-right-long-solid.svg"
+					width={24}
+					height={24}
+					alt=""
+					className={styles.readMoreArrow}
+				/>
+			</div>
 		</a>
 	);
 };
