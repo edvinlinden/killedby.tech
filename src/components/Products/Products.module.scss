@@ -132,6 +132,13 @@
 
 		.title {
 			color: var(--link-color);
+			transition: all 200ms;
+		}
+
+		.readMore .readMoreArrow {
+			transform: translateX(0.75rem);
+			opacity: 1;
+			transition: all 500ms;
 		}
 	}
 
@@ -145,10 +152,17 @@
 	}
 
 	.readMore {
+		display: flex;
+		align-items: center;
 		font-weight: bold;
 		font-family: var(--title-font-family);
 		letter-spacing: 0.5px;
 		margin-bottom: 0;
 		padding-bottom: 0;
+
+		.readMoreArrow {
+			margin-left: 0.5rem;
+			opacity: 0;
+		}
 	}
 }
