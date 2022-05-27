@@ -55,7 +55,7 @@ const Articles: React.FC<ArticlesInterface> = ({ year, company }) => {
 				<ArticleCard
 					title="iPod Socks – One of the weirdest Apple products"
 					link="/articles/ipod-socks-one-of-the-weirdest-apple-products/"
-					description="Apple's history is full of weird and interesting products. however some products are weirder than others. This is a breif history of the iPad Socks, a knitted sock made for the iPod."
+					description="Apple's history is full of weird and interesting products. however some products are weirder than others. This is a breif history of the iPod Socks, a knitted sock made for the iPod."
 				/>
 			);
 		}
