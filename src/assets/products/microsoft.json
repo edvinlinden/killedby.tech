@@ -533,15 +533,6 @@
 		"company": "microsoft"
 	},
 	{
-		"dateClose": "2021-03-09",
-		"dateOpen": "2015-04-29",
-		"description": "Microsoft Edge is a cross-platform web browser and it is the successor of Internet Explorer.",
-		"link": "https://en.wikipedia.org/wiki/Microsoft_Edge",
-		"name": "Microsoft Edge (EdgeHTML)",
-		"type": "app",
-		"company": "microsoft"
-	},
-	{
 		"dateClose": "2021-06-30",
 		"dateOpen": "2019-10-17",
 		"description": "Minecraft Earth was a Augmented Reality mobile game that allowed its players to collect blocks and build creations.",
@@ -694,6 +685,186 @@
 		"description": "Sunrise Calendar was a calendar application for web, mobile and desktop, featuring live aggregation of calendars from multiple sources.",
 		"link": "https://en.wikipedia.org/wiki/Sunrise_Calendar",
 		"name": "Sunrise Calendar",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2020-05-27",
+		"dateOpen": "2014-11-12",
+		"description": "EdgeHTML was a proprietary browser engine used in Microsoft Edge and in Universal Windows Platform (UWP) apps.",
+		"link": "https://en.wikipedia.org/wiki/EdgeHTML",
+		"name": "EdgeHTML",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2010-02-01",
+		"dateOpen": "2006-02-25",
+		"description": "Project Origami was an ultra-mobile PC featuring a physical keyboard, a touchpad and a touchscreen.",
+		"link": "https://en.wikipedia.org/wiki/Ultra-mobile_PC",
+		"name": "Project Origami",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2000-01-01",
+		"dateOpen": "1997-09-01",
+		"description": "ActiMates was a family of interactive stuffed toys which can interact with many episodes of their respective TV shows or on special ActiMates-compatible VHSes and special PC games.",
+		"link": "https://en.wikipedia.org/wiki/ActiMates",
+		"name": "ActiMates",
+		"type": "hardware",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2010-07-22",
+		"dateOpen": "1997-01-01",
+		"description": "Microsoft Amalga Hospital Information System (HIS), formerly Hospital 2000, was a fully integrated hospital information system designed for developing and emerging markets.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Amalga#Amalga_HIS",
+		"name": "Amalga",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2003-02-01",
+		"dateOpen": "2002-11-11",
+		"description": "Kakuto Chojin: Back Alley Brutal was a fighting game for the Xbox gaming console, retired after few months because its controversial content.",
+		"link": "https://en.wikipedia.org/wiki/Kakuto_Chojin:_Back_Alley_Brutal",
+		"name": "Kakuto Chojin",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-10-14",
+		"dateOpen": "2011-07-26",
+		"description": "Visual Studio LightSwitch was an extension and framework specifically tailored for creating line-of-business applications built on existing .NET technologies.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_LightSwitch",
+		"name": "Visual Studio LightSwitch",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2021-04-17",
+		"dateOpen": "2015-05-01",
+		"description": "Flight Arcade was a web-app clone of Flight Simulator game created as a showcase of Microsoft Edge support for modern HTML5 and JavaScript.",
+		"link": "https://www.windowscentral.com/microsoft-revisits-its-flight-simulator-series-web-based-flight-arcade-game",
+		"name": "Flight Arcade",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-03-24",
+		"dateOpen": "2016-03-23",
+		"description": "Tay was a chatbot that was shutdown after only 16 hours since it began to post inflammatory and offensive tweets through its Twitter account.",
+		"link": "https://en.wikipedia.org/wiki/Tay_(bot)",
+		"name": "Tay",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2019-03-01",
+		"dateOpen": "2016-12-06",
+		"description": "Zo was an English chatbot for the principal social networks and messaging apps, born from the experience gained from previous chatbots such as Tay and Xiaoice.",
+		"link": "https://en.wikipedia.org/wiki/Zo_(bot)",
+		"name": "Zo",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2007-05-18",
+		"dateOpen": "2002-07-01",
+		"description": "Visual J# was a programming language and development tooling which was meant to help Java developers move to the .NET ecosystem.",
+		"link": "https://en.wikipedia.org/wiki/Visual_J_Sharp",
+		"name": "Visual J#",
+		"type": "software",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2004-01-02",
+		"dateOpen": "1996-12-01",
+		"description": "Visual J++ was a Microsoft's implementation of Java which ran only on MSJVM, the proprietary JVM.",
+		"link": "https://en.wikipedia.org/wiki/Visual_J%2B%2B",
+		"name": "Visual J++",
+		"type": "software",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2016-08-02",
+		"dateOpen": "2006-11-30",
+		"description": "Microsoft SharePoint Designer (SPD), formerly known as Microsoft Office SharePoint Designer, was an HTML editor freeware for creating or modifying Microsoft SharePoint sites, workflows and web pages.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_SharePoint_Designer",
+		"name": "SharePoint Designer",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2006-10-16",
+		"dateOpen": "1999-01-01",
+		"description": "MSN Chat was the Microsoft Network version of IRCX (Internet Relay Chat extensions), which replaced Microsoft Chat.",
+		"link": "https://en.wikipedia.org/wiki/MSN_Chat",
+		"name": "MSN Chat",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2012-08-07",
+		"dateOpen": "1999-06-22",
+		"description": "Windows Live Messenger, previously named MSN Messenger, was a cross-platform instant-messaging client featuring games, photo albums and social network integrations.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Live_Messenger",
+		"name": "Windows Live Messenger",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2000-01-01",
+		"dateOpen": "1993-01-01",
+		"description": "DriveSpace (initially known as DoubleSpace) was an OS service to increase the amount of data the user could store on disks by transparently compressing and decompressing data on-the-fly.",
+		"link": "https://en.wikipedia.org/wiki/DriveSpace",
+		"name": "DriveSpace",
+		"type": "service",
+		"company": "software"
+	},
+	{
+		"dateClose": "2000-01-01",
+		"dateOpen": "1991-01-01",
+		"description": "QBasic was an integrated development environment and interpreter for a variety of dialects of BASIC which are based on QuickBASIC.",
+		"link": "https://en.wikipedia.org/wiki/QBasic",
+		"name": "QBasic",
+		"type": "software",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2014-07-01",
+		"dateOpen": "2007-05-29",
+		"description": "Games for Windows – Live (GFWL) was an online gaming service used by Games for Windows–branded PC titles that enables Windows PCs to connect to Microsoft's Live service.",
+		"link": "https://en.wikipedia.org/wiki/Games_for_Windows_%E2%80%93_Live",
+		"name": "Games for Windows – Live",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "1996-01-01",
+		"dateOpen": "1995-01-01",
+		"description": "3D Movie Maker (3DMM) was a children's computer program to make films by placing 3D characters and props into pre-rendered environments, as well as adding actions, sound effects, music, text, speech and special effects.",
+		"link": "https://en.wikipedia.org/wiki/3D_Movie_Maker",
+		"name": "3D Movie Maker",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2006-01-01",
+		"dateOpen": "1996-09-01",
+		"description": "Microsoft Picture It! was a photo editing application designed for casual users and initially inspired to the wizard user interface concepts of Microsoft Publisher.",
+		"link": "https://en.wikipedia.org/wiki/Microsoft_Picture_It!",
+		"name": "Microsoft PictureIt!",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2013-02-13",
+		"dateOpen": "2010-09-30",
+		"description": "Windows Live Mesh (formerly known as Windows Live FolderShare, Live Mesh, and Windows Live Sync) was a file synchronization application supporting both direct PC-to-PC and cloud-based synchronizazion and featuring Remote Desktop capability through the browser.",
+		"link": "https://en.wikipedia.org/wiki/Windows_Live_Mesh",
+		"name": "Windows Live Mesh",
 		"type": "app",
 		"company": "microsoft"
 	}

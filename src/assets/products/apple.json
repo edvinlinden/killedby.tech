@@ -430,5 +430,41 @@
 		"name": "iPod Touch (7th generation)",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2015-09-01",
+		"dateOpen": "2009-01-09",
+		"description": "Apple TV (1st generation) was a digital media player inteded to be used with your TV. With a capacity of either 40 or 160 GB it could store both video and audio synced from iTunes.",
+		"link": "https://en.wikipedia.org/wiki/Apple_TV",
+		"name": "Apple TV (1st generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2012-03-31",
+		"dateOpen": "2010-09-01",
+		"description": "Apple TV (2nd generation) was a digital media player featuring a custom verion of iOS, a smaller form factor than it's predecessor and supported an output of up to 720p with HDMI.",
+		"link": "https://appleinsider.com/articles/17/03/02/apple-declares-second-gen-apple-tv-obsolete-halts-most-hardware-support",
+		"name": "Apple TV (2st generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2021-05-21",
+		"dateOpen": "2017-09-22",
+		"description": "Apple TV 4K (1nd generation) was a digital media player that introduced support for 2160p output, HDR10, Dolby Vision and Dolby Atmos. All made available due to the faster Apple A10X Fusion processor.",
+		"link": "https://en.wikipedia.org/wiki/Apple_TV",
+		"name": "Apple TV 4K (1st generation)",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "2006-07-05",
+		"dateOpen": "2002-04-29",
+		"description": "eMac, short for education Mac, was an all-in-one Macintosh desktop computer featuring a white plastic case and a 17-inch CRT monitor. The eMac was powered by a Freescale PowerPC G4 processor anda Nvidia GeForce2 MX graphics card.",
+		"link": "https://en.wikipedia.org/wiki/EMac",
+		"name": "eMac",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]
