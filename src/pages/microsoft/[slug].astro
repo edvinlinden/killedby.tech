@@ -1,0 +1,50 @@
+---
+import Page from "@layouts/page.astro";
+import ResponsiveContainer from "@components/ResponsiveContainer/ResponsiveContainer";
+import ProductInformation from "@components/ProductInformation/ProductInformation";
+import ProductCard from "@components/ProductCard/ProductCard";
+import { products } from "@components/Products/products.utility.ts";
+import  toSlug from "@utils/toSlug";
+
+export async function getStaticPaths() {
+    let listOfProducts = products("microsoft");
+    listOfProducts = listOfProducts.map((product: any) => {
+        product.slug = toSlug(product.name);
+
+        return {params: {slug: product.slug}, props: {...product}};
+    });
+
+    return [listOfProducts];
+}
+
+let randomProducts = [];
+let listOfProducts = products("microsoft");
+randomProducts.push(listOfProducts[Math.floor(Math.random()*listOfProducts.length)]);
+randomProducts.push(listOfProducts[Math.floor(Math.random()*listOfProducts.length)]);
+
+const { slug } = Astro.params;
+const {name, description, dateOpen, dateClose, link, company, type} = Astro.props;
+---
+<Page>
+    <div style="display:flex; justify-content:space-between; align-items: center;">
+        <h1 style="margin-bottom:0px;">Killed by *</h1>
+        <a href="/">Back to the graveyard ↩</a>
+    </div>
+    <h2 class="ingress">A graveyard for discontinued products from Apple, Google and Microsoft</h2>
+    <h2 style="margin-top: 4rem;">{name}</h2>
+    <ResponsiveContainer>
+        <div style="min-width: 60%; padding-right: 3rem;">
+            <h3>Description</h3>
+            <p>{description}</p>
+        </div>
+        <div style="padding-top: 1em;">
+            <h3>Information</h3>
+            
+            <ProductInformation company={company} dateOpen={dateOpen} dateClose={dateClose} type={type} link={link} />
+        </div>
+    </ResponsiveContainer>
+    <ResponsiveContainer style={{"marginTop": "5rem"}}>
+        <ProductCard product={randomProducts[0]} />
+        <ProductCard product={randomProducts[1]} />
+    </ResponsiveContainer>
+</Page>

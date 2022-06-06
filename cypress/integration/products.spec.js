@@ -3,10 +3,11 @@ import googleProducts from "./../../src/assets/products/google.json";
 import microsoftProducts from "./../../src/assets/products/microsoft.json";
 import appleProducts from "./../../src/assets/products/apple.json";
 import otherProducts from "./../../src/assets/products/other.json";
+import toSlug from "./../../src/utils/toSlug.ts";
 
 describe("Products", () => {
 	it("should display correct count for each company", () => {
-		cy.visit("http://localhost:3000/");
+		cy.visit("http://localhost:3000/?ref=cypress");
 
 		const allSumText = `(${
 			[
@@ -56,49 +57,52 @@ describe("Products", () => {
 	});
 
 	it("should only display Apple products", () => {
-		cy.visit("http://localhost:3000/apple/");
+		cy.visit("http://localhost:3000/apple/?ref=cypress");
 		const productsCount = appleProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should only display Google products", () => {
-		cy.visit("http://localhost:3000/google/");
+		cy.visit("http://localhost:3000/google/?ref=cypress");
 		const productsCount = googleProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should only display Microsoft products", () => {
-		cy.visit("http://localhost:3000/microsoft/");
+		cy.visit("http://localhost:3000/microsoft/?ref=cypress");
 		const productsCount = microsoftProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should only display other products", () => {
-		cy.visit("http://localhost:3000/other/");
+		cy.visit("http://localhost:3000/other/?ref=cypress");
 		const productsCount = otherProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should display correct product information", () => {
-		cy.visit("http://localhost:3000/other/");
+		cy.visit("http://localhost:3000/other/?ref=cypress");
 
 		const firstProduct = [...otherProducts].sort(
 			(a, b) => new Date(b.dateClose) - new Date(a.dateClose)
 		)[0];
 
+		const category =
+			["apple", "google", "microsoft"].indexOf(firstProduct.company) == -1
+				? "other"
+				: firstProduct.company;
+
+		const firstProductLink = `/${category}/${toSlug(firstProduct.name)}/`;
+
 		cy.get("[data-cy=product]")
 			.eq(0)
 			.find("h2>a")
 			.should("have.text", firstProduct.name)
-			.should(
-				"have.attr",
-				"href",
-				firstProduct.link + "?ref=killedby.tech"
-			);
+			.should("have.attr", "href", firstProductLink);
 		cy.get("[data-cy=product]").eq(0).find("h2>img").should("exist");
 		cy.get("[data-cy=product]")
 			.eq(0)

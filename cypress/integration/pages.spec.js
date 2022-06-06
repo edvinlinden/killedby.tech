@@ -1,6 +1,6 @@
 describe("Pages", () => {
 	it("startpage should have the correct page title", () => {
-		cy.visit("http://localhost:3000/");
+		cy.visit("http://localhost:3000/?ref=cypress");
 		cy.title().should(
 			"eq",
 			"Killed by Apple, Google and Microsoft - Discontinued products and services"
@@ -8,7 +8,7 @@ describe("Pages", () => {
 	});
 
 	it("Apple page should have the correct page title", () => {
-		cy.visit("http://localhost:3000/apple/");
+		cy.visit("http://localhost:3000/apple/?ref=cypress");
 		cy.title().should(
 			"eq",
 			"Killed by Apple - Discontinued products and services"
@@ -16,7 +16,7 @@ describe("Pages", () => {
 	});
 
 	it("Google page should have the correct page title", () => {
-		cy.visit("http://localhost:3000/google/");
+		cy.visit("http://localhost:3000/google/?ref=cypress");
 		cy.title().should(
 			"eq",
 			"Killed by Google - Discontinued products and services"
@@ -24,7 +24,7 @@ describe("Pages", () => {
 	});
 
 	it("Microsoft page should have the correct page title", () => {
-		cy.visit("http://localhost:3000/microsoft/");
+		cy.visit("http://localhost:3000/microsoft/?ref=cypress");
 		cy.title().should(
 			"eq",
 			"Killed by Microsoft - Discontinued products and services"
@@ -32,7 +32,7 @@ describe("Pages", () => {
 	});
 
 	it("other page should have the correct page title", () => {
-		cy.visit("http://localhost:3000/other/");
+		cy.visit("http://localhost:3000/other/?ref=cypress");
 		cy.title().should(
 			"eq",
 			"Killed by other companies - Discontinued products and services"
