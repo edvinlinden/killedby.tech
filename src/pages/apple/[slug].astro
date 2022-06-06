@@ -24,8 +24,18 @@ randomProducts.push(listOfProducts[Math.floor(Math.random()*listOfProducts.lengt
 
 const { slug } = Astro.params;
 const {name, description, dateOpen, dateClose, link, company, type} = Astro.props;
+const category =
+			["apple", "google", "microsoft"].indexOf(company) == -1
+				? "other"
+				: company;
+
+const pageUrl = `/${category}/${toSlug(name)}/`;
 ---
-<Page>
+<Page
+    title={`${name} – Killed by Apple, Google and Microsoft`}
+    description={description}
+    url={pageUrl}
+>
     <div style="display:flex; justify-content:space-between; align-items: center;">
         <h1 style="margin-bottom:0px;">Killed by *</h1>
         <a href="/">Back to the graveyard ↩</a>
