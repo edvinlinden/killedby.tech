@@ -11,6 +11,7 @@
 	"author": "Edvin Lindén",
 	"license": "MIT",
 	"dependencies": {
+		"@astrojs/sitemap": "^0.1.0",
 		"@types/react": "^18.0.5",
 		"astro": "^1.0.0-beta.40"
 	},
