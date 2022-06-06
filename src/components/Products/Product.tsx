@@ -8,6 +8,7 @@ import {
 	MicrosoftLogo,
 	VineLogo,
 } from "./../Logos/Logos";
+import toSlug from "@utils/toSlug";
 
 interface LogoInterface {
 	company: string;
@@ -106,17 +107,16 @@ const Product: React.FC<ProductInterface> = ({ product }) => {
 		return sentences[Math.floor(Math.random() * sentences.length)];
 	};
 
+	const category =
+		["apple", "google", "microsoft"].indexOf(company) == -1
+			? "other"
+			: company;
+
 	return (
 		<div className={styles.product} data-cy="product">
 			<h2 className={styles.name}>
 				<Logo company={company} />
-				<a
-					href={`${link}?ref=killedby.tech`}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					{name}
-				</a>
+				<a href={`/${category}/${toSlug(name)}/`}>{name}</a>
 			</h2>
 			<div className={styles.metaData}>
 				<Tag title={`${dateOpen} – ${dateClose}`}>

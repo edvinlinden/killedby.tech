@@ -1,0 +1,30 @@
+.productInformation {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.informationRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	width: 300px;
+
+	margin-bottom: 1rem;
+
+	.informationRowTitle {
+		width: 40%;
+		font-weight: bold;
+	}
+
+	.informationRowValue {
+		width: 60%;
+		text-align: left;
+		text-transform: capitalize;
+
+		&.noFormat {
+			text-transform: none;
+		}
+	}
+}

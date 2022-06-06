@@ -3,8 +3,6 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-	buildOptions: {
-		site: "https://killedby.tech",
-	},
+	site: "https://killedby.tech",
 	integrations: [react()],
 });
