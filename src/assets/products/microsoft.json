@@ -275,11 +275,10 @@
 	{
 		"dateClose": "2018-02-16",
 		"dateOpen": "2011-12-07",
-		"description": "Microsoft Reader was an app to read PDF, XPS and TIFF files by Microsoft. It was killed in favour of Edge's implementation of PDF reading ability.",
+		"description": "Windows Reader was an app to read PDF, XPS and TIFF files by Microsoft. It was killed in favour of Edge's implementation of PDF reading ability.",
 		"link": "https://www.windowslatest.com/2017/11/21/microsoft-to-discontinue-its-pdf-reader-app-in-february-2018/",
-		"name": "Microsoft Reader",
+		"name": "Windows Reader",
 		"type": "app",
-		"slug": "microsoft-reader-2",
 		"company": "microsoft"
 	},
 	{
@@ -650,15 +649,6 @@
 		"link": "https://en.wikipedia.org/wiki/Microsoft_Response_Point",
 		"name": "Response Point",
 		"type": "software",
-		"company": "microsoft"
-	},
-	{
-		"dateClose": "2010-02-01",
-		"dateOpen": "2006-02-25",
-		"description": "Project Origami was the code name for ultra-mobile PCs (also known as ultra-mobile personal computers or UMPCs), a class of laptops whose specifications were defined in collaboration with Intel.",
-		"link": "https://en.wikipedia.org/wiki/Ultra-mobile_PC",
-		"name": "Project Origami",
-		"type": "hardware",
 		"company": "microsoft"
 	},
 	{
