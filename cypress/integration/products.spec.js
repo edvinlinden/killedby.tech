@@ -125,9 +125,6 @@ describe("Products", () => {
 			.find("[data-cy=product-tag]")
 			.eq(1)
 			.should("have.text", firstProduct.type);
-		cy.get("[data-cy=product]")
-			.eq(0)
-			.find("p")
-			.should("have.text", firstProduct.description);
+		cy.get("[data-cy=product]").eq(0).contains(firstProduct.description);
 	});
 });
