@@ -124,12 +124,10 @@ const Product: React.FC<ProductInterface> = ({ product }) => {
 				</Tag>
 				<Tag type={type} />
 			</div>
-			<p>
-				{isStillAlive
-					? `${randomToBeKilledSentence()} in ${timeUntilDead}, `
-					: null}
-				{description}
-			</p>
+			{isStillAlive
+				? `${randomToBeKilledSentence()} in ${timeUntilDead}, `
+				: null}
+			{description}
 		</div>
 	);
 };
