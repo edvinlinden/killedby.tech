@@ -857,5 +857,14 @@
 		"name": "Windows Live Mesh",
 		"type": "app",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2022-06-15",
+		"dateOpen": "1995-08-16",
+		"description": "Internet Explorer, also known as IE, was a series of web browsers developed by Microsoft. During it's peak it had a market share of 95%, mostly due to being the default browser for the Windows operating system. The last two decades have resulted in Google Chrome taking it's place as the most used browser, largely because of a better developer experience and the rise of Android.",
+		"link": "https://en.wikipedia.org/wiki/Internet_Explorer",
+		"name": "Internet Explorer",
+		"type": "software",
+		"company": "microsoft"
 	}
 ]

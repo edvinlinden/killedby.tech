@@ -1,5 +1,5 @@
 import React from "react";
-import { format } from "date-fns";
+import { format, formatDistanceStrict } from "date-fns";
 import styles from "./ProductInformation.module.scss";
 
 interface InformationRowInterface {
@@ -63,6 +63,11 @@ const ProductInformation: React.FC<ProductInformationInterface> = ({
 		? format(new Date(dateClose), "d MMMM, yyyy")
 		: null;
 
+	const lifespan =
+		dateOpen && dateClose
+			? formatDistanceStrict(new Date(dateOpen), new Date(dateClose))
+			: null;
+
 	return (
 		<div className={styles.productInformation}>
 			{company && <InformationRow title="Developer" value={company} />}
@@ -74,6 +79,9 @@ const ProductInformation: React.FC<ProductInformationInterface> = ({
 					title="Discontinued"
 					value={formattedDateClose}
 				/>
+			)}
+			{formattedDateClose && (
+				<InformationRow title="Lifespan" value={lifespan} />
 			)}
 			{type && <InformationRow title="Type" value={type} />}
 			{linkElement && (
