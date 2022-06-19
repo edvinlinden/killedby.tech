@@ -812,7 +812,7 @@
 	{
 		"dateClose": "2022-06-30",
 		"dateOpen": "2010-12-06",
-		"description": "Google Chrome Apps were hosted or packaged web applications that ran on the Google Chrome browser.",
+		"description": "Google Chrome Apps,or commonly just Chrome App, is a certain type of web application that ran on the Google Chrome browser. Chrome apps could be installed from the Chrome Web Store where you can find things like apps, extensions, and themes.",
 		"link": "https://en.wikipedia.org/wiki/Google_Chrome_App",
 		"name": "Google Chrome Apps",
 		"type": "service",
