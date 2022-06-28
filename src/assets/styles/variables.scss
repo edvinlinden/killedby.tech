@@ -1,13 +1,13 @@
 :root {
 	--black: #101010;
 	--grey: #404040;
-	--silver: #b0b0b0;
+	--silver: #bababa;
 	--almost-white: #eaeaea;
 	--white: #fefefe;
 	--light-blue: #277cdd;
 	--blue: #1a6ece;
 	--dark-blue: #003f87;
-	--red: #eb0f34;
+	--red: #d60e30;
 	--light-red: #f43f5e;
 	--orange: #984d10;
 	--light-orange: #fb923c;
@@ -24,7 +24,8 @@
 	--overlay-background-color: var(--almost-white);
 	--overlay-font-color: var(--font-color);
 
-	--title-font-family: "Commissioner", "Helvetica", "Arial", "sans-serif";
+	--title-font-family: "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
+	--font-family: "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
 }
 
 @media (prefers-color-scheme: dark) {

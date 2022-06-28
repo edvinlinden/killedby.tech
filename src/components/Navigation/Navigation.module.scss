@@ -16,15 +16,20 @@
 		font-family: var(--title-font-family);
 		color: var(--title-color);
 
+		a {
+			line-height: 1.6rem;
+		}
+
 		&:last-child {
 			margin-right: 0;
 		}
 
 		.sum {
-			font-family: "Helvetica", "Arial", "sans-serif";
+			font-family: var(--font-family);
 			font-weight: 400;
 			color: var(--font-color);
 			margin-left: 0.25rem;
+			line-height: 1.6rem;
 		}
 	}
 }

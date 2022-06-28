@@ -1,7 +1,7 @@
 ---
   import '@assets/styles/global.scss';
   import Footer from '@components/Footer/Footer';
-  import AboutButton from '@components/AboutButton/AboutButton';
+  import OverlayButtons from '@components/OverlayButtons/OverlayButtons';
   const { title, description, url } = Astro.props;
   const openGraphImage = "https://killedby.tech/images/og.png";
   const disableTracking = import.meta.env.DEV;
@@ -30,7 +30,7 @@
       <slot />
     </main>
     <Footer />
-    <AboutButton />
+    <OverlayButtons />
     {disableTracking ? null : <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>}
   </body>
 </html>
