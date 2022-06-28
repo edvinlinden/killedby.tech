@@ -1,15 +1,60 @@
 @import "./../../assets/styles/variables.scss";
 
 .productList {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 100%;
+	width: calc(100% - 5rem);
+
+	margin-left: 1.75rem;
+	padding-left: 3rem;
+
+	border-left: 1px solid var(--overlay-background-color);
+
+	scroll-margin-top: 6rem;
+
+	@media (prefers-color-scheme: light) {
+		border-left: 1px solid var(--silver);
+	}
+
+	&::before {
+		content: " ";
+		width: 9px;
+		height: 9px;
+		display: block;
+		background-color: var(--overlay-background-color);
+		border-radius: 100%;
+
+		position: absolute;
+		left: -5px;
+		top: 0;
+
+		@media (prefers-color-scheme: light) {
+			background-color: var(--silver);
+		}
+	}
+
+	&::after {
+		content: " ";
+		width: 9px;
+		height: 9px;
+		display: block;
+		background-color: var(--overlay-background-color);
+		border-radius: 100%;
+
+		position: absolute;
+		left: -5px;
+		bottom: 0;
+
+		@media (prefers-color-scheme: light) {
+			background-color: var(--silver);
+		}
+	}
 }
 
 .productListTitle {
 	display: block;
-	padding-top: 4rem;
 	font-family: var(--title-font-family);
 	font-weight: bold;
 	font-size: 1.5rem;
@@ -18,6 +63,15 @@
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
 	color: var(--title-color);
+
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	background-color: var(--background-color);
+	padding: 1rem 0;
+	margin-top: 3rem;
+	width: 60px;
+	z-index: 1;
 }
 
 .product {
@@ -61,7 +115,7 @@
 	text-align: center;
 	font-weight: bold;
 	font-size: 0.85rem;
-	line-height: 1.16rem;
+	line-height: 1.05rem;
 	letter-spacing: 0.5px;
 
 	height: 1rem;
@@ -137,15 +191,18 @@
 	padding: 1.5rem;
 	margin-top: 3rem;
 	margin-bottom: 5rem;
-	margin-left: 3rem;
+	margin-left: 4rem;
 	background-color: var(--overlay-background-color);
-	width: calc(100% - 6rem);
+	width: calc(100% - 8rem);
 	color: var(--overlay-font-color);
 	box-sizing: border-box;
 
 	transition-duration: 0.15s;
 	transition-property: all;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	position: relative;
+	z-index: 3;
 
 	@media (max-width: $breakpoint-tablet) {
 		width: 100%;

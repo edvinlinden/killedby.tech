@@ -84,10 +84,8 @@ interface YearInterface {
 const Year: React.FC<YearInterface> = ({ year, productList }) => {
 	return (
 		<>
-			<div id={year} className={styles.productListTitle}>
-				{year}
-			</div>
-			<div className={styles.productList}>
+			<div className={styles.productListTitle}>{year}</div>
+			<div id={year} className={styles.productList}>
 				{productList.map((product) =>
 					product.dateClose.startsWith(year) ? (
 						<Product product={product} key={product} />
