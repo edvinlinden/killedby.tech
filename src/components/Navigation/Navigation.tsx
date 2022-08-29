@@ -19,39 +19,70 @@ const Navigation = () => {
 	return (
 		<div className={styles.navigation}>
 			<div className={styles.link} data-cy="navigation-link">
-				<a href="/">
+				<a href="/" title="Discontinued products from all companies">
 					<AllLogo />
 					All
 				</a>
-				<div className={styles.sum}>({sumOfAllProducts})</div>
+				<div
+					className={styles.sum}
+					title={`${sumOfAllProducts} discontinued products`}
+				>
+					({sumOfAllProducts})
+				</div>
 			</div>
 			<div className={styles.link} data-cy="navigation-link">
-				<a href="/apple/">
+				<a href="/apple/" title="Discontinued products from Apple">
 					<AppleLogo />
 					Apple
 				</a>
-				<div className={styles.sum}>({sumOfAppleProducts})</div>
+				<div
+					className={styles.sum}
+					title={`${sumOfAppleProducts} discontinued Apple products`}
+				>
+					({sumOfAppleProducts})
+				</div>
 			</div>
 			<div className={styles.link} data-cy="navigation-link">
-				<a href="/google/">
+				<a href="/google/" title="Discontinued products from Google">
 					<GoogleLogo />
 					Google
 				</a>
-				<div className={styles.sum}>({sumOfGoogleProducts})</div>
+				<div
+					className={styles.sum}
+					title={`${sumOfGoogleProducts} discontinued Google products`}
+				>
+					({sumOfGoogleProducts})
+				</div>
 			</div>
 			<div className={styles.link} data-cy="navigation-link">
-				<a href="/microsoft/">
+				<a
+					href="/microsoft/"
+					title="Discontinued products from Microsoft"
+				>
 					<MicrosoftLogo />
 					Microsoft
 				</a>
-				<div className={styles.sum}>({sumOfMicrosoftProducts})</div>
+				<div
+					className={styles.sum}
+					title={`${sumOfMicrosoftProducts} discontinued Microsoft products`}
+				>
+					({sumOfMicrosoftProducts})
+				</div>
 			</div>
 			<div className={styles.link} data-cy="navigation-link">
-				<a href="/other/">
+				<a
+					href="/other/"
+					title="Discontinued products from other companies"
+				>
 					<GhostLogo />
 					Other
 				</a>
-				<div className={styles.sum}>({sumOfOtherProducts})</div>
+				<div
+					className={styles.sum}
+					title={`${sumOfOtherProducts} discontinued products from other companies`}
+				>
+					({sumOfOtherProducts})
+				</div>
 			</div>
 		</div>
 	);
