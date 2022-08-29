@@ -103,23 +103,23 @@ const Year: React.FC<YearInterface> = ({ year, productList }) => {
 	);
 };
 
-interface ProductsInterface {
-	company: string;
-}
+// interface ProductsInterface {
+// 	company: string;
+// }
 
-const Products: React.FC<ProductsInterface> = ({ company }) => {
-	let productList = products(company);
+// const Products: React.FC<ProductsInterface> = ({ company }) => {
+// 	let productList = products(company);
 
-	return (
-		<>
-			{yearsWithProducts(productList).map((year) => (
-				<>
-					<Year year={year} productList={productList} key={year} />
-					<Articles year={year} company={company} />
-				</>
-			))}
-		</>
-	);
-};
+// 	return (
+// 		<>
+// 			{yearsWithProducts(productList).map((year) => (
+// 				<>
+// 					<Year year={year} productList={productList} key={year} />
+// 					<Articles year={year} company={company} />
+// 				</>
+// 			))}
+// 		</>
+// 	);
+// };
 
-export default Products;
+export { Year, Articles };
