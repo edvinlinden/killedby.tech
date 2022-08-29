@@ -43,11 +43,24 @@
 	font-weight: normal;
 	text-align: center;
 
+	animation: fadeIn ease 500ms;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
 	&:hover {
 		color: var(--title-color);
 	}
 
-	@media (max-width: $breakpoint-tablet) {
+	@media (max-width: 1199px) {
 		display: flex;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }

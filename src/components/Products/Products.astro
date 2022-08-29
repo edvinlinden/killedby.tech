@@ -1,0 +1,22 @@
+---
+// Example: Use a dynamic React component on the page.
+import { Year, Articles } from "@components/Products/Year";
+import { products, yearsWithProducts } from "./products.utility";
+
+const { company } = Astro.props;
+const productList = products(company);
+---
+
+{
+	yearsWithProducts(productList).map((year) => (
+		<>
+			<Year
+				year={year}
+				productList={productList}
+				key={year}
+				client:visible
+			/>
+			<Articles year={year} company={company} client:visible />
+		</>
+	))
+}
