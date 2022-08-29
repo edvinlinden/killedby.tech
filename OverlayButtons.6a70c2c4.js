@@ -1,0 +1,8 @@
+import{r as i}from"./chunks/index.7db4cd94.js";import{s as u}from"./chunks/OverlayButtons.module.d204aec1.js";function _(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,"default")?t.default:t}const y=()=>{const[t,o]=i.exports.useState(0);return i.exports.useEffect(()=>{const r=()=>{o(window.pageYOffset)};return window.addEventListener("scroll",r),r(),()=>window.removeEventListener("scroll",r)},[]),t};var f={exports:{}},s={};/** @license React v17.0.2
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var v=i.exports,d=60103;s.Fragment=60107;if(typeof Symbol=="function"&&Symbol.for){var p=Symbol.for;d=p("react.element"),s.Fragment=p("react.fragment")}var h=v.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,w=Object.prototype.hasOwnProperty,O={key:!0,ref:!0,__self:!0,__source:!0};function m(t,o,r){var e,n={},l=null,c=null;r!==void 0&&(l=""+r),o.key!==void 0&&(l=""+o.key),o.ref!==void 0&&(c=o.ref);for(e in o)w.call(o,e)&&!O.hasOwnProperty(e)&&(n[e]=o[e]);if(t&&t.defaultProps)for(e in o=t.defaultProps,o)n[e]===void 0&&(n[e]=o[e]);return{$$typeof:d,type:t,key:l,ref:c,props:n,_owner:h.current}}s.jsx=m;s.jsxs=m;(function(t){t.exports=s})(f);const x=_(f.exports),{jsx:a,jsxs:P,Fragment:j}=x,b=()=>{const o=y()>400;return P(j,{children:[o&&a("a",{className:u.toTheTop,href:"#top",title:"To the top",children:"To the top"}),a("a",{className:u.aboutButton,href:"#about",title:"About this project",children:"?"})]})};export{b as default};
