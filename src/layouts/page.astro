@@ -2,6 +2,7 @@
 import "@assets/styles/global.scss";
 import Footer from "@components/Footer/Footer";
 import OverlayButtons from "@components/OverlayButtons/OverlayButtons";
+import ShareCard from "@components/ShareCard/ShareCard";
 const { title, description, url } = Astro.props;
 const openGraphImage = "https://killedby.tech/images/og.png";
 const disableTracking = import.meta.env.DEV;
@@ -32,6 +33,7 @@ const disableTracking = import.meta.env.DEV;
 		</main>
 		<Footer />
 		<OverlayButtons client:idle />
+		<ShareCard client:idle />
 		{
 			disableTracking ? null : (
 				<script
