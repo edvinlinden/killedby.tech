@@ -1,5 +1,6 @@
 :root {
 	--black: #101010;
+	--dark-grey: #252525;
 	--grey: #404040;
 	--silver: #bababa;
 	--almost-white: #eaeaea;
@@ -22,6 +23,7 @@
 	--link-color: var(--blue);
 	--title-color: var(--black);
 	--overlay-background-color: var(--almost-white);
+	--overlay-dark-background-color: var(--silver);
 	--overlay-font-color: var(--font-color);
 
 	--title-font-family: "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
@@ -35,6 +37,7 @@
 		--link-color: var(--light-blue);
 		--title-color: var(--white);
 		--overlay-background-color: var(--grey);
+		--overlay-dark-background-color: var(--dark-grey);
 		--overlay-font-color: var(--almost-white);
 	}
 }
