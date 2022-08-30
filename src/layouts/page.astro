@@ -41,6 +41,70 @@ const disableTracking = import.meta.env.DEV;
 					data-site="SNZPDDNM"
 					defer
 				/>
+				<script type="text/javascript" defer>
+					let scrollPercentagesReached = [0];
+					const updatePosition = () => {
+						const scrollPercentage = Math.floor(
+							(window.pageYOffset / (document.body.offsetHeight - window.innerHeight)) * 100
+						);
+
+						const firstScrollToFivePercent =
+							scrollPercentage > 5 &&
+							scrollPercentagesReached.indexOf(5) === -1;
+
+						const firstScrollToTenPercent =
+							scrollPercentage > 10 &&
+							scrollPercentagesReached.indexOf(10) === -1;
+
+						const firstScrollToTwentyFivePercent =
+							scrollPercentage > 25 &&
+							scrollPercentagesReached.indexOf(25) === -1;
+
+						const firstScrollToFiftyPercent =
+							scrollPercentage > 50 &&
+							scrollPercentagesReached.indexOf(50) === -1;
+
+						const firstScrollToSeventyFivePercent =
+							scrollPercentage > 75 &&
+							scrollPercentagesReached.indexOf(75) === -1;
+
+						const firstScrollToHundredPercent =
+							scrollPercentage > 100 &&
+							scrollPercentagesReached.indexOf(100) === -1;
+
+						if (firstScrollToFivePercent) {
+							scrollPercentagesReached = [...scrollPercentagesReached, 5];
+							window.fathom.trackGoal('2AATBZ6B', 0);
+						}
+
+						if (firstScrollToTenPercent) {
+							scrollPercentagesReached = [...scrollPercentagesReached, 10];
+							window.fathom.trackGoal('S98TZAOP', 0);
+						}
+
+						if (firstScrollToTwentyFivePercent) {
+							scrollPercentagesReached = [...scrollPercentagesReached, 25];
+							window.fathom.trackGoal('G6VVPETM', 0);
+						}
+
+						if (firstScrollToFiftyPercent) {
+							scrollPercentagesReached = [...scrollPercentagesReached, 50];
+							window.fathom.trackGoal('HLOUPRQG', 0);
+						}
+
+						if (firstScrollToSeventyFivePercent) {
+							scrollPercentagesReached = [...scrollPercentagesReached, 75];
+							window.fathom.trackGoal('UBP92KPZ', 0);
+						}
+
+						if (firstScrollToHundredPercent) {
+							scrollPercentagesReached = [...scrollPercentagesReached, 100];
+							window.fathom.trackGoal('QRRO06XP', 0);
+						}
+					};
+				
+					window.addEventListener("scroll", updatePosition);
+				</script>	
 			)
 		}
 	</body>
