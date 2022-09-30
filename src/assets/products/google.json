@@ -2464,5 +2464,14 @@
 		"description": "Google Assistant Snapshot was the successor to Google Now that provided predictive cards with information and daily updates in the Google app for Android and iOS.",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Google Stadia",
+		"dateOpen": "2019-11-19",
+		"dateClose": "2023-01-18",
+		"link": "https://en.wikipedia.org/wiki/Google_Stadia",
+		"description": "Google Stadia was a cloud gaming service accessible through Chromecast Ultra, Android TV devices and on personal computers via the Google Chrome web browser. It featured up to 4K resolution at 60 frames per second with support for high-dynamic-range (HDR).",
+		"type": "service",
+		"company": "google"
 	}
 ]
