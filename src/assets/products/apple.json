@@ -466,5 +466,14 @@
 		"name": "eMac",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2022-09-07",
+		"dateOpen": "2017-09-22",
+		"description": "Apple Watch Series 3 was a smartwatch with a dual-core S3 processor and was the first Apple Watch to come with cellular connectivity using an eSIM.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Watch",
+		"name": "Apple Watch Series 3",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]
