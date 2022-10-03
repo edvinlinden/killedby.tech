@@ -6,7 +6,8 @@
 		"dev": "astro dev --host",
 		"build": "astro build",
 		"preview": "astro preview",
-		"test": "cypress run"
+		"test": "cypress run",
+		"test:open": "cypress open"
 	},
 	"author": "Edvin Lindén",
 	"license": "MIT",
