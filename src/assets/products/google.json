@@ -2473,5 +2473,14 @@
 		"description": "Google Stadia was a cloud gaming service accessible through Chromecast Ultra, Android TV devices and on personal computers via the Google Chrome web browser. It featured up to 4K resolution at 60 frames per second with support for high-dynamic-range (HDR).",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Android Auto for Phone Screens",
+		"dateOpen": "2019-07-01",
+		"dateClose": "2022-06-21",
+		"link": "https://en.wikipedia.org/wiki/Android_Auto",
+		"description": "Android Auto for Phone Screens was an app that made it possible to use an Android phone as an interface for Android Auto while driving. It was intended for vehicles that didn't feature a compatible screen.",
+		"type": "app",
+		"company": "google"
 	}
 ]
