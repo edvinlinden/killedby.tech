@@ -8,6 +8,9 @@ env:
 
 name: Build & deploy to GitHub Pages
 
+runs:
+    using: "node16"
+
 on:
     # Triggers the workflow on push and pull request events but only for the main branch
     push:
