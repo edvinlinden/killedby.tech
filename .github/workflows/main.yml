@@ -8,9 +8,6 @@ env:
 
 name: Build & deploy to GitHub Pages
 
-runs:
-    using: "node16"
-
 on:
     # Triggers the workflow on push and pull request events but only for the main branch
     push:
@@ -28,6 +25,12 @@ jobs:
         steps:
             # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
             - uses: actions/checkout@v2
+            
+            - name: Use Node.js 16
+              uses: actions/setup-node@v2
+              with:
+                node-version: '16'
+                cache: 'npm'
 
             # Install dependencies with npm
             - name: Install dependencies
