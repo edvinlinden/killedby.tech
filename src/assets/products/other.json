@@ -160,5 +160,14 @@
 		"description": "Nintendo 3DS was a handheld game console released by Nintendo and featured the ability to display stereoscopic 3D effects without the use of 3D glasses or additional accessories.",
 		"type": "hardware",
 		"company": "nintendo"
+	},
+	{
+		"name": "Steam Controller",
+		"dateOpen": "2015-11-10",
+		"dateClose": "2019-11-26",
+		"link": "https://en.wikipedia.org/wiki/Steam_Controller",
+		"description": "Steam Controller was a game controller developed by Valve, it featured two clickable trackpads with haptic feedback (as opposed to the more typical thumbsticks), and fourteen buttons, including face, shoulder, and undergrip buttons.",
+		"type": "hardware",
+		"company": "valve"
 	}
 ]
