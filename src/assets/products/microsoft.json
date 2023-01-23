@@ -866,14 +866,5 @@
 		"name": "Internet Explorer",
 		"type": "software",
 		"company": "microsoft"
-	},
-	{
-		"dateClose": "2022-10-05",
-		"dateOpen": "2010-06-14",
-		"description": "Microsoft SwiftKey was a virtual keyboard app originally developed by TouchType for Android and iOS devices. SwiftKey learned from previously typed text and then output predictions based on currently inputted text and what it has learned.",
-		"link": "https://en.wikipedia.org/wiki/Microsoft_SwiftKey",
-		"name": "Microsoft SwiftKey",
-		"type": "software",
-		"company": "microsoft"
 	}
 ]
