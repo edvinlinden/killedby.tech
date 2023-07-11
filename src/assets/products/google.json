@@ -2482,5 +2482,14 @@
 		"description": "Android Auto for Phone Screens was an app that made it possible to use an Android phone as an interface for Android Auto while driving. It was intended for vehicles that didn't feature a compatible screen.",
 		"type": "app",
 		"company": "google"
+	},
+	{
+		"name": "Google Domains",
+		"dateOpen": "2014-06-13",
+		"dateClose": "2023-09-30",
+		"link": "https://en.wikipedia.org/wiki/Google_Domains",
+		"description": "Google Domains was a domain name registrar operated by Google. It provided native integration support for Google Cloud DNS and Google Workspace. It also offered one-click DNS configuration that connects the domains with servies like Squarespace, Shopify and Firebase.",
+		"type": "service",
+		"company": "google"
 	}
 ]
