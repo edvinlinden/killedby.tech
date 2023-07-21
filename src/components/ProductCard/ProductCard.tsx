@@ -40,7 +40,7 @@ const ProductCard: React.FC<ProductCardInterface> = ({ product }) => {
 					src="/images/arrow-right-long-solid.svg"
 					width={24}
 					height={24}
-					alt=""
+					alt="Icon of arrow pointing to the right"
 					className={styles.readMoreArrow}
 				/>
 			</div>
@@ -71,7 +71,7 @@ const ArticleCard: React.FC<ArticleCardInterface> = ({
 					src="/images/arrow-right-long-solid.svg"
 					width={24}
 					height={24}
-					alt=""
+					alt="Icon of arrow pointing to the right"
 					className={styles.readMoreArrow}
 				/>
 			</div>
