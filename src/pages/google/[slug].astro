@@ -35,11 +35,7 @@ const category =
 const pageUrl = `https://killedby.tech/${category}/${toSlug(name)}/`;
 ---
 
-<Page
-	title={`${name} – Killed by Apple, Google and Microsoft`}
-	description={description}
-	url={pageUrl}
->
+<Page title={name} description={description} url={pageUrl}>
 	<div
 		style="display:flex; justify-content:space-between; align-items: center;"
 	>
