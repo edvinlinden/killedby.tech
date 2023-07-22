@@ -22,7 +22,10 @@ describe("Single product page", () => {
 
 	it("should have the correct page title", () => {
 		cy.visit("http://localhost:3000/google/google-stadia/?ref=cypress");
-		cy.title().should("eq", "Google Stadia");
+		cy.title().should(
+			"eq",
+			"Google Stadia was a product killed by Google in 2023"
+		);
 
 		cy.get("[data-cy=product-information]").contains(stadia.name);
 		cy.get("[data-cy=product-information]").contains(stadia.description);
