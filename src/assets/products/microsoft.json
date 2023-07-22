@@ -810,8 +810,8 @@
 		"description": "DriveSpace (initially known as DoubleSpace) was an OS service to increase the amount of data the user could store on disks by transparently compressing and decompressing data on-the-fly.",
 		"link": "https://en.wikipedia.org/wiki/DriveSpace",
 		"name": "DriveSpace",
-		"type": "service",
-		"company": "software"
+		"type": "software",
+		"company": "microsoft"
 	},
 	{
 		"dateClose": "2000-01-01",
