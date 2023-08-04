@@ -866,5 +866,14 @@
 		"name": "Internet Explorer",
 		"type": "software",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2023-12-31",
+		"dateOpen": "2014-04-14",
+		"description": "Cortana was a virtual assistant developed by Microsoft, that uses the Bing search engine to perform tasks such as setting reminders and answering questions for the user.",
+		"link": "https://en.wikipedia.org/wiki/Cortana_(virtual_assistant)",
+		"name": "Cortana",
+		"type": "software",
+		"company": "microsoft"
 	}
 ]
