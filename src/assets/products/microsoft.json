@@ -875,5 +875,14 @@
 		"name": "Cortana",
 		"type": "software",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2022-12-15",
+		"dateOpen": "2014-02-26",
+		"description": "Atom was a free, open-source and cross-platform text editor developed by GitHub. It featured support support for plug-ins written in JavaScript and embedded Git Control.",
+		"link": "https://en.wikipedia.org/wiki/Atom_(text_editor)",
+		"name": "Atom",
+		"type": "software",
+		"company": "microsoft"
 	}
 ]
