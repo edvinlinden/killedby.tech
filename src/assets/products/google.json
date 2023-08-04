@@ -2491,5 +2491,41 @@
 		"description": "Google Domains was a domain name registrar operated by Google. It provided native integration support for Google Cloud DNS and Google Workspace. It also offered one-click DNS configuration that connects the domains with servies like Squarespace, Shopify and Firebase.",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Google Optimize",
+		"dateOpen": "2014-06-13",
+		"dateClose": "2023-09-30",
+		"link": "https://en.wikipedia.org/wiki/Google_Optimize",
+		"description": "Google Optimize, formerly Google Website Optimizer, was a freemium web analytics and testing tool by Google. It allows running some experiments that are aimed to help online marketers and webmasters to increase visitor conversion rates and overall visitor satisfaction.",
+		"type": "service",
+		"company": "google"
+	},
+	{
+		"name": "YouTube Stories",
+		"dateOpen": "2018-11-29",
+		"dateClose": "2023-06-26",
+		"link": "https://en.wikipedia.org/wiki/YouTube#YouTube_Stories",
+		"description": "YouTube Stories was a feature in resemblance to Snapchat and Instagram Stories, where videos are automatically deleted after a day.",
+		"type": "service",
+		"company": "google"
+	},
+	{
+		"name": "Google Surveys",
+		"dateOpen": "2012-03-29",
+		"dateClose": "2022-11-01",
+		"link": "https://en.wikipedia.org/wiki/Google_Surveys",
+		"description": "Google Surveys was a business product by Google aimed at facilitating customized market research. It was designed as an alternative to internet pay walls for websites that publish content.",
+		"type": "service",
+		"company": "google"
+	},
+	{
+		"name": "Grasshopper",
+		"dateOpen": "2017-06-20",
+		"dateClose": "2023-06-15",
+		"link": "https://en.wikipedia.org/wiki/Google_Surveys",
+		"description": "Grasshopper was an app developed by Google that taught users to code with JavaScript. Available for IOS and Android operating systems, the program had aimed to teach with small bite-size coding lessons.",
+		"type": "service",
+		"company": "google"
 	}
 ]
