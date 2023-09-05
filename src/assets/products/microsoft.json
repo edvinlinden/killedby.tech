@@ -884,5 +884,14 @@
 		"name": "Atom",
 		"type": "software",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2023-12-31",
+		"dateOpen": "1995-01-01",
+		"description": "WordPad was a word processor software included with Windows 95 and later, until Windows 11. It was a basic word processor, positioned as more advanced than the Notepad text editor by supporting rich text editing, but with a subset of the functionality of Microsoft Word.",
+		"link": "https://en.wikipedia.org/wiki/WordPad",
+		"name": "WordPad",
+		"type": "software",
+		"company": "microsoft"
 	}
 ]
