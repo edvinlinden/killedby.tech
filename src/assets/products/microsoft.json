@@ -893,5 +893,14 @@
 		"name": "WordPad",
 		"type": "software",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2023-09-10",
+		"dateOpen": "2020-09-10",
+		"description": "Surface Duo was a dual-touchscreen Android smartphone, part of the Microsoft Surface series of touchscreen hardware devices. It was Microsoft's first smartphone since the dissolution of Microsoft Mobile and the Windows Phone platform.",
+		"link": "https://en.wikipedia.org/wiki/Surface_Duo",
+		"name": "Surface Duo",
+		"type": "hardware",
+		"company": "microsoft"
 	}
 ]
