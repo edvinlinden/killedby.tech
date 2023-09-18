@@ -475,5 +475,14 @@
 		"name": "Apple Watch Series 3",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2023-09-12",
+		"dateOpen": "2020-12-02",
+		"description": "MagSafe Duo Charger was a foldable charging mat with a MagSafe charger on one side and an Apple Watch charger on the other. The Apple Watch charger disc can be raised to a 90 degree angle to charge a watch with a closed wristband.",
+		"link": "https://en.wikipedia.org/wiki/MagSafe_(wireless_charger)",
+		"name": "MagSafe Duo",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]
