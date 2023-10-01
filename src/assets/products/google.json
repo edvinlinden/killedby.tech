@@ -2527,5 +2527,14 @@
 		"description": "Grasshopper was an app developed by Google that taught users to code with JavaScript. Available for IOS and Android operating systems, the program had aimed to teach with small bite-size coding lessons.",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Jamboard",
+		"dateOpen": "2017-05-23",
+		"dateClose": "2024-09-30",
+		"link": "https://en.wikipedia.org/wiki/Jamboard",
+		"description": "Jamboard was a digital interactive whiteboard featuring a 55 inch 4K touchscreen display. It could be used for online collaboration using Google Workspace.",
+		"type": "service",
+		"company": "google"
 	}
 ]
