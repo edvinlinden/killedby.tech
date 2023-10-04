@@ -21,7 +21,7 @@ describe("Single product page", () => {
 			: null;
 
 	it("should have the correct page title", () => {
-		cy.visit("http://localhost:3000/google/google-stadia/?ref=cypress");
+		cy.visit("http://localhost:4321/google/google-stadia/?ref=cypress");
 		cy.title().should(
 			"eq",
 			"Google Stadia was a product killed by Google in 2023"

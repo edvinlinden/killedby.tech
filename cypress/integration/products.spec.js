@@ -7,7 +7,7 @@ import toSlug from "./../../src/utils/toSlug.ts";
 
 describe("Products", () => {
 	it("should display correct count for each company", () => {
-		cy.visit("http://localhost:3000/?ref=cypress");
+		cy.visit("http://localhost:4321/?ref=cypress");
 
 		const allSumText = `(${
 			[
@@ -57,35 +57,35 @@ describe("Products", () => {
 	});
 
 	it("should only display Apple products", () => {
-		cy.visit("http://localhost:3000/apple/?ref=cypress");
+		cy.visit("http://localhost:4321/apple/?ref=cypress");
 		const productsCount = appleProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should only display Google products", () => {
-		cy.visit("http://localhost:3000/google/?ref=cypress");
+		cy.visit("http://localhost:4321/google/?ref=cypress");
 		const productsCount = googleProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should only display Microsoft products", () => {
-		cy.visit("http://localhost:3000/microsoft/?ref=cypress");
+		cy.visit("http://localhost:4321/microsoft/?ref=cypress");
 		const productsCount = microsoftProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should only display other products", () => {
-		cy.visit("http://localhost:3000/other/?ref=cypress");
+		cy.visit("http://localhost:4321/other/?ref=cypress");
 		const productsCount = otherProducts.length;
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
 
 	it("should display correct product information", () => {
-		cy.visit("http://localhost:3000/other/?ref=cypress");
+		cy.visit("http://localhost:4321/other/?ref=cypress");
 
 		const firstProduct = [...otherProducts].sort(
 			(a, b) => new Date(b.dateClose) - new Date(a.dateClose)
