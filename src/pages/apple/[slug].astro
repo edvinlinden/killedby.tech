@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 		return { params: { slug: product.slug }, props: { ...product } };
 	});
 
-	return [listOfProducts];
+	return [...listOfProducts];
 }
 
 let randomProducts = [];
