@@ -6,5 +6,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
 	site: "https://killedby.tech",
 	integrations: [react(), sitemap()],
-	trailingSlash: "always",
+	trailingSlash: "ignore",
 });
