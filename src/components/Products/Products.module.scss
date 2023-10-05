@@ -111,8 +111,8 @@
 	display: inline-flex;
 	margin-right: 0.5rem;
 
-	color: var(--font-color);
-	background-color: var(--overlay-background-color);
+	color: var(--neutral-700);
+	background-color: var(--neutral-100);
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
@@ -125,62 +125,68 @@
 	padding: 0.15rem 0.5rem;
 	border-width: 1px;
 	border-style: solid;
-	border-color: var(--overlay-background-color);
+	border-color: var(--neutral-100);
 	border-radius: 30px;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: var(--neutral-800);
+		border-color: var(--neutral-800);
+		color: var(--neutral-400);
+	}
 
 	&.hardware {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
-		background-color: var(--green);
-		border-color: var(--green);
-		color: var(--white);
+		background-color: var(--green-100);
+		border-color: var(--green-100);
+		color: var(--green-700);
 
 		@media (prefers-color-scheme: dark) {
-			background-color: transparent;
-			border-color: var(--light-green);
-			color: var(--light-green);
+			background-color: var(--green-950);
+			border-color: var(--green-950);
+			color: var(--green-400);
 		}
 	}
 
 	&.software {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
-		background-color: var(--purple);
-		border-color: var(--purple);
-		color: var(--white);
+		background-color: var(--purple-100);
+		border-color: var(--purple-100);
+		color: var(--purple-700);
 
 		@media (prefers-color-scheme: dark) {
-			background-color: transparent;
-			border-color: var(--light-purple);
-			color: var(--light-purple);
+			background-color: var(--purple-950);
+			border-color: var(--purple-950);
+			color: var(--purple-400);
 		}
 	}
 
 	&.service {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
-		background-color: var(--light-yellow);
-		border-color: var(--light-yellow);
-		color: var(--orange);
+		background-color: var(--orange-100);
+		border-color: var(--orange-100);
+		color: var(--orange-700);
 
 		@media (prefers-color-scheme: dark) {
-			background-color: transparent;
-			border-color: var(--light-orange);
-			color: var(--light-orange);
+			background-color: var(--orange-950);
+			border-color: var(--orange-950);
+			color: var(--orange-400);
 		}
 	}
 
 	&.app {
 		font-size: 0.7rem;
 		line-height: 1.05rem;
-		background-color: var(--red);
-		border-color: var(--red);
-		color: var(--white);
+		background-color: var(--red-100);
+		border-color: var(--red-100);
+		color: var(--red-700);
 
 		@media (prefers-color-scheme: dark) {
-			background-color: transparent;
-			border-color: var(--light-red);
-			color: var(--light-red);
+			background-color: var(--red-950);
+			border-color: var(--red-950);
+			color: var(--red-400);
 		}
 	}
 }
