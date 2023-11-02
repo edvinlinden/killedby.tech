@@ -9,6 +9,15 @@
 		"company": "google"
 	},
 	{
+		"dateClose": "2024-04-08",
+		"dateOpen": "2009-01-01",
+		"description": "Dropcam was a line of Wi-Fi/cloud-based video streaming cameras.",
+		"link": "https://en.wikipedia.org/wiki/Dropcam",
+		"name": "DropCam",
+		"type": "hardware",
+		"company": "google"
+	},
+	{
 		"dateClose": "2020-04-23",
 		"dateOpen": "2014-11-20",
 		"description": "Google Contributor was a program run by Google that allowed users in the Google Network of content sites to view the websites without any advertisements that are administered, sorted, and maintained by Google.",
