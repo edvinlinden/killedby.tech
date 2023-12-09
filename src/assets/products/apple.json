@@ -484,5 +484,14 @@
 		"name": "MagSafe Duo",
 		"type": "hardware",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2023-07-26",
+		"dateOpen": "2011-06-06",
+		"description": "With My Photo Stream, you could access recent photos that you took with your iPhone, iPad, or iPod touch, or that you uploaded from your Mac or PC, so that you could view and import them to another device, if you liked.",
+		"link": "https://support.apple.com/en-us/HT210705",
+		"name": "My Photo Stream",
+		"type": "software",
+		"company": "apple"
 	}
 ]
