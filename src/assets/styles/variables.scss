@@ -43,6 +43,7 @@
 	--neutral-400: #a3a3a3;
 	--neutral-700: #404040;
 	--neutral-800: #262626;
+	--neutral-900: #171717;
 	--neutral-950: #0a0a0a;
 
 	--background-color: var(--neutral-100);
@@ -51,6 +52,7 @@
 	--title-color: var(--black);
 	--overlay-background-color: var(--neutral-300);
 	--overlay-dark-background-color: var(--neutral-400);
+	--overlay-border-color: var(--neutral-400);
 	--overlay-font-color: var(--neutral-800);
 
 	--title-font-family: "JetBrains Mono", "Helvetica", "Arial", "sans-serif";
@@ -63,8 +65,9 @@
 		--font-color: var(--neutral-400);
 		--link-color: var(--light-blue);
 		--title-color: var(--neutral-100);
-		--overlay-background-color: var(--neutral-800);
+		--overlay-background-color: var(--neutral-900);
 		--overlay-dark-background-color: var(--neutral-700);
+		--overlay-border-color: var(--neutral-800);
 		--overlay-font-color: var(--neutral-400);
 	}
 }

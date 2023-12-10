@@ -1,46 +1,41 @@
 @import "./../../assets/styles/variables.scss";
 
-.yearNavigationBarContainer {
-	position: absolute;
-	top: 0;
-	left: -100px;
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-	height: 100%;
+	position: fixed;
+	bottom: 3rem;
+	left: calc(50% - 125px);
+	z-index: 100;
 
-	@media (max-width: 1199px) {
-		display: none;
+	height: 55px;
+	width: 250px;
+
+	border-radius: 100px;
+	border: 1px solid var(--overlay-border-color);
+	background-color: var(--overlay-background-color);
+
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+	@media (max-width: 500px) {
+		left: 2rem;
 	}
 }
 
-.yearNavigationBar {
-	position: sticky;
-	top: 100px;
-
-	@media (max-height: 850px) {
-		top: 30px;
-	}
-
-	@media (max-height: 786px) {
-		display: none;
-	}
-
-	display: flex;
-	flex-direction: column;
-
+.select {
+	height: 55px;
+	width: 90px;
 	background-color: var(--overlay-background-color);
-	border-radius: 100px;
+	border: none;
+	color: var(--font-color);
+	font-family: var(--font-family);
+	font-size: 14px;
+	padding-left: 0.5em;
 
-	padding: 1rem 1rem;
-	
-	.year {
-		color: var(--font-color);
-		font-weight: normal;
-		margin: 0.25rem 0;
-		text-align: center;
-	
-		&:hover {
-			color: var(--title-color);
-			font-weight: bold;
-		}
+	&:focus,
+	&:focus-visible {
+		outline: 1px solid var(--blue);
 	}
 }

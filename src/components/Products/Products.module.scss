@@ -201,6 +201,7 @@
 	margin-bottom: 5rem;
 	margin-left: 4rem;
 	background-color: var(--overlay-background-color);
+	border: 1px solid var(--overlay-border-color);
 	width: calc(100% - 8rem);
 	color: var(--overlay-font-color);
 	box-sizing: border-box;
@@ -221,6 +222,7 @@
 		color: var(--overlay-font-color);
 		transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1.05)
 			scaleY(1.05);
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 		.title {
 			color: var(--link-color);

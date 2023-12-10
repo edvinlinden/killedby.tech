@@ -3,7 +3,7 @@
 .aboutButton {
 	position: fixed;
 	bottom: 3rem;
-	right: 3rem;
+	right: 2rem;
 	z-index: 10;
 
 	display: flex;
@@ -11,8 +11,10 @@
 	align-items: center;
 
 	border-radius: 30px;
-	width: 3rem;
-	height: 3rem;
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+	border: 1px solid var(--overlay-border-color);
 	background-color: var(--overlay-background-color);
 
 	color: var(--font-color);
@@ -21,38 +23,6 @@
 
 	&:hover {
 		color: var(--title-color);
-	}
-}
-
-.toTheTop {
-	position: fixed;
-	bottom: 3rem;
-	right: 7rem;
-	z-index: 10;
-
-	display: none;
-	justify-content: center;
-	align-items: center;
-
-	border-radius: 30px;
-	width: 8rem;
-	height: 3rem;
-	background-color: var(--overlay-background-color);
-
-	color: var(--font-color);
-	font-weight: normal;
-	text-align: center;
-
-	animation: fadeIn ease 500ms;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-
-	&:hover {
-		color: var(--title-color);
-	}
-
-	@media (max-width: 1199px) {
-		display: flex;
 	}
 }
 
