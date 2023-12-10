@@ -13,12 +13,21 @@ const YearNavigationBar: React.FC<YearNavigationBarInterface> = ({
 
 	let onYearChange = (event: any) => {
 		event.preventDefault();
-		location.hash = "#" + event.target.value;
+		const year = event.target.value;
+		const disableTracking = import.meta.env.DEV;
+
+		location.hash = "#" + year;
+
+		if (!disableTracking) {
+			window.fathom.trackEvent("Change year", {
+				_value: year,
+			});
+		}
 	};
 
 	return (
 		<div className={styles.container}>
-			<label for="year-select">Go to year</label>
+			<label htmlFor="year-select">Go to year</label>
 			<select
 				className={styles.select}
 				onChange={onYearChange}
