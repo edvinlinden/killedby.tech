@@ -19,9 +19,7 @@ const YearNavigationBar: React.FC<YearNavigationBarInterface> = ({
 		location.hash = "#" + year;
 
 		if (!disableTracking) {
-			window.fathom.trackEvent("Change year", {
-				_value: year,
-			});
+			window.fathom.trackEvent("Change year");
 		}
 	};
 
