@@ -1,5 +1,14 @@
 [
 	{
+		"dateClose": "2011-03-16",
+		"dateOpen": "2004-04-01",
+		"description": "Windows Live Spaces was a blogging platform and social network service",
+		"link": "https://en.wikipedia.org/wiki/Windows_Media_Center",
+		"name": "Windows Live Spaces",
+		"type": "service",
+		"company": "microsoft"
+	},
+	{
 		"dateClose": "2015-05-01",
 		"dateOpen": "2002-01-01",
 		"description": "Windows Media Center was a digital video recorder and media player for Windows.",
