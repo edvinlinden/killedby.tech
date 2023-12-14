@@ -36,6 +36,15 @@
 		"company": "google"
 	},
 	{
+		"dateClose": "2023-09-26",
+		"dateOpen": "2018-06-18",
+		"description": "Google is discontinuing its podcast service, and moving it to Youtube Music.",
+		"link": "https://www.theverge.com/23891397/google-podcasts-youtube-spotify-alternatives-pocket-casts",
+		"name": "Google Podcasts",
+		"type": "service",
+		"company": "google"
+	},
+	{
 		"dateClose": "2021-07-30",
 		"dateOpen": "2013-07-01",
 		"description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
