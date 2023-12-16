@@ -1,5 +1,23 @@
 [
 	{
+		"name": "Oculus Rift",
+		"dateOpen": "2013-03-08",
+		"dateClose": "2023-04-01",
+		"link": "https://en.wikipedia.org/wiki/Oculus_Rift",
+		"description": "Oculus Rift is a discontinued line of virtual reality headsets developed and manufactured by Oculus VR (now Meta)",
+		"type": "hardware",
+		"company": "meta"
+	},
+	{
+		"name": "Echo VR",
+		"dateOpen": "2020-01-23",
+		"dateClose": "2023-04-01",
+		"link": "https://www.meta.com/experiences/2215004568539258/?utm_source=www.ecosia.org&utm_medium=oculusredirect",
+		"description": "Echo VR was a virtual reality multiplayer game developed by Ready at Dawn Studios where players compete in a zero-gravity sport called Echo Arena.",
+		"type": "app",
+		"company": "meta"
+	},
+	{
 		"name": "Pebble",
 		"dateOpen": "2013-01-23",
 		"dateClose": "2016-12-07",
