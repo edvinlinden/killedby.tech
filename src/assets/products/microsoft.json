@@ -902,5 +902,14 @@
 		"name": "Surface Duo",
 		"type": "hardware",
 		"company": "microsoft"
+	},
+	{
+		"dateClose": "2024-07-29",
+		"dateOpen": "2005-11-01",
+		"description": "Xbox Games Store (formerly Xbox Live Marketplace) was a digital distribution platform used by Microsoft's Xbox 360 and Xbox One video game consoles. The service allowed users to download or purchase video games along with other miscellaneous content such as gamer pictures and dashboard themes.",
+		"link": "https://en.wikipedia.org/wiki/Xbox_Games_Store",
+		"name": "Xbox Games Store",
+		"type": "service",
+		"company": "microsoft"
 	}
 ]
