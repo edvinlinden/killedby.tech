@@ -8,13 +8,31 @@
 		"type": "software",
 		"company": "apple"
 	},
-		{
-		"dateClose": "1989-02-27",
-		"dateOpen": "1992-05-29",
-		"description": "Newton was a personal digital assistant platform that powered devices such as the MessagePad and the eMate. It was the first to feature handwriting recognition.",
+	{
+		"dateClose": "1992-05-29",
+		"dateOpen": "1989-02-27",
+		"description": "Newton was a personal digital assistant platform that powered devices such as the MessagePad and the eMate. It was the first OS to feature handwriting recognition.",
 		"link": "https://en.wikipedia.org/wiki/Apple_Newtons",
 		"name": "Newton",
 		"type": "software",
+		"company": "apple"
+	},
+	{
+		"dateClose": "1989-03-07",
+		"dateOpen": "1997-05-29",
+		"description": "The eMate 300 was a personal digital assistant marketed towards the education market as a low-cost laptop that ran on Newton OS.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Newtons",
+		"name": "eMate 300",
+		"type": "hardware",
+		"company": "apple"
+	},
+	{
+		"dateClose": "1989-03-07",
+		"dateOpen": "1992-05-29",
+		"description": "The MessagePad was a device that ran on Newton OS and resembled somthing like an iPad with a stylus and handwriting recognition",
+		"link": "https://www.macrumors.com/2023/02/27/apple-discontinued-the-newton-25-years-ago-today/",
+		"name": "MessagePad 2100",
+		"type": "hardware",
 		"company": "apple"
 	},
 	{
