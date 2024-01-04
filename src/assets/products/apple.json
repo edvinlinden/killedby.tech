@@ -8,6 +8,15 @@
 		"type": "software",
 		"company": "apple"
 	},
+		{
+		"dateClose": "1989-02-27",
+		"dateOpen": "1992-05-29",
+		"description": "Newton was a personal digital assistant platform that powered devices such as the MessagePad and the eMate. It was the first to feature handwriting recognition.",
+		"link": "https://en.wikipedia.org/wiki/Apple_Newtons",
+		"name": "Newton",
+		"type": "software",
+		"company": "apple"
+	},
 	{
 		"dateClose": "2007-08-15",
 		"dateOpen": "1984-01-01",
