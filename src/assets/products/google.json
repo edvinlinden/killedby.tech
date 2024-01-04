@@ -2554,5 +2554,14 @@
 		"description": "Jamboard was a digital interactive whiteboard featuring a 55 inch 4K touchscreen display. It could be used for online collaboration using Google Workspace.",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Pixel Pass",
+		"dateOpen": "2021-10-10",
+		"dateClose": "2023-08-30",
+		"link": "https://www.theverge.com/2023/8/30/23851107/google-graveyard-pixel-pass-subscription-phone-upgrades",
+		"description": "Pixel Pass was subscription designed to let customers pay for a Pixel phone in monthly installments while also getting access to Google’s premium subscription services such as Google One cloud storage, YouTube Premium, and Google Play Pass",
+		"type": "service",
+		"company": "google"
 	}
 ]
