@@ -2554,5 +2554,14 @@
 		"description": "Pixel Pass was subscription designed to let customers pay for a Pixel phone in monthly installments while also getting access to Google’s premium subscription services such as Google One cloud storage, YouTube Premium, and Google Play Pass",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Google cached webpages",
+		"dateOpen": "1998-09-04",
+		"dateClose": "2024-02-01",
+		"link": "https://twitter.com/searchliaison/status/1753156161509916873",
+		"description": "Google has stopped keeping a backup of the internet by removing the 'cached' links feature on Google Search. The decision was made due to improved website loading reliability over time.",
+		"type": "service",
+		"company": "google"
 	}
 ]
