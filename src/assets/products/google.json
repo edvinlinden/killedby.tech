@@ -2554,5 +2554,15 @@
 		"description": "Pixel Pass was subscription designed to let customers pay for a Pixel phone in monthly installments while also getting access to Google’s premium subscription services such as Google One cloud storage, YouTube Premium, and Google Play Pass",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "People Cards",
+		"dateOpen": "2020-08-11",
+		"dateClose": "2024-04-07",
+		"link": "https://odishatv.in/news/technology/google-to-remove-people-cards-from-search-engine-229662",
+		"description": "People Cards was a crowdsourced knowledge base to enhance search results.",
+		"type": "service",
+		"company": "google"
+
 	}
 ]
