@@ -18,6 +18,15 @@
 		"company": "google"
 	},
 	{
+		"dateClose": "2024-06-04",
+		"dateOpen": "2020-12-18",
+		"description": "Google Pay, also known as GPay, is a mobile payments application which was the replaced by Google Wallet in 2022",
+		"link":"https://en.wikipedia.org/wiki/Google_Pay_(mobile_app)"
+		"name":"Google Pay (app)",
+		"type": "service",
+		"company": "google"
+	},
+	{
 		"dateClose": "2020-04-23",
 		"dateOpen": "2014-11-20",
 		"description": "Google Contributor was a program run by Google that allowed users in the Google Network of content sites to view the websites without any advertisements that are administered, sorted, and maintained by Google.",
