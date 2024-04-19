@@ -2552,7 +2552,16 @@
 		"dateClose": "2024-09-30",
 		"link": "https://en.wikipedia.org/wiki/Jamboard",
 		"description": "Jamboard was a digital interactive whiteboard featuring a 55 inch 4K touchscreen display. It could be used for online collaboration using Google Workspace.",
-		"type": "service",
+		"type": "hardware",
+		"company": "google"
+	},
+	{
+		"name": "Google Jamboard",
+		"dateOpen": "2016-10-25",
+		"dateClose": "2024-12-31",
+		"link": "https://support.google.com/jamboard/answer/14084927",
+		"description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience using Google Workspace.",
+		"type": "app",
 		"company": "google"
 	},
 	{
