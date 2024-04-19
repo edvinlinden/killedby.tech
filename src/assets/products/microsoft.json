@@ -398,7 +398,7 @@
 	{
 		"dateClose": "2017-12-31",
 		"dateOpen": "2006-11-14",
-		"description": "Groove Music Pass (formerly Xbox Music Pass and, before, Zune Music Pass) was a music subscription service, which allows subscribers to download an unlimited number of songs for as long as their subscription is active.",
+		"description": "Groove Music Pass (formerly Xbox Music Pass and, before, Zune Music Pass) was a music subscription service, which allows subscribers to download an unlimited number of songs for as long as their subscription was active.",
 		"link": "https://en.wikipedia.org/wiki/Groove_Music",
 		"name": "Groove Music Pass",
 		"type": "service",
@@ -524,7 +524,7 @@
 	{
 		"dateClose": "2017-01-10",
 		"dateOpen": "2008-08-25",
-		"description": "Windows Essentials (formerly Windows Live Essentials and Windows Live Installer) is a discontinued suite of freeware applications that includes email, instant messaging, photo sharing, blogging, and parental control software and it was part of Live brand.",
+		"description": "Windows Essentials (formerly Windows Live Essentials and Windows Live Installer) was a suite of freeware applications that includes email, instant messaging, photo sharing, blogging, and parental control software and it was part of Live brand.",
 		"link": "https://en.wikipedia.org/wiki/Windows_Essentials",
 		"name": "Microsoft Essentials",
 		"type": "service",
@@ -919,6 +919,24 @@
 		"link": "https://en.wikipedia.org/wiki/Xbox_Games_Store",
 		"name": "Xbox Games Store",
 		"type": "service",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2024-03-01",
+		"dateOpen": "2006-11-30",
+		"description": "Windows Mail was an email client developed by Microsoft and included in Windows Vista and later versions of Windows.",
+		"link": "https://en.wikipedia.org/wiki/Mail_(Windows)",
+		"name": "Windows Mail",
+		"type": "app",
+		"company": "microsoft"
+	},
+	{
+		"dateClose": "2024-08-31",
+		"dateOpen": "2017-05-10",
+		"description": "Visual Studio for Mac was a rebranded version of MonoDevelop. Featuring many of the same tools as its Windows counterpart: for example, the Roslyn .NET Compiler Platform was used for refactoring and IntelliSense.",
+		"link": "https://en.wikipedia.org/wiki/MonoDevelop#Visual_Studio_for_Mac",
+		"name": "Visual Studio for Mac",
+		"type": "app",
 		"company": "microsoft"
 	}
 ]

@@ -4,7 +4,7 @@
 		"dateOpen": "2013-03-08",
 		"dateClose": "2023-04-01",
 		"link": "https://en.wikipedia.org/wiki/Oculus_Rift",
-		"description": "Oculus Rift is a discontinued line of virtual reality headsets developed and manufactured by Oculus VR (now Meta)",
+		"description": "Oculus Rift was a line of virtual reality headsets developed and manufactured by Oculus VR (now Meta)",
 		"type": "hardware",
 		"company": "meta"
 	},
@@ -94,7 +94,7 @@
 		"dateOpen": "2017-08-25",
 		"dateClose": "2020-02-12",
 		"link": "https://en.wikipedia.org/wiki/Essential_Phone",
-		"description": "Essential PH-1 was a smartphone featuring a titanium and ceramic body, an edge-to-edge display protected by Gorilla Glass 5, and two rear cameras, one of which is dedicated to black-and-white photography.",
+		"description": "Essential PH-1 was a smartphone featuring a titanium and ceramic body, an edge-to-edge display protected by Gorilla Glass 5, and two rear cameras, one of which was dedicated to black-and-white photography.",
 		"type": "hardware",
 		"company": "essential"
 	},

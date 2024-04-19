@@ -272,7 +272,7 @@
 	{
 		"dateClose": "2020-03-19",
 		"dateOpen": "2018-05-09",
-		"description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material based design system for your app.",
+		"description": "Material Theme Editor was a plugin for Sketch App which allows you to create a material based design system for your app.",
 		"link": "https://medium.com/google-design/whats-next-for-material-design-s-theming-tools-f65014ffcce7",
 		"name": "Material Theme Editor",
 		"type": "app",
@@ -281,7 +281,7 @@
 	{
 		"dateClose": "2020-02-17",
 		"dateOpen": "2015-09-27",
-		"description": "Google Station is a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
+		"description": "Google Station was a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
 		"link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
 		"name": "Google Station",
 		"type": "service",
@@ -830,7 +830,7 @@
 	{
 		"dateClose": "2022-06-30",
 		"dateOpen": "2010-12-06",
-		"description": "Google Chrome Apps,or commonly just Chrome App, is a certain type of web application that ran on the Google Chrome browser. Chrome apps could be installed from the Chrome Web Store where you can find things like apps, extensions, and themes.",
+		"description": "Google Chrome Apps,or commonly just Chrome App, was a certain type of web application that ran on the Google Chrome browser. Chrome apps could be installed from the Chrome Web Store where you can find things like apps, extensions, and themes.",
 		"link": "https://en.wikipedia.org/wiki/Google_Chrome_App",
 		"name": "Google Chrome Apps",
 		"type": "service",
@@ -1046,7 +1046,7 @@
 	{
 		"dateClose": "2014-01-31",
 		"dateOpen": "2009-03-27",
-		"description": "Bump! is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information, photos and files between devices.",
+		"description": "Bump! was a iOS and Android mobile app that enables smartphone users to transfer contact information, photos and files between devices.",
 		"link": "https://en.wikipedia.org/wiki/Bump_(application)",
 		"name": "Bump!",
 		"type": "app",
@@ -1568,7 +1568,7 @@
 	{
 		"dateClose": "2011-10-13",
 		"dateOpen": "2010-12-15",
-		"description": "ZygoteBody, formerly Google Body, is a web application by Zygote Media Group that renders manipulable 3D anatomical models of the human body.",
+		"description": "ZygoteBody, formerly Google Body, was a web application by Zygote Media Group that renders manipulable 3D anatomical models of the human body.",
 		"link": "https://en.wikipedia.org/wiki/ZygoteBody",
 		"name": "ZygoteBody",
 		"type": "service",
@@ -2090,7 +2090,7 @@
 	{
 		"dateClose": "2019-10-01",
 		"dateOpen": "2013-11-21",
-		"description": "Message Center is a web console where Gmail users view and manage spam email messages.",
+		"description": "Message Center was a web console where Gmail users view and manage spam email messages.",
 		"link": "https://support.google.com/a/answer/9275489",
 		"name": "Message Center",
 		"type": "service",
@@ -2162,7 +2162,7 @@
 	{
 		"dateClose": "2021-06-30",
 		"dateOpen": "2015-08-01",
-		"description": "Expeditions is a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
+		"description": "Expeditions was a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
 		"link": "https://en.wikipedia.org/wiki/Google_Expeditions",
 		"name": "Expeditions",
 		"type": "app",
@@ -2252,7 +2252,7 @@
 	{
 		"dateClose": "2021-12-16",
 		"dateOpen": "2018-05-08",
-		"description": "Material Gallery is a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
+		"description": "Material Gallery was a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
 		"link": "https://support.google.com/materialgallery/answer/11044972?hl=en&ref_topic=11045865",
 		"name": "Material Gallery",
 		"type": "service",
@@ -2581,6 +2581,14 @@
 		"description": "People Cards was a crowdsourced knowledge base to enhance search results.",
 		"type": "service",
 		"company": "google"
-
+	},
+	{
+		"name": "DropCam",
+		"dateOpen": "2009-01-01",
+		"dateClose": "2024-04-08",
+		"link": "https://en.wikipedia.org/wiki/Dropcam",
+		"description": "DropCam was a line of Wi-Fi/cloud-based video streaming cameras, popular with families, pet owners and small business owners.",
+		"type": "service",
+		"company": "google"
 	}
 ]
