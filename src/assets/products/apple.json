@@ -493,5 +493,14 @@
 		"name": "My Photo Stream",
 		"type": "software",
 		"company": "apple"
+	},
+	{
+		"dateClose": "1998-02-01",
+		"dateOpen": "1997-11-01",
+		"description": "Early PDA with pen and handwriting input, last model of the MessagePad series.",
+		"link": "https://en.wikipedia.org/wiki/MessagePad",
+		"name": "Newton MessagePad 2100",
+		"type": "hardware",
+		"company": "apple"
 	}
 ]
