@@ -497,9 +497,9 @@
 	{
 		"dateClose": "1998-02-01",
 		"dateOpen": "1993-08-02",
-		"description": "Early PDA with pen and handwriting input, last model of the MessagePad series.",
+		"description": "Early PDA with pen and handwriting input.",
 		"link": "https://en.wikipedia.org/wiki/MessagePad",
-		"name": "Newton MessagePad 2100",
+		"name": "Newton MessagePad Series",
 		"type": "hardware",
 		"company": "apple"
 	}
