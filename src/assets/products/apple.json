@@ -520,5 +520,14 @@
 		"name": "My Photo Stream",
 		"type": "software",
 		"company": "apple"
+	},
+	{
+		"dateClose": "2024-08-17",
+		"dateOpen": "2023-10-01",
+		"description": "It let customers make purchases on an installment plan",
+		"link": "https://www.theverge.com/2024/6/17/24180340/apple-pay-later-shutting-down-months-after-launch",
+		"name": "Apple Pay Later",
+		"type": "service",
+		"company": "apple"
 	}
 ]
