@@ -18,8 +18,8 @@
 		"company": "apple"
 	},
 	{
-		"dateClose": "1989-03-07",
-		"dateOpen": "1997-05-29",
+		"dateClose": "1997-05-29",
+		"dateOpen": "1989-03-07",
 		"description": "The eMate 300 was a personal digital assistant marketed towards the education market as a low-cost laptop that ran on Newton OS.",
 		"link": "https://en.wikipedia.org/wiki/Apple_Newtons",
 		"name": "eMate 300",
@@ -27,8 +27,8 @@
 		"company": "apple"
 	},
 	{
-		"dateClose": "1989-03-07",
-		"dateOpen": "1992-05-29",
+		"dateClose": "1992-05-29",
+		"dateOpen": "1989-03-07",
 		"description": "The MessagePad was a device that ran on Newton OS and resembled somthing like an iPad with a stylus and handwriting recognition",
 		"link": "https://www.macrumors.com/2023/02/27/apple-discontinued-the-newton-25-years-ago-today/",
 		"name": "MessagePad 2100",
