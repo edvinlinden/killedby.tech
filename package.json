@@ -12,18 +12,18 @@
 	"author": "Edvin Lindén",
 	"license": "MIT",
 	"dependencies": {
-		"@astrojs/sitemap": "^3.0.3",
+		"@astrojs/sitemap": "^3.1.6",
 		"@types/react": "^18.2.43",
-		"astro": "^4.0.3"
+		"astro": "^4.11.5"
 	},
 	"devDependencies": {
-		"@astrojs/react": "^3.0.7",
-		"@astrojs/tailwind": "^5.0.3",
-		"cypress": "^9.5.3",
-		"date-fns": "^2.30.0",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"sass": "^1.69.5",
-		"typescript": "^5.3.3"
+		"@astrojs/react": "^3.6.0",
+		"@astrojs/tailwind": "^5.1.0",
+		"cypress": "^13.13.0",
+		"date-fns": "^3.6.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"sass": "^1.77.8",
+		"typescript": "^5.5.3"
 	}
 }

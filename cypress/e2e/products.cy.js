@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
-import googleProducts from "./../../src/assets/products/google.json";
-import microsoftProducts from "./../../src/assets/products/microsoft.json";
-import appleProducts from "./../../src/assets/products/apple.json";
-import otherProducts from "./../../src/assets/products/other.json";
-import toSlug from "./../../src/utils/toSlug.ts";
+import googleProducts from "../../src/assets/products/google.json";
+import microsoftProducts from "../../src/assets/products/microsoft.json";
+import appleProducts from "../../src/assets/products/apple.json";
+import otherProducts from "../../src/assets/products/other.json";
+import toSlug from "../../src/utils/toSlug";
 
 describe("Products", () => {
 	it("should display correct count for each company", () => {
@@ -52,6 +52,7 @@ describe("Products", () => {
 			...appleProducts,
 			...otherProducts,
 		].length;
+		cy.visit("http://localhost:4321/?ref=cypress");
 
 		cy.get("[data-cy=product]").should("have.length", productsCount);
 	});
