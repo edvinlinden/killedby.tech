@@ -2590,5 +2590,14 @@
 		"description": "DropCam was a line of Wi-Fi/cloud-based video streaming cameras, popular with families, pet owners and small business owners.",
 		"type": "service",
 		"company": "google"
+	},
+	{
+		"name": "Goo.gl",
+		"dateOpen": "2009-12-01",
+		"dateClose": "2025-08-25",
+		"link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
+		"description": "Goo.gl was a URL shortening service owned by Google. Initially used for Google Toolbar and Feedburner. Later launched as a separate website, goo.gl, in September 2010.",
+		"type": "service",
+		"company": "google"
 	}
 ]
