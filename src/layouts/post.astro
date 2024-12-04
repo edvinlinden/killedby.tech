@@ -1,60 +1,70 @@
 ---
-  import { format } from "date-fns";
-  import '@assets/styles/global.scss';
-  import Footer from '@components/Footer/Footer';
-  const { title, heading, description, date, url, image } = Astro.props;
-  const openGraphImage =  image == "" ? "https://killedby.tech/images/og.png" : image;
-  const disableTracking = import.meta.env.DEV;
-  const published_time = date + "T00:00:00.000+01:00";
+import { format } from "date-fns";
+import "@assets/styles/global.scss";
+import Footer from "@components/Footer/Footer";
+const { title, heading, description, date, url, image } = Astro.props;
+const openGraphImage =
+	image == "" ? "https://killedby.tech/images/og.png" : image;
+const published_time = date + "T00:00:00.000+01:00";
 ---
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content={ description }>
-    <meta property="og:url" content={ url }>
-    <meta property="og:type" content="article">
-    <meta property="og:title" content={ title }>
-    <meta property="og:description" content={ description }>
-    <meta property="og:image" content={ openGraphImage }>
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="killedby.tech">
-    <meta property="twitter:url" content={ url }>
-    <meta name="twitter:title" content={ title }>
-    <meta name="twitter:description" content={ description }>
-    <meta name="twitter:image" content={ openGraphImage }>
-    <meta property="article:published_time" content={published_time}>
-    <meta property="article:section" content="Technology">
-    <meta property="article:author" content="Edvin Lindén">
-    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
-    <title>{ title }</title>
-  </head>
-  <body>
-    <div class="main">
-      <div style="display:flex; justify-content:space-between; align-items: center;">
-        <h1 style="margin-bottom:0px;">Killed by *</h1>
-        <a href="/">Back to the graveyard ↩</a>
-      </div>
-      <h2 class="ingress">A graveyard for discontinued products from Apple, Google and Microsoft</h2>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content={description} />
+		<meta property="og:url" content={url} />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={openGraphImage} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:domain" content="killedby.tech" />
+		<meta property="twitter:url" content={url} />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={openGraphImage} />
+		<meta property="article:published_time" content={published_time} />
+		<meta property="article:section" content="Technology" />
+		<meta property="article:author" content="Edvin Lindén" />
+		<link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<div class="main">
+			<div
+				style="display:flex; justify-content:space-between; align-items: center;"
+			>
+				<h1 style="margin-bottom:0px;">Killed by *</h1>
+				<a href="/">Back to the graveyard ↩</a>
+			</div>
+			<h2 class="ingress">
+				A graveyard for discontinued products from Apple, Google and
+				Microsoft
+			</h2>
 
-      <ol class="breadcrumbs" style="margin-top:3rem; margin-bottom: 6rem;">
-            <li>
-                <a href="/articles/">Articles</a>
-                <div class="chevron" />
-            </li>
-            <li>
-                {title}
-            </li>
-        </ol>
+			<ol
+				class="breadcrumbs"
+				style="margin-top:3rem; margin-bottom: 6rem;"
+			>
+				<li>
+					<a href="/articles/">Articles</a>
+					<div class="chevron"></div>
+				</li>
+				<li>
+					{title}
+				</li>
+			</ol>
+		</div>
+		<article>
+			<h1>{heading}</h1>
+			<p class="metaText" title={date}>{format(new Date(date), "PPP")}</p>
 
-    </div>
-    <article>
-        <h1>{heading}</h1>
-        <p class="metaText" title={date}>{format(new Date(date), "PPP")}</p>
-
-        <slot />
-    </article>
-    <Footer />
-    {disableTracking ? null : <script src="https://cdn.usefathom.com/script.js" data-site="SNZPDDNM" defer></script>}
-  </body>
+			<slot />
+		</article>
+		<Footer />
+		<script
+			src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+			data-app-id="C6B4A345-3CE8-4715-B3A7-8F3C093BA4E3"></script>
+	</body>
 </html>
