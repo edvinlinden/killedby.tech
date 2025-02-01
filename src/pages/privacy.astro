@@ -1,38 +1,71 @@
 ---
-import Page from "@layouts/page.astro";
-import Navigation from "@components/Navigation/Navigation";
+
 ---
 
-<Page
-	title="Privacy"
-	description="Privacy policy for Killed by, a free and open source list of discontinued products and services from companies like Google, Apple and Microsoft."
-	url="https://killedby.tech/privacy/"
->
-	<h1>Killed by *</h1>
-	<Navigation />
-	<h2>Privacy</h2>
-	<p>
-		I want to process as little personal information as possible when you
-		use my website. That's why I've chosen TelemetryDeck for my website
-		analytics.
-	</p>
-	<p>
-		The purpose of me using this software is to understand my website
-		traffic in the most privacy-friendly way possible so that I can
-		continually improve my website. The lawful basis as per the GDPR is "f);
-		where our legitimate interests are to improve our website and business
-		continually." As per the explanation, no personal data is stored over
-		time.
-	</p>
-	<p>
-		TelemetryDeck <mark
-			>does not collect any personally identifiable information</mark
-		> and <mark>does not use cookies</mark>. You can read more about
-		TelemetryDeck’s privacy policy at
-		<a
-			href="https://telemetrydeck.com/privacy"
-			title="TelemetryDeck - Privacy Policy"
-			target="_blank">https://telemetrydeck.com/privacy</a
-		>
-	</p>
-</Page>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta
+			name="description"
+			content="Privacy policy for Killed by, a free and open source list of discontinued products and services from companies like Google, Apple and Microsoft."
+		/>
+		<meta property="og:url" content="https://killedby.tech/privacy/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Privacy" />
+		<meta
+			property="og:description"
+			content="Privacy policy for Killed by, a free and open source list of discontinued products and services from companies like Google, Apple and Microsoft."
+		/>
+		<meta
+			property="og:image"
+			content="https://killedby.tech/images/og.png"
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:domain" content="killedby.tech" />
+		<meta property="twitter:url" content="https://killedby.tech/privacy/" />
+		<meta name="twitter:title" content="Privacy" />
+		<meta
+			name="twitter:description"
+			content="Privacy policy for Killed by, a free and open source list of discontinued products and services from companies like Google, Apple and Microsoft."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://killedby.tech/images/og.png"
+		/>
+		<link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+		<title>
+			Privacy - Killed by Apple, Google and Microsoft - Discontinued
+			products and services
+		</title>
+	</head>
+	<body>
+		<main style="max-width: 720px;">
+			<h1>Privacy</h1>
+			<p>
+				I want to process as little personal information as possible
+				when you use my website. That's why I've chosen TelemetryDeck
+				for my website analytics.
+			</p>
+			<p>
+				The purpose of me using this software is to understand my
+				website traffic in the most privacy-friendly way possible so
+				that I can continually improve my website. The lawful basis as
+				per the GDPR is "f); where our legitimate interests are to
+				improve our website and business continually." As per the
+				explanation, no personal data is stored over time.
+			</p>
+			<p>
+				TelemetryDeck <mark
+					>does not collect any personally identifiable information</mark
+				> and <mark>does not use cookies</mark>. You can read more about
+				TelemetryDeck’s privacy policy at
+				<a
+					href="https://telemetrydeck.com/privacy"
+					title="TelemetryDeck - Privacy Policy"
+					target="_blank">https://telemetrydeck.com/privacy</a
+				>
+			</p>
+		</main>
+	</body>
+</html>
