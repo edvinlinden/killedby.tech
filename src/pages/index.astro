@@ -1,20 +1,95 @@
 ---
-import Page from "@layouts/page.astro";
-import YearNavigationBar from "@components/YearNavigationBar/YearNavigationBar";
-import Products from "@components/Products/Products";
-import Navigation from "@components/Navigation/Navigation";
+
 ---
 
-<Page
-	title="Killed by Apple, Google and Microsoft - Discontinued products and services"
-	description="Killed by tech is a tech graveyard, a free and open source list of discontinued products and services from companies like Apple, Google and Microsoft."
-	url="https://killedby.tech"
->
-	<h1 id="top">Killed by *</h1>
-	<h2 class="ingress">
-		A graveyard for discontinued products from Apple, Google and Microsoft
-	</h2>
-	<Navigation />
-	<Products company="all" />
-	<YearNavigationBar company="all" client:idle />
-</Page>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta
+			name="description"
+			content="Killed by tech is a tech graveyard, a free and open source list of discontinued products and services from companies like Apple, Google and Microsoft."
+		/>
+		<meta property="og:url" content="https://killedby.tech" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:title"
+			content="Killed by Apple, Google and Microsoft - Discontinued products and services"
+		/>
+		<meta
+			property="og:description"
+			content="Killed by tech is a tech graveyard, a free and open source list of discontinued products and services from companies like Apple, Google and Microsoft."
+		/>
+		<meta
+			property="og:image"
+			content="https://killedby.tech/images/og.png"
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:domain" content="killedby.tech" />
+		<meta property="twitter:url" content="https://killedby.tech" />
+		<meta
+			name="twitter:title"
+			content="Killed by Apple, Google and Microsoft - Discontinued products and services"
+		/>
+		<meta
+			name="twitter:description"
+			content="Killed by tech is a tech graveyard, a free and open source list of discontinued products and services from companies like Apple, Google and Microsoft."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://killedby.tech/images/og.png"
+		/>
+		<link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
+		<title>
+			Killed by Apple, Google and Microsoft - Discontinued products and
+			services
+		</title>
+	</head>
+	<body>
+		<main style="max-width: 720px;">
+			<h1>Killedby.tech have been deprecated</h1>
+			<p>
+				The inspiration for this site and a lot of the information came
+				from other projects such as{" "}
+				<a
+					href="https://killedbygoogle.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Killed by Google
+				</a>
+				, by{" "}
+				<a
+					href="https://codyogden.com/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Cody Ogden
+				</a>
+				. But I wanted to create a directory that included all of the major
+				tech companies, not only Google.
+			</p>
+			<p>
+				Staying on top of the tech news and update the site with the
+				latest discontinued products takes time, I have to prioritise
+				other things.
+			</p>
+			<p>Therefore I am shutting the site down.</p>
+			<p>
+				— <a
+					href="https://edvinlinden.se?ref=killedby.tech"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Edvin Linden
+				</a>
+			</p>
+			<p>
+				<i><a href="/privacy/">Privacy policy</a></i>
+			</p>
+		</main>
+		<script
+			src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js"
+			data-app-id="C6B4A345-3CE8-4715-B3A7-8F3C093BA4E3"></script>
+	</body>
+</html>
